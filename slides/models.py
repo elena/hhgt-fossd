@@ -15,10 +15,13 @@ class Talk(models.Model):
     date = models.DateTimeField(null=True, blank=True)
     event = models.CharField(max_length=128, blank=True)
 
+    def __str__(self):
+        return self.talk
+
 
 class Section(models.Model):
     title = models.CharField(max_length=128, blank=True)
-    order = models.IntegerField(blank=True)
+    order = models.IntegerField(blank=True, null=True)
     colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32, blank=True)
 
     class Meta:
@@ -26,6 +29,13 @@ class Section(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Version(models.Model):
+    version = models.CharField(max_length=32)
+
+    def __str__(self):
+        return self.version
 
 
 class Slide(models.Model):
@@ -48,7 +58,7 @@ class Slide(models.Model):
     section = models.ForeignKey(Section)
 
     # A, B or C
-    version = models.CharField(max_length=128, choices=CHOICES_VERSION, blank=True)
+    version = models.ForeignKey(Version, null=True, blank=True)
 
     # considering making following fields all FK
     slide_id = models.CharField(max_length=128, blank=True)
@@ -56,14 +66,14 @@ class Slide(models.Model):
     colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32, blank=True)
 
 
-    order = models.IntegerField(blank=True)
+    order = models.IntegerField(blank=True, null=True)
 
     # duration approximately
     # can't decided if time, seconds or float.
-    time = models.IntegerField(blank=True)
+    time = models.IntegerField(blank=True, null=True)
 
+    header = models.CharField(max_length=256, blank=True)
     content = models.TextField(blank=True)
-    title = models
 
     is_enabled = models.BooleanField(default=True)
 
