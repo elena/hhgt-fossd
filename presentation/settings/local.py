@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
+from .base import *
 import os
-from presentation.settings.base import *
 
 
 # Database
