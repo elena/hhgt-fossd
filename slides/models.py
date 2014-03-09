@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from django.db import models
+from django.db.models import Max
 from .settings import CURRENT_TALK
 
 CHOICES_COLOUR = (
-    ('', ''),
-    ('1', 'blue'),
-    ('2', 'green'),
-    ('3', 'red'),
+    ('blue', 'technical'),
+    ('green', 'teaching'),
+    ('red', 'make-a-point'),
 )
 
 
@@ -43,9 +43,8 @@ class Slide(models.Model):
     """
 
     CHOICES_CLASS = (
-        ('', ''),
-        ('cover', 'cover'),
-        ('shout', 'shout'),
+        ('cover', 'title'),
+        ('shout', 'big text'),
     )
 
     CHOICES_VERSION = (
@@ -83,4 +82,11 @@ class Slide(models.Model):
         ordering = ['order']
 
     def __str__(self):
-        return '{0} {1:02} {2}'.format(self.section, self.order, self.slide_id)
+        return '%s-%2d (%s)' % (self.section, self.order, self.slide_id)
+
+    def save(self, *args, **kwargs):
+        super(Slide, self).save(*args, **kwargs)
+        if not self.order:
+            highest = Slide.objects.filter(talk=self.talk).aggregate(Max('order'))['order__max']
+            self.order = highest + 1
+            self.save()
