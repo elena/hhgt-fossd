@@ -20,6 +20,7 @@ class Talk(models.Model):
 
 
 class Section(models.Model):
+    talk = models.ForeignKey('slides.Talk', null=True, blank=True)
     title = models.CharField(max_length=128, blank=True)
     order = models.IntegerField(blank=True, null=True)
     colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32, blank=True)
@@ -53,8 +54,8 @@ class Slide(models.Model):
         ('delta', 'Δ'),
     )
 
-    talk = models.ForeignKey(Talk, blank=True, default=CURRENT_TALK)
-    section = models.ForeignKey(Section)
+    talk = models.ForeignKey('slides.Talk', blank=True, default=CURRENT_TALK)
+    section = models.ForeignKey('slides.Section')
 
     # A, B or C
     #version = models.ManyToManyField(Version, null=True, blank=True)
