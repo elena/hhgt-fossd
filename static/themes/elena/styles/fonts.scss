@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(../fonts/Oswald-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald'), local('Oswald-Regular'), url(../fonts/Oswald-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(../fonts/Oswald-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url(../fonts/Oxygen-Mono.woff) format('woff');
+}
+
+// Open Sans
+@font-face {
+	font-family:'Open Sans';
+	src:url(../fonts/OpenSans.woff) format('woff');
+	}
+@font-face {
+	font-weight:bold;
+	font-family:'Open Sans';
+	src:url(../fonts/OpenSans.Bold.woff) format('woff');
+	}
+@font-face {
+	font-style:italic;
+	font-family:'Open Sans';
+	src:url(../fonts/OpenSans.Italic.woff) format('woff');
+	}
+@font-face {
+	font-style:italic;
+	font-weight:bold;
+	font-family:'Open Sans';
+	src:url(../fonts/OpenSans.Bold.Italic.woff) format('woff');
+	}
+@font-face {
+	font-family:'Open Sans Light';
+	src:url(../fonts/OpenSans.Light.woff) format('woff');
+	}
