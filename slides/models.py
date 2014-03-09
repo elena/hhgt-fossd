@@ -58,13 +58,15 @@ class Slide(models.Model):
     section = models.ForeignKey(Section)
 
     # A, B or C
-    version = models.ForeignKey(Version, null=True, blank=True)
+    #version = models.ManyToManyField(Version, null=True, blank=True)
+    versionA = models.BooleanField(default=False, verbose_name="A")
+    versionB = models.BooleanField(default=False, verbose_name="B")
+    versionC = models.BooleanField(default=False, verbose_name="C")
 
     # considering making following fields all FK
     slide_id = models.CharField(max_length=128, blank=True)
     style = models.CharField(max_length=128, choices=CHOICES_CLASS, blank=True)
     colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32, blank=True)
-
 
     order = models.IntegerField(blank=True, null=True)
 
