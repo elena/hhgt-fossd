@@ -76,6 +76,7 @@ class Slide(models.Model):
 
     header = models.CharField(max_length=256, blank=True)
     content = models.TextField(blank=True)
+    notes = models.TextField(blank=True)
 
     is_enabled = models.BooleanField(default=True)
 
