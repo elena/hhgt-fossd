@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from django.views import generic
+from .models import Slide
 
-# Create your views here.
+class ListView(generic.ListView):
+
+    model = Slide
+    context_object_name = 'slides'
+    template_name = 'base.html'
