@@ -2,22 +2,9 @@
 
 {% block extrahead %}
 {{ block.super }}
-<script src="{{STATIC_URL}}jquery.min.js"></script>
-<script src="{{STATIC_URL}}ckeditor/ckeditor.js"></script>
-<script src="{{STATIC_URL}}ckeditor/adapters/jquery.js"></script>
-<style>
-.cke_textarea_inline {width: 380px;}
-input.vTextField {width: 130px;}
-</style>
-
+{% include 'admin/_ckeditor-head.html' %}
 {% endblock %}
 
 {% block footer %}
-<script>
-$( document ).ready( function() {
-  $('.vLargeTextField').each(function(i, obj) {
-    CKEDITOR.inline(this.id);
-  });
-} );
-</script>
+{% include 'admin/_ckeditor.html' %}
 {% endblock %}
