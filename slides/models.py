@@ -50,8 +50,16 @@ class Slide(models.Model):
 
     CHOICES_VERSION = (
         ('sigma', 'Σ'),
-        ('cappa', 'Κ'),
         ('delta', 'Δ'),
+        ('cappa', 'Κ'),
+    )
+
+    CHOICES_COMPLETE = (
+        ('0', 'zero'),
+        ('25', '25%'),
+        ('50', '50%'),
+        ('75', '85%'),
+        ('100', 'done!'),
     )
 
     talk = models.ForeignKey('slides.Talk', blank=True, default=CURRENT_TALK)
@@ -78,6 +86,9 @@ class Slide(models.Model):
     content = models.TextField(blank=True)
     notes = models.TextField(blank=True)
 
+    percent_complete = models.CharField(max_length=32, choices=CHOICES_COMPLETE,
+                                        default=0, blank=True,
+                                        verbose_name='done')
     is_enabled = models.BooleanField(default=True)
 
     class Meta:
