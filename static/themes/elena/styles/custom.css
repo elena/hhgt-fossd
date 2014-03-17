@@ -1,0 +1,77 @@
+.left {float: left; text-align: left}
+.right {float: right; text-align: right}
+
+.halfL, .halfR {
+    width: 412px; height: 540px; position: absolute; z-index:-1; top:0;
+    padding: 50px;
+}
+.halfL {left: 0;}
+.halfR {left: 512px;}
+
+.slide > div {
+    z-index: 1;
+}
+
+.slide h2 {
+    color: #4E4E4E;
+    text-shadow: 1px 1px 1px #292929;    
+    font: bold 75px/1 'Yanone Kaffeesatz',sans-serif;
+    margin: -65px 0 37px;
+    text-align: center;
+}
+
+.shout h2,
+#hello h2 {
+    font-size: 95px;
+    font-weight: normal;
+    color: #4E4E4E;
+    margin-top: -78px;
+    text-shadow: 1px 1px 1px #292929;
+}
+
+#hello h2 strong,
+.slide div h2 strong,
+.shout h2 strong {
+    color: white;
+}
+
+.overlay,
+#comp8440 p,
+.halfL h2,
+.halfR h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#comp8440 p,
+.halfL h2,
+.halfR h2 {
+    font-size: 85px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.overlay {
+  padding: 20px 30px;
+}
+
+.overlay div {
+  margin-top: 60px;  
+}
+
+#comp8440 p {font-size: 20px; margin-top: 20px;}
+#flossd h2 {margin-top: 0; font-size: 95px;}
+
+.slide blockquote:before {
+    color: #CCCCCC;
+    content: "“";
+    font: 150px/1 'PT Sans',sans-serif;
+    margin: -10px 0 0 -55px;
+    position: absolute;
+}
+blockquote {
+    font-size: 38px;
+    font-style: italic;
+    margin-left: 50px;
+}
