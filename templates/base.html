@@ -19,7 +19,7 @@
 {% for slide in slides %}
 
 <section class="slide {% if slide.style %}{{slide.style}}{% endif %}" id="{{slide.slide_id}}">
-  <div>
+  <div {%if slide.bg_img%}style="background:url({{STATIC_URL}}slides/{{slide.bg_img}}) no-repeat center center;" class="overlay"{%endif%}>
     <h2>{{slide.header|safe}}</h2>
     {{slide.content|safe}}
   </div>
