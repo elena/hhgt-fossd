@@ -1,10 +1,10 @@
 <script>
 $( document ).ready( function() {
+if ($(location).attr("hash")=="#edit"){
   $('.vLargeTextField').each(function(i, obj) {
     CKEDITOR.inline(this.id,{
-
-toolbar : [
-	{ name: 'insert', items: [ 'Image', 'JustifyLeft', 'JustifyCenter', 'Table', 'HorizontalRule', 'SpecialChar' ] },
+    toolbar : [
+        { name: 'insert', items: [ 'Image', 'JustifyLeft', 'JustifyCenter', 'Table', 'HorizontalRule', 'SpecialChar', 'Source' ] },
 	{ name: 'clipboard', groups: [ 'clipboard', 'undo' ], items: [ 'Source', 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ] },
 	{ name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ], items: [ 'Find', 'Replace', '-', 'SelectAll', '-', 'Scayt' ] },
 	'/',
@@ -15,7 +15,8 @@ toolbar : [
 	{ name: 'styles', items: [ 'Styles', 'Format', 'FontSize' ] },
 	{ name: 'colors', items: [ 'TextColor', 'BGColor' ] },
 	{ name: 'tools', items: [ 'Maximize', 'ShowBlocks' ] },
-]});
-  });
-} );
+    ]});
+  })
+};
+});
 </script>
