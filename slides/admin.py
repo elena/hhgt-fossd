@@ -25,9 +25,11 @@ class SlideInlines(admin.TabularInline):
         'notes',
         'order',
         'header',
+        'bg_img',
         'style',
+        'slide_id',
     ]
-    extra = 1
+    extra = 0
     can_delete = True
 
 
@@ -58,6 +60,7 @@ class SlideAdmin(admin.ModelAdmin):
         # 'versionB',
         # 'versionC',
         #'is_enabled',
+        'bg_img',
         'talk',
     ]
     list_editable = [
@@ -73,6 +76,7 @@ class SlideAdmin(admin.ModelAdmin):
         'slide_id',
         'header',
         'order',
+        'bg_img',
         # 'is_enabled',
     ]
     list_display_links = [
