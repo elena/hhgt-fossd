@@ -47,8 +47,8 @@ class Slide(models.Model):
     """
 
     CHOICES_CLASS = (
-        ('cover', 'title'),
-        ('shout', 'big text'),
+        ('cover', 'cover'),
+        ('shout', 'shout'),
     )
 
     CHOICES_VERSION = (
@@ -89,7 +89,8 @@ class Slide(models.Model):
     header = models.CharField(max_length=256, blank=True)
     content = models.TextField(blank=True)
     notes = models.TextField(blank=True)
-
+    bg_img = models.CharField(max_length=256, blank=True)
+    
     percent_complete = models.CharField(max_length=32, choices=CHOICES_COMPLETE,
                                         default=0, blank=True,
                                         verbose_name='done')
@@ -104,6 +105,11 @@ class Slide(models.Model):
     def save(self, *args, **kwargs):
         super(Slide, self).save(*args, **kwargs)
         if not self.order:
-            highest = Slide.objects.filter(talk=self.talk).aggregate(Max('order'))['order__max']
+            # if hasattr(self, 'section'):
+            #     slides = Slide.objects.filter(talk=self.talk, section=self.section)
+            # else:
+            slides = Slide.objects.filter(talk=self.talk)
+
+            highest = slides.aggregate(Max('order'))['order__max']
             self.order = highest + 1
             self.save()
