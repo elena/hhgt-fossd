@@ -18,6 +18,9 @@ class Talk(models.Model):
     def __str__(self):
         return self.talk
 
+    class Meta:
+        ordering = ['-date']
+
 
 class Section(models.Model):
     talk = models.ForeignKey('slides.Talk', null=True, blank=True)
@@ -74,7 +77,8 @@ class Slide(models.Model):
     # considering making following fields all FK
     slide_id = models.CharField(max_length=128, blank=True)
     style = models.CharField(max_length=128, choices=CHOICES_CLASS, blank=True)
-    colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32, blank=True)
+    colour_scheme = models.CharField(choices=CHOICES_COLOUR, max_length=32,
+                                     blank=True)
 
     order = models.IntegerField(blank=True, null=True)
 
@@ -92,7 +96,7 @@ class Slide(models.Model):
     is_enabled = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ['order']
+        ordering = ['section__order', 'order']
 
     def __str__(self):
         return '%s-%2d (%s)' % (self.section, self.order, self.slide_id)
