@@ -1,51 +1,79 @@
-from django import forms
 from django.contrib import admin
 from .models import Talk, Section, Slide
 
 
-admin.site.register(Talk)
-admin.site.register(Section)
+class SectionInlines(admin.TabularInline):
+
+    model = Section
+    extra = 1
 
 
-class SlideAdminForm(forms.ModelForm):
+class TalkAdmin(admin.ModelAdmin):
 
-    class Meta:
-        model = Slide
+    #fieldsets = [(None, {'fields': (('title', 'order', 'colour_scheme'),)})]
+    inlines = [SectionInlines]
 
-    def __init__(self):
-        widgets = {
-           'content' : forms.Textarea(attrs={'class':'cke_editable cke_editable_inline cke_contents_ltr'}),
-        }
+admin.site.register(Talk, TalkAdmin)
+
+
+class SlideInlines(admin.TabularInline):
+
+    model = Slide
+    fields = [
+        'percent_complete',
+        'content',
+        'notes',
+        'order',
+        'header',
+        'style',
+    ]
+    extra = 1
+    can_delete = True
+
+
+class SectionAdmin(admin.ModelAdmin):
+
+    fieldsets = [(None, {'fields': (('title', 'order', 'colour_scheme'),)})]
+    inlines = [SlideInlines]
+    list_display = ['title', 'order', 'talk']
+    list_editable = ['order']# , 'talk']
+
+
+admin.site.register(Section, SectionAdmin)
 
 
 class SlideAdmin(admin.ModelAdmin):
-    form = SlideAdminForm
     save_on_top = True
     list_display = [
+        'percent_complete',
         'content',
+        'notes',
         'header',
-        'slide_id',
-        'talk',
         'section',
+        'order',
         'style',
         'colour_scheme',
-        'versionA',
-        'versionB',
-        'versionC',
-        'order',
-        'is_enabled',
+        'slide_id',
+        # 'versionA',
+        # 'versionB',
+        # 'versionC',
+        #'is_enabled',
+        'talk',
     ]
     list_editable = [
+        'percent_complete',
         'content',
         'section',
+        'notes',
         'style',
-        'colour_scheme',
-        'versionA',
-        'versionB',
-        'versionC',
+        # 'colour_scheme',
+        # 'versionA',
+        # 'versionB',
+        # 'versionC',
         'slide_id',
         'header',
-        'is_enabled',
+        'order',
+        # 'is_enabled',
     ]
     list_display_links = [
         'talk',
