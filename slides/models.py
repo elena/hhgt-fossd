@@ -89,6 +89,7 @@ class Slide(models.Model):
     header = models.CharField(max_length=256, blank=True)
     content = models.TextField(blank=True)
     notes = models.TextField(blank=True)
+    helper = models.CharField(max_length=2048, blank=True)
     bg_img = models.CharField(max_length=256, blank=True)
     
     percent_complete = models.CharField(max_length=32, choices=CHOICES_COMPLETE,
