@@ -7,7 +7,7 @@
 
 body {
     counter-reset:slide;
-    font:25px/2 'PT Sans', sans-serif;
+    font:42px/2 'Oswald', sans-serif;
 }
 a {
     text-decoration:none;
@@ -92,7 +92,7 @@ a {
 	text-align:center;
 	font-size:20px;
     }
-    // Inner 
+    // Inner
     > div {
 	position:absolute;
 	top:0;
@@ -109,13 +109,11 @@ a {
 .slide {
     // Header
     h2 {
-	margin:0 0 37px;
-	color:#666;
 	font:bold 50px/1 'Yanone Kaffeesatz', sans-serif;
     }
     // Text
     p {
-	margin:0 0 50px;
+	margin:0 0 30px;
     }
     p.note {
 	color:#999;
@@ -137,7 +135,7 @@ a {
 	color:#000;
 	tab-size:4;
 	line-height:1;
-	font-family:'PT Mono', monospace;
+	font-family:'PT Mono', monoggspace;
     }
     // Quote
     blockquote {
@@ -255,7 +253,7 @@ a {
     }
     // Cover
     &.cover {
-        background: url('../images/bg.jpg') no-repeat -200px -250px;    
+        background: url('../images/bg.jpg') no-repeat -200px -250px;
 	@mixin cover {
 	    img, svg, video,
 	    object, canvas, iframe {
@@ -289,11 +287,6 @@ a {
 		transform:none;
 	    }
 	}
-        h2 {
-            color:#FFF;
-            text-align:center;
-            font-size:70px;
-        }
     }
     // Shout
     &.shout {

@@ -11,79 +11,93 @@
 .bold   {font-weight: bold;}
 .normal {font-weight: normal;}
 .italic {font-style: italic;}
+.white  {color: white}
+.grey   {color: grey}
+.black  {color: black}
 
-.halfL {left: 0;}
+.halfgL {left: 0;}
 .halfR {left: 512px;}
 .halfL, .halfR {width: 412px; height: 540px;  padding: 50px; top:0;}
 .slide > div   {z-index: 1;}
 .halfL, .halfR {z-index:-1; position: absolute;}
+.halfL p, .halfR p {margin-top: 200px;}
 
-.slide blockquote:before {
-  content: "“";
-  position: absolute;
-  margin: -10px 0 0 -55px;
-  font-style: italic;
-}
-.slide blockquote:before {font-size: 150px;}
+.slide h2.title {position: absolute;  left: 0;  top: 0;  width: 100%;}
 
-.overlay,
-.halfL h2,
-.halfR h2
-  {background-color: #000000;}
+.helper {position: absolute; right: 0; bottom: 0;}
+.helper {border: 6px dashed white; color: white;}
+.helper {font-family: "Oxygen Mono"; font-size: 30px; line-height: 36px;}
 
-.slide h2, .shout h2, #hello h2
+.slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -55px;}
+.slide blockquote:before {font-size: 150px; font-style: italic;}
+
+.overlay, .halfL h2, .halfR h2
+  {background-color: rgba(0, 0, 0, 0.87);}
+
+.slide h2.title
+  {background-color: rgba(0, 0, 0, 0.78);}
+
+.helper
+  {background-color: rgba(0, 0, 0, 0.65);}
+
+.slide h2
   {text-shadow: 1px 1px 1px #292929;}
+
+.helper
+  {text-shadow: 1px 1px 1px #111111;}
 
 
 /* TYPOGRAPHY and COLOURS */
 
-.slide blockquote:before,
-h2 {color: #4E4E4E;}
-h2 strong, .overlay, .bg
-   {color: white;}
+.slide blockquote:before, h2
+  {color: #4E4E4E;}
 
-h2                  {font-size: 95px;}
-.slide p            {font-size: 20px;}
-#flossd h2          {font-size: 75px;}
-.halfL h2,.halfR h2 {font-size: 85px;}
-blockquote          {font-size: 38px;}
+.slide h2.title /* dampen main title text to allow 'white' strong */
+  {color: rgba(255,255,255, 0.78); font-weight: normal;}
 
-.halfL h2, .halfR h2, .slide h2
- {text-align: center;}
+.slide h2.title strong, h2 strong, .overlay, .bg, helper
+  {color: white;}
+
+body, .slide    {font-size: 42px; line-height: 64px;}
+blockquote      {font-size: 38px;}
+
+.slide h2.title {font-size: 85px;}
+.slide h2       {font-size: 95px;}
+
+/* UNIQUE font-sizes */
+#flossd h2      {font-size: 75px;}
+#cow h2.title   {font-size: 65px;}
 
 .halfL h2, .halfR h2
   {font-weight: bold;}
 
-.shout h2
+.slide h2
   {font-weight: normal;}
- 
+
+.halfL h2, .halfR h2, .slide h2.title
+  {text-align: center;}
+
+.helper
+  {text-align: right;}
+
+.slide h2.title
+  {text-transform: uppercase}
 
 /* POSITIONING */
 
 /* elements */
-blockquote {margin-left: 50px;}
-.overlay, .bg {padding: 20px 30px;}
+blockquote
+  {margin-left: 50px;}
 
+.overlay, .slide ul, .body
+  {margin-top: 80px;}
+
+.slide h2.title  {padding: 30px 0 20px;}
+.slide ul        {padding: 20px 50px;}
+.overlay         {padding: 20px 30px;}
+.helper          {padding: 5px 15px;}
 
 /* UNIQUE positionings */
-
-#comp8440 .slide h2 {margin-top: 60px;}
-#libre h2 {margin-top: 90px;}
-#fri.slide div.overlay {margin-top: 90px;}
-
-/*
-#comp8440 p,
-.halfL h2,
-.halfR h2 {
-    margin-top: 160px;
-}
-#flossd h2   {margin-top: 0;}
-.overlay div {margin-top: 60px;}
-.shout h2, #hello h2 {margin-top: -78px;}
-.slide h2 {margin: -65px 0 37px;}
-*/
-
-
-
-
-
+#libre h2     {margin-top: 90px;}
+#comp8440 h2  {margin-top: 90px;}
+#fri .overlay {margin-top: 90px;}

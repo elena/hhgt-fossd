@@ -104,7 +104,7 @@ table {
 
 body {
   counter-reset: slide;
-  font: 25px/2 'PT Sans', sans-serif; }
+  font: 42px/2 'Oswald', sans-serif; }
 
 a {
   text-decoration: none; }
@@ -184,11 +184,9 @@ a {
     height: 535px; }
 
 .slide h2 {
-  margin: 0 0 37px;
-  color: #666;
   font: bold 50px/1 'Yanone Kaffeesatz', sans-serif; }
 .slide p {
-  margin: 0 0 50px; }
+  margin: 0 0 30px; }
 .slide p.note {
   color: #999; }
 .slide a {
@@ -205,7 +203,7 @@ a {
   color: #000;
   tab-size: 4;
   line-height: 1;
-  font-family: 'PT Mono', monospace; }
+  font-family: 'PT Mono', monoggspace; }
 .slide blockquote {
   font-style: italic; }
   .slide blockquote:before {
@@ -313,10 +311,6 @@ a {
     top: 0;
     left: 0;
     transform: none; }
-  .slide.cover h2 {
-    color: #FFF;
-    text-align: center;
-    font-size: 70px; }
 .slide.shout h2 {
   position: absolute;
   top: 50%;

@@ -20,8 +20,12 @@
 
 <section class="slide {% if slide.style %}{{slide.style}}{% endif %}" id="{{slide.slide_id}}">
   <div {%if slide.bg_img%}style="background:url({{STATIC_URL}}slides/{{slide.bg_img}}) no-repeat center center;" class="bg"{%endif%}>
-    {% if slide.header %}<h2>{{slide.header|safe}}</h2>{% endif %}
-    {% if slide.content %}{{slide.content|safe}}{% endif %}
+    {% if slide.header %}<h2 class="title">{{slide.header|safe}}</h2>{% endif %}
+    {% if slide.content %}
+      {% if slide.header %}<div class="body">{% endif %}
+      {{slide.content|safe}}
+      {% if slide.header %}</div>{% endif %}
+    {% endif %}
     {% if slide.helper %}<div class="helper">{{slide.helper|safe}}</div>{% endif %}    
   </div>
 </section>
