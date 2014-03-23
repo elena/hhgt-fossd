@@ -20,13 +20,13 @@ class SlideInlines(admin.TabularInline):
 
     model = Slide
     fields = [
-        'percent_complete',
+        'order',
         'content',
         'notes',
         'helper',                
-        'order',
         'header',
         'bg_img',
+        'percent_complete',
         'style',
         'slide_id',
     ]
@@ -48,13 +48,13 @@ admin.site.register(Section, SectionAdmin)
 class SlideAdmin(admin.ModelAdmin):
     save_on_top = True
     list_display = [
-        'percent_complete',
+        'order',
         'content',
         'notes',
         'helper',        
         'header',
         'section',
-        'order',
+        'percent_complete',
         'style',
         'colour_scheme',
         'slide_id',
