@@ -58,6 +58,16 @@
 
 /* TYPOGRAPHY and COLOURS */
 
+/* font-families*/
+body
+  {font-family: 'Oswald', sans-serif;}
+
+h3
+  {font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+.helper
+  {font-family: "Oxygen Mono";}
+
 .slide blockquote:before, h2
   {color: #4E4E4E;}
 
