@@ -1,9 +1,18 @@
-/* can I add a style checklist:
+/* Elena's very alternative stylesheet organisation: `poor-man's compiled styles.`
+
+   Suitable for controlled and unsophisticated projects that are very modular,
+   but with some discrete customisations.
+   Grouping 'like' styles where possible to ensure consistent usage.
+   Minimum possible number of element definitions.
+
+   Can I add an element style checklist:
     ~ can it be done modularly?
     ~ what am I really trying to make it look like? why is this special?
     ~ is it a feature unique to this element?
+    ~ can I add a modular element instead?
 
-/* ELEMENTS */
+/* ELEMENTS
+   modular reusable elements */
 
 .left   {float: left;  text-align: left}
 .right  {float: right; text-align: right}
@@ -68,6 +77,7 @@ blockquote      {font-size: 38px;}
 #flossd h2      {font-size: 75px;}
 #cow h2.title   {font-size: 65px;}
 
+/* other font/text attributes */
 .halfL h2, .halfR h2
   {font-weight: bold;}
 
@@ -97,7 +107,9 @@ blockquote
 .overlay         {padding: 20px 30px;}
 .helper          {padding: 5px 15px;}
 
-/* UNIQUE positionings */
+/* UNIQUE positionings
+   Special cases where placement needs be particular due to content */
+
 #libre h2     {margin-top: 90px;}
 #comp8440 h2  {margin-top: 90px;}
 #fri .overlay {margin-top: 90px;}
