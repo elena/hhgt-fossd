@@ -103,14 +103,16 @@ h3
 .slide h2.title strong, h2 strong, .overlay, .bg, helper
   {color: white;}
 
+/* font-sizes */
 body, .slide    {font-size: 42px; line-height: 64px;}
 blockquote      {font-size: 38px;}
 
+.slide h3       {font-size: 65px;}
 .slide h2.title {font-size: 85px;}
 .slide h2       {font-size: 95px;}
 
 /* UNIQUE font-sizes */
-#flossd h2      {font-size: 75px;}
+#flossd h2      {font-size: 85px;}
 #cow h2.title   {font-size: 65px;}
 
 /* other font/text attributes */
