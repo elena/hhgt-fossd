@@ -5,10 +5,10 @@ from .settings import CURRENT_TALK
 
 CHOICES_COLOUR = (
     ('blue', 'technical'),
-    ('green', 'teaching'),
-    ('red', 'make-a-point'),
+    ('white', 'advice'),
+    ('green', 'info'),
+    ('red', 'pointed'),
 )
-
 
 class Talk(models.Model):
     talk = models.CharField(max_length=128, blank=True)
@@ -91,7 +91,7 @@ class Slide(models.Model):
     notes = models.TextField(blank=True)
     helper = models.CharField(max_length=2048, blank=True)
     bg_img = models.CharField(max_length=256, blank=True)
-    
+
     percent_complete = models.CharField(max_length=32, choices=CHOICES_COMPLETE,
                                         default=0, blank=True,
                                         verbose_name='done')
