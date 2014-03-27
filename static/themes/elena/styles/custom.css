@@ -24,11 +24,13 @@
 .grey   {color: grey}
 .black  {color: black}
 
-.halfgL {left: 0;}
-.halfR {left: 512px;}
+/* 50%/50% slide */
 .halfL, .halfR {width: 412px; height: 540px;  padding: 50px; top:0;}
-.slide > div   {z-index: 1;}
+.halfL {left: 0;}
+.halfR {left: 512px;}
 .halfL, .halfR {z-index:-1; position: absolute;}
+
+.slide > div   {z-index: 1;}
 .halfL p, .halfR p {margin-top: 200px;}
 
 .slide h2.title {position: absolute;  left: 0;  top: 0;  width: 100%;}
