@@ -77,6 +77,9 @@ section.white {
 .helper
   {text-shadow: 1px 1px 1px #111111;}
 
+.slide h2.title strong, h2 strong, .overlay, .bg, helper
+  {text-shadow: 0 0 2px #000000}
+
 
 /* TYPOGRAPHY and COLOURS */
 
