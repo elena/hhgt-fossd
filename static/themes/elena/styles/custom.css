@@ -40,6 +40,25 @@
 .slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -55px;}
 .slide blockquote:before {font-size: 150px; font-style: italic;}
 
+section.slide {
+    background: url('../../../slides/bg-1b.png') #bbb no-repeat top left;}
+    /* background: url('../../../slides/bg-0.png') #555 no-repeat top left;} */
+
+section.blue {
+    background: url('../../../slides/bg-1.png') #6f6fff no-repeat top left;}
+    /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
+section.green {
+    background: url('../../../slides/bg-0.png') #6fff6f no-repeat top left;}
+    /* background: url('../../../slides/bg_green.jpg') no-repeat top left;} */
+section.red {
+    background: url('../../../slides/bg-0.png') #ff6f6f no-repeat top left;
+    color: #ffaaaa;
+}
+    /* background: url('../../../slides/bg_red.jpg') no-repeat top left;} */
+section.white {
+    background: url('../../../slides/bg-1.png') white no-repeat top left;}
+    /* background: url('../../../slides/bg_white.jpg') no-repeat top left;} */
+
 .overlay, .halfL h2, .halfR h2
   {background-color: rgba(0, 0, 0, 0.87);}
 
@@ -68,8 +87,9 @@ h3
 .helper
   {font-family: "Oxygen Mono";}
 
+/* colors */
 .slide blockquote:before, h2
-  {color: #4E4E4E;}
+  {color: #ddd;}
 
 .slide h2.title /* dampen main title text to allow 'white' strong */
   {color: rgba(255,255,255, 0.78); font-weight: normal;}
@@ -102,6 +122,7 @@ blockquote      {font-size: 38px;}
 
 .slide h2.title
   {text-transform: uppercase}
+
 
 /* POSITIONING */
 
