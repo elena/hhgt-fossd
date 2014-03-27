@@ -20,6 +20,7 @@
 .bold   {font-weight: bold;}
 .normal {font-weight: normal;}
 .italic {font-style: italic;}
+.upper  {text-transform: uppercase;}
 .white  {color: white}
 .grey   {color: grey}
 .black  {color: black}
