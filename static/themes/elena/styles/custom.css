@@ -11,9 +11,16 @@
     ~ is it a feature unique to this element?
     ~ can I add a modular element instead?
 
+/* overwrite screen needs be at top */
+.slide p {margin: 0px 0px 20px;}
+/*.slide > div {padding-top: 80px;}*/
+.slide a {border-bottom: 0; color: inherit;}
+
+
 /* ELEMENTS
    modular reusable elements */
 
+.clear  {clear: both;}
 .left   {float: left;  text-align: left}
 .right  {float: right; text-align: right}
 .center {text-align: center;}
@@ -26,19 +33,21 @@
 .black  {color: black}
 .gap    {padding-left: 100px;}
 
-.top0   {margin-top: 0;}
-.top1   {margin-top: 14px;}
-.top2   {margin-top: 20px;}
-.top3   {margin-top: 30px;}
-.top4   {margin-top: 40px;}
-.top5   {margin-top: 50px;}
-.top8   {margin-top: 80px;}
-.top12   {margin-top: 120px;}
-.top20   {margin-top: 200px;}
 
-/* overwrite screen needs be at top */
-.slide p {margin: 0px 0px 20px;}
-/*.slide > div {padding-top: 80px;}*/
+.slide .top-2   {margin-top: -20px;}
+.slide .top-4   {margin-top: -45px;}
+.slide .top0   {margin-top: 0;}
+.slide .top1   {margin-top: 14px;}
+.slide .top2   {margin-top: 20px;}
+.slide .top3   {margin-top: 30px;}
+.slide .top4   {margin-top: 40px;}
+.slide .top5   {margin-top: 50px;}
+.slide .top8   {margin-top: 80px;}
+.slide .top12   {margin-top: 120px;}
+.slide .top20   {margin-top: 200px;}
+.slide .btm2   {margin-bottom: 20px;}
+.slide .btm3   {margin-bottom: 30px;}
+
 
 /* 50%/50% slide */
 .halfL, .halfR {width: 412px; height: 540px;  padding: 50px 0; top:0;}
@@ -64,7 +73,7 @@ section.slide {
     /* background: url('../../../slides/bg-0.png') #555 no-repeat top left;} */
 
 section.blue {
-    background: url('../../../slides/bg-1.png') #6f6fff no-repeat top left;}
+    background: url('../../../slides/bg-1.png') #52a2df no-repeat top left;}
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 section.green {
     background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;}
@@ -73,7 +82,11 @@ section.red {
     background: url('../../../slides/bg-0.png') #ff6f6f no-repeat top left;
     color: #ffaaaa;
 }
-    /* background: url('../../../slides/bg_red.jpg') no-repeat top left;} */
+section.yellow {
+    background: url('../../../slides/bg-1.png') #FFE96F no-repeat top left;}
+    /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
+
+/* background: url('../../../slides/bg_red.jpg') no-repeat top left;} */
 section.white {
     background: url('../../../slides/bg-1.png') white no-repeat top left;}
     /* background: url('../../../slides/bg_white.jpg') no-repeat top left;} */
@@ -116,7 +129,7 @@ h3
 .slide h2.title /* dampen main title text to allow 'white' strong */
   {color: rgba(255,255,255, 0.78); font-weight: normal;}
 
-.slide h2.title strong, h2 strong, .overlay, .bg, helper
+.slide h1, .slide h2.title strong, h2 strong, .overlay, .bg, helper
   {color: white;}
 
 /* font-sizes */
@@ -124,8 +137,9 @@ body, .slide    {font-size: 42px; line-height: 64px;}
 blockquote      {font-size: 45px;}
 
 .slide h3       {font-size: 65px;}
+.slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.slide h2       {font-size: 95px;}
+.slide h1       {font-size: 105px;}
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px;}
@@ -144,7 +158,7 @@ blockquote      {font-size: 45px;}
 .helper
   {text-align: right;}
 
-.slide h2.title
+.slide h1, .slide h2.title
   {text-transform: uppercase}
 
 .slide blockquote
@@ -162,6 +176,7 @@ blockquote
 .body .line2
   {margin-top: 135px;}
 
+.slide h1        {padding: 50px 0;}
 .slide h2.title  {padding: 30px 0 20px;}
 .slide ul        {padding: 20px 50px;}
 .overlay         {padding: 10px 25px;}

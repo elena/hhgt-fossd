@@ -8,6 +8,7 @@ CHOICES_COLOUR = (
     ('white', 'advice (w)'),
     ('green', 'info (g)'),
     ('red', 'pointed (r)'),
+    ('yellow', 'explain (y)'),
 )
 
 class Talk(models.Model):

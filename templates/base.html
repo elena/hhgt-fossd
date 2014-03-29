@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=792, user-scalable=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="{{STATIC_URL}}/themes/elena/styles/screen.css">
-  <link rel="stylesheet" href="{{STATIC_URL}}/themes/elena/styles/custom.css">  
+  <link rel="stylesheet" href="{{STATIC_URL}}/themes/elena/styles/custom.css">
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 
 </head>
@@ -18,7 +18,6 @@
 
 {% for slide in slides %}
 
-<section class="slide {% if slide.style %}{{slide.style}}{% endif %} {% if slide.colour_scheme %}{{slide.colour_scheme}}{% endif %}" id="{{slide.slide_id}}">
   <div {%if slide.bg_img%}style="background:url({{STATIC_URL}}slides/{{slide.bg_img}}) no-repeat top left;" class="bg"{%endif%}>
     {% if slide.header %}<h2 class="title">{{slide.header|safe}}</h2>{% endif %}
     {% if slide.content %}
@@ -28,7 +27,6 @@
     {% endif %}
     {% if slide.helper %}<div class="helper">{{slide.helper|safe}}</div>{% endif %}
   </div>
-</section>
 
 {% endfor %}
 
