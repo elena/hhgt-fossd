@@ -29,6 +29,7 @@ class SlideInlines(admin.TabularInline):
         'percent_complete',
         'style',
         'colour_scheme',
+        'section',
         'slide_id',
     ]
     extra = 0

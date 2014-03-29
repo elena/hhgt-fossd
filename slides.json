@@ -23,7 +23,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 4, 
+        "order": 3, 
         "talk": 1, 
         "title": "Early/History"
     }
@@ -39,21 +39,11 @@
     }
 },
 {
-    "pk": 4, 
-    "model": "slides.section", 
-    "fields": {
-        "colour_scheme": "", 
-        "order": 2, 
-        "talk": 1, 
-        "title": "You"
-    }
-},
-{
     "pk": 5, 
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 3, 
+        "order": 2, 
         "talk": 1, 
         "title": "Copyright"
     }
@@ -63,7 +53,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 5, 
+        "order": 4, 
         "talk": 1, 
         "title": "Projects"
     }
@@ -73,7 +63,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 6, 
+        "order": 7, 
         "talk": 1, 
         "title": "VCS"
     }
@@ -83,9 +73,9 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 7, 
+        "order": 5, 
         "talk": 1, 
-        "title": "Domain Knowledge"
+        "title": "Finding Projects"
     }
 },
 {
@@ -95,7 +85,7 @@
         "colour_scheme": "", 
         "order": 8, 
         "talk": 1, 
-        "title": "Managing Projects"
+        "title": "Being a Project Owner"
     }
 },
 {
@@ -103,9 +93,9 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 9, 
+        "order": 6, 
         "talk": 1, 
-        "title": "Being Involved"
+        "title": "Being Involved (do)"
     }
 },
 {
@@ -113,9 +103,19 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 10, 
+        "order": 9, 
         "talk": 1, 
         "title": "Tools"
+    }
+},
+{
+    "pk": 12, 
+    "model": "slides.section", 
+    "fields": {
+        "colour_scheme": "", 
+        "order": 99, 
+        "talk": 1, 
+        "title": "Fin"
     }
 },
 {
@@ -855,29 +855,6 @@
     }
 },
 {
-    "pk": 48, 
-    "model": "slides.slide", 
-    "fields": {
-        "is_enabled": true, 
-        "style": "", 
-        "helper": "Never has the little guy lost.", 
-        "notes": "", 
-        "section": 2, 
-        "time": null, 
-        "bg_img": "", 
-        "content": "% copyleft\r\n$ must return changes; must stay GPL\r\n# Copyleft\r\n- must return changes\r\n- must stay GPL\r\n  >> GPL is price of admission\r\n  >> will make big corp do boring bits\r\n- it doesn't really matter at low level, but at scale, it'll matter", 
-        "header": "copy <strong>Left</strong>>>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
-        "slide_id": "", 
-        "percent_complete": "0", 
-        "order": 40, 
-        "talk": 1, 
-        "colour_scheme": ""
-    }
-},
-{
     "pk": 49, 
     "model": "slides.slide", 
     "fields": {
@@ -929,13 +906,13 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "Only you can choose.", 
+        "helper": "Consider <strong>CopyLeft</strong>", 
         "notes": "  >> some bits are boring\r\n  >> want to allow other people to play with the fruits of your labor\r\n  >> when you make your random script and license it\r\n", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>What License do I pick?</p>\r\n<p><em>> Depends on the project</em></p>", 
-        "header": "This was meant to be fun ...", 
+        "content": "<p class=\"line2\"><br>What License do I pick?</p>\r\n<p><em>> Depends on the project</em></p>\r\n", 
+        "header": "This was <br>meant to be <strong>fun</strong> ...", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -980,7 +957,7 @@
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p class=\"center\">\u201cOpen source to open source, <br>corporation to corporation.<br>\r\n    If you do open source, <br>you\u2019re my hero and I support you.<br>\r\n    If you\u2019re a corporation, <br>let\u2019s talk business</p>", 
+        "content": "<blockquote>\r\n<p>\u201cOpen source to open source, <br>\r\n  <span class=\"gap\">corporation to corporation.</span>\r\n<br>If you do <strong>open source</strong>,\r\n<br><span class=\"gap\">you\u2019re my <strong>hero</strong> and I support you.</span><br>If you\u2019re a <strong>corporation</strong>,\r\n<br><span class=\"gap\">let\u2019s talk <strong>business</strong></span></p>\r\n</blockquote>\r\n", 
         "header": "Modern Case Study", 
         "versionA": false, 
         "versionB": false, 
@@ -998,19 +975,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "The price of admission for business.", 
+        "helper": "Never has the little guy lost.", 
         "notes": "% copyleft\r\n$ must return changes; must stay GPL\r\n# Copyleft\r\n- must return changes\r\n- must stay GPL\r\n  >> GPL is price of admission\r\n  >> will make big corp do boring bits\r\n- it doesn't really matter at low level, but at scale, it'll matter\r\n", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p><strong>Must</strong> return changes.</p>\r\n<p><strong>Must</strong> stay open.</p>", 
+        "content": "<p><strong>Must</strong> return changes.</p>\r\n<p><strong>Must</strong> stay open.</p>\r\n<p>Only price of admission for business.</p>", 
         "header": "Copy <strong>Left</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 46, 
+        "order": 39, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1067,12 +1044,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "MPLv2?", 
+        "helper": "", 
         "notes": "%:: sign off\r\n%:: contrib to python you need to submit paper form. realz.\r\n$ choose wisely\r\n", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>Consider carefully.</p>\r\n<p>Consider Copyleft</p>", 
+        "content": "<h3>Consider <strong>Copyleft</strong></h3>\r\n<p>GPL, LGPL<br>Mozilla Public License v2 (2012)</p>\r\n\r\n\r\n<p><em><b>Compatible, but open to being exploitative</b><br>\r\nMIT and BSD3</em></p>", 
         "header": "Changing a license is hard", 
         "versionA": false, 
         "versionB": false, 
@@ -1119,7 +1096,7 @@
         "time": null, 
         "bg_img": "", 
         "content": "", 
-        "header": "Why \"Gratuit\" (Free-as-in-Beer)?", 
+        "header": "Why \"<strong>Gratuit</strong>\" <br>(Free-as-in-Beer)?", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -1142,7 +1119,7 @@
         "time": null, 
         "bg_img": "autonomy.jpg", 
         "content": "\r\n", 
-        "header": "What we really want", 
+        "header": "What we <strong>really want</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -1158,19 +1135,19 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "style": "shout", 
+        "style": "", 
         "helper": "Wanna be the best?", 
         "notes": "  >> I imagine everyone here know this:\r\n  >> in these economic times we're a sector that's not suffering\r\n", 
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h2 class=\"overlay\">\r\nBest <strong>CV</strong><br>\r\nBest <strong>School</strong></h2>", 
-        "header": "", 
+        "content": "<p class=\"overlay top\">\r\n  <strong>SKILL up</strong>/Want to be the \"<strong>BEST</strong>\"?<br>\r\n  <strong>TRY THINGS</strong> you don't do \"during the day\"<br>\r\n  Watch fast <strong>FAILURE</strong>/Pursue <strong>PERFECTION</strong><br>\r\n  Exposure <strong>FOR you</strong> to things and people<br>\r\n  Exposure of things and people <strong>TO you</strong>\r\n</p>\r\n", 
+        "header": "Best <strong>CV</strong>, Best <strong>School</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
-        "percent_complete": "0", 
+        "percent_complete": "100", 
         "order": 55, 
         "talk": 1, 
         "colour_scheme": "blue"
@@ -1187,7 +1164,7 @@
         "section": 6, 
         "time": null, 
         "bg_img": "aaron.jpg", 
-        "content": "<div class=\"halfR\"><br><br>\r\n\"make the world a better place\"<br>\r\nMoral values<br>\r\nDemocracy/Meritocracy\r\n<div class=\"overlay\">But not everyone!</div>\r\n</div>", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\">\r\n  \"Make the <br>\r\n  <strong>world a better place.</strong>\"\r\n</div>\r\nMoral values<br>\r\nDemocracy/Meritocracy\r\n<div class=\"overlay top2\">But not everyone!</div>\r\n</div>", 
         "header": "<strong>Ethics</strong> and <strong>Altruism</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -1196,7 +1173,7 @@
         "percent_complete": "0", 
         "order": 56, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "green"
     }
 },
 {
@@ -1207,7 +1184,7 @@
         "style": "shout", 
         "helper": "I'm ready.", 
         "notes": "", 
-        "section": 6, 
+        "section": 8, 
         "time": null, 
         "bg_img": "", 
         "content": "<h2>\r\n\r\n//WHERE DO I <br>\r\n<strong>FIND</strong> \r\n<br>PROJECTS\r\n</h2>", 
@@ -1219,7 +1196,7 @@
         "percent_complete": "0", 
         "order": 59, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "green"
     }
 },
 {
@@ -1233,8 +1210,8 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>Pretty much anything any one ever does is for this.\r\n- Even psychopaths (just warped, what they connect with is mental)</p>\r\n<h3 class=\"overlay\">\"Ego\"/\"recognition\"</h3>", 
-        "header": "Connection", 
+        "content": "<div class=\"halfR\">\r\n  <p>Pretty much anything <br>anyone ever does <br>is for this</p>\r\n<h3 class=\"overlay top1\">\"Ego\"/\"<strong>recognition</strong>\"</h3>\r\n</div>\r\n", 
+        "header": "To fee a sense of <br><strong>Connection</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -1253,7 +1230,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 6, 
+        "section": 8, 
         "time": null, 
         "bg_img": "topo.jpg", 
         "content": "", 
@@ -1299,11 +1276,11 @@
         "style": "", 
         "helper": "AKA \"Scratching your own itch\"", 
         "notes": "", 
-        "section": 6, 
+        "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "\r\n<p>- what's *your* <strong>interest</strong><br>\r\n- what's *your* <strong>strength</strong><br>\r\n- what <strong>skill</strong> do *you* currently want to work on<br>\r\n- what <strong>problem</strong> to *you* want to solve<br>\r\n- what do you do in your <strong>spare time</strong><br>\r\n- weird form of teamwork</p>", 
-        "header": " \"Meeting a personal need\"", 
+        "content": "<p>What's YOUR <strong>interest</strong>?<br>\r\nWhat's YOUR <strong>strength</strong>?<br>\r\nWhat <strong>skill</strong> do YOU currently want to work on?<br>\r\nWhat <strong>problem</strong> to YOU want to solve?<br>\r\nWhat do YOU do in your <strong>spare time</strong>?<br>\r\nweird form of teamwork</p>\r\n", 
+        "header": " \"Meeting a <strong>personal need</strong>\"", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -1345,7 +1322,7 @@
         "style": "", 
         "helper": "Answer not quite useful.", 
         "notes": ">> another breakdown in the traditional message.", 
-        "section": 6, 
+        "section": 8, 
         "time": null, 
         "bg_img": "", 
         "content": "\r\nProjects that help: Open Hatch, github/explore, ohloh\r\n\r\n", 
@@ -1358,6 +1335,29 @@
         "order": 61, 
         "talk": 1, 
         "colour_scheme": ""
+    }
+},
+{
+    "pk": 70, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "style": "shout", 
+        "helper": "Old version of this talk.", 
+        "notes": "", 
+        "section": 6, 
+        "time": null, 
+        "bg_img": "", 
+        "content": "<h2>\r\n//ALL\r\n<br>PROJECTS are\r\n<br><strong>DIFFERENT</strong> \r\n</h2>", 
+        "header": "", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": false, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 81, 
+        "talk": 1, 
+        "colour_scheme": "red"
     }
 }
 ]

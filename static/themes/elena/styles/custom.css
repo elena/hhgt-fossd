@@ -24,9 +24,24 @@
 .white  {color: white}
 .grey   {color: grey}
 .black  {color: black}
+.gap    {padding-left: 100px;}
+
+.top0   {margin-top: 0;}
+.top1   {margin-top: 14px;}
+.top2   {margin-top: 20px;}
+.top3   {margin-top: 30px;}
+.top4   {margin-top: 40px;}
+.top5   {margin-top: 50px;}
+.top8   {margin-top: 80px;}
+.top12   {margin-top: 120px;}
+.top20   {margin-top: 200px;}
+
+/* overwrite screen needs be at top */
+.slide p {margin: 0px 0px 20px;}
+/*.slide > div {padding-top: 80px;}*/
 
 /* 50%/50% slide */
-.halfL, .halfR {width: 412px; height: 540px;  padding: 50px; top:0;}
+.halfL, .halfR {width: 412px; height: 540px;  padding: 50px 0; top:0;}
 .halfL {left: 0;}
 .halfR {left: 512px;}
 .halfL, .halfR {z-index:-1; position: absolute;}
@@ -42,6 +57,7 @@
 
 .slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -55px;}
 .slide blockquote:before {font-size: 150px; font-style: italic;}
+.slide blockquote {}
 
 section.slide {
     background: url('../../../slides/bg-1b.png') #bbb no-repeat top left;}
@@ -51,7 +67,7 @@ section.blue {
     background: url('../../../slides/bg-1.png') #6f6fff no-repeat top left;}
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 section.green {
-    background: url('../../../slides/bg-0.png') #6fff6f no-repeat top left;}
+    background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;}
     /* background: url('../../../slides/bg_green.jpg') no-repeat top left;} */
 section.red {
     background: url('../../../slides/bg-0.png') #ff6f6f no-repeat top left;
@@ -105,7 +121,7 @@ h3
 
 /* font-sizes */
 body, .slide    {font-size: 42px; line-height: 64px;}
-blockquote      {font-size: 38px;}
+blockquote      {font-size: 45px;}
 
 .slide h3       {font-size: 65px;}
 .slide h2.title {font-size: 85px;}
@@ -131,6 +147,8 @@ blockquote      {font-size: 38px;}
 .slide h2.title
   {text-transform: uppercase}
 
+.slide blockquote
+  {font-style:normal;}
 
 /* POSITIONING */
 
@@ -138,7 +156,7 @@ blockquote      {font-size: 38px;}
 blockquote
   {margin-left: 50px;}
 
-.overlay, .slide ul, .body
+.slide ul, .body
   {margin-top: 80px;}
 
 .body .line2
@@ -146,7 +164,7 @@ blockquote
 
 .slide h2.title  {padding: 30px 0 20px;}
 .slide ul        {padding: 20px 50px;}
-.overlay         {padding: 20px 30px;}
+.overlay         {padding: 10px 25px;}
 .helper          {padding: 5px 15px;}
 
 /* UNIQUE positionings

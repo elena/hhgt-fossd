@@ -4,10 +4,10 @@ from django.db.models import Max
 from .settings import CURRENT_TALK
 
 CHOICES_COLOUR = (
-    ('blue', 'technical'),
-    ('white', 'advice'),
-    ('green', 'info'),
-    ('red', 'pointed'),
+    ('blue', 'technical (b)'),
+    ('white', 'advice (w)'),
+    ('green', 'info (g)'),
+    ('red', 'pointed (r)'),
 )
 
 class Talk(models.Model):
