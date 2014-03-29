@@ -31,8 +31,9 @@
 .white  {color: white}
 .grey   {color: grey}
 .black  {color: black}
+.green  {color: green}
+.red    {color: red}
 .gap    {padding-left: 100px;}
-
 
 .slide .top-2   {margin-top: -20px;}
 .slide .top-4   {margin-top: -45px;}
@@ -76,7 +77,9 @@ section.blue {
     background: url('../../../slides/bg-1.png') #52a2df no-repeat top left;}
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 section.green {
-    background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;}
+    background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;
+    color: #000000;
+}
     /* background: url('../../../slides/bg_green.jpg') no-repeat top left;} */
 section.red {
     background: url('../../../slides/bg-0.png') #ff6f6f no-repeat top left;
@@ -103,10 +106,11 @@ section.white {
 .slide h2
   {text-shadow: 1px 1px 1px #292929;}
 
+section.green,
 .helper
   {text-shadow: 1px 1px 1px #111111;}
 
-.slide h2.title strong, h2 strong, .overlay, .bg, helper
+.slide h1, .slide h2.title strong, h2 strong, .overlay, .bg, helper
   {text-shadow: 0 0 2px #000000}
 
 
@@ -139,7 +143,7 @@ blockquote      {font-size: 45px;}
 .slide h3       {font-size: 65px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.slide h1       {font-size: 105px;}
+.slide h1, big  {font-size: 105px;}
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px;}
