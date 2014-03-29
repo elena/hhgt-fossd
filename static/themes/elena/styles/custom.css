@@ -65,7 +65,7 @@
 .helper {border: 6px dashed white; color: white;}
 .helper {font-family: "Oxygen Mono"; font-size: 30px; line-height: 36px;}
 
-.slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -55px;}
+.slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -90px;}
 .slide blockquote:before {font-size: 150px; font-style: italic;}
 .slide blockquote {}
 
