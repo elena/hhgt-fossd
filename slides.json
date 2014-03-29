@@ -314,7 +314,7 @@
         "time": null, 
         "bg_img": "ibm.jpg", 
         "content": "", 
-        "header": "1969: Antitrust <strong>\"the Unbundling\"</strong>", 
+        "header": "1969: Antitrust<br><strong>\"the Unbundling\"</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -331,7 +331,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "\"large volumes bug free code\": GCC, emacs\"", 
+        "helper": "\"large volumes bug free code\": GCC, emacs", 
         "notes": "", 
         "section": 2, 
         "time": null, 
@@ -561,7 +561,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "Also, can't be too utilitarian. <em>17 USC \u00a7102</em>", 
+        "helper": "Also, can't be too utilitarian. <em>17 USC \u00a7102</em><br>Frank Siler \"Copyright and You\" PyCon 2013", 
         "notes": "Fixed/Creative", 
         "section": 5, 
         "time": null, 
@@ -711,7 +711,7 @@
         "versionC": false, 
         "slide_id": "osi", 
         "percent_complete": "0", 
-        "order": 16, 
+        "order": 18, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -727,7 +727,7 @@
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p class=\"center line2\">A Copyright License is a <br><strong>promise not to sue</strong>.</p>\r\n\r\n<p class=\"center\">(Rather than a permit to do something.)</p>\r\n\r\n<p class=\"center\">Can also set conditions.</p>\r\n", 
+        "content": "<p class=\"overlay center top8\">A Copyright License is a <br><strong>promise not to sue</strong>.</p>\r\n\r\n<p class=\"center\">Rather than a permit to do something.</p>\r\n\r\n<p class=\"center\">Can also set conditions.</p>\r\n", 
         "header": "Copyright Holder<br>Can Issue a <strong>License</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -957,7 +957,7 @@
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<blockquote>\r\n<p>\u201cOpen source to open source, <br>\r\n  <span class=\"gap\">corporation to corporation.</span>\r\n<br>If you do <strong>open source</strong>,\r\n<br><span class=\"gap\">you\u2019re my <strong>hero</strong> and I support you.</span><br>If you\u2019re a <strong>corporation</strong>,\r\n<br><span class=\"gap\">let\u2019s talk <strong>business</strong></span></p>\r\n</blockquote>\r\n", 
+        "content": "<blockquote>\r\n<p>Open source to open source, <br>\r\n  <span class=\"gap\">corporation to corporation.</span>\r\n<br>If you do <strong>open source</strong>,\r\n<br><span class=\"gap\">you\u2019re my <strong>hero</strong> and I support you.</span><br>If you\u2019re a <strong>corporation</strong>,\r\n<br><span class=\"gap\">let\u2019s talk <strong>business</strong></span></p>\r\n</blockquote>\r\n", 
         "header": "Modern Case Study", 
         "versionA": false, 
         "versionB": false, 
@@ -1555,7 +1555,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\">Think like a Contributor</h3>\r\n<p class=\"top3\">Change your brain:\r\n<div class=\"right\"><strong>learn to look</strong> for ways you can help.</div>\r\n<br><div class=\"top5\">Projects to work on will emerge naturally.<div></p>\r\n\r\n\r\n\r\n\r\n", 
+        "content": "<h3 class=\"overlay top-2 center\">Think like a Contributor</h3>\r\n<p class=\"top3\">Change your brain:\r\n<div class=\"right\"><strong>learn to look</strong> for ways you can help.</div>\r\n<br><div class=\"top5\">Projects to work on will emerge naturally.<div></p>\r\n\r\n\r\n\r\n\r\n", 
         "header": "Learn to Look", 
         "versionA": false, 
         "versionB": false, 
@@ -1585,7 +1585,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 93, 
+        "order": 111, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1608,7 +1608,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 94, 
+        "order": 112, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1624,7 +1624,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\">Rather than being a passive user</h3>\r\n<p class=\"top1\">When you find <strong>bugs</strong>:\r\n  <br><span class=\"gap\"><strong>replicate</strong> them <strong>properly</strong> and <strong>report</strong> them</span><br>\r\n <strong>Read</strong> and <strong>understand</strong> documentation<br>\r\n  <span class=\"gap\">(for clarity and coherence)</span><br>\r\n  <strong>Details</strong>, details, details (spelling, cruft)</p>\r\n\r\n", 
+        "content": "<h3 class=\"overlay top-2 center\">Rather than being a passive user</h3>\r\n<p class=\"top1\">When you find <strong>bugs</strong>:\r\n  <br><span class=\"gap\"> <strong>isolate</strong>, <strong>replicate</strong> and <strong>report</strong> them<strong>properly</strong>.<br>\r\n <strong>Read</strong> and <strong>understand</strong> documentation<br>\r\n  <span class=\"gap\">(for clarity and coherence).</span><br>\r\n  <strong>Details</strong>, details, details (spelling, cruft).</p>\r\n\r\n", 
         "header": "Think like a Contributor", 
         "versionA": false, 
         "versionB": false, 
@@ -1654,7 +1654,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 95, 
+        "order": 94, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1700,7 +1700,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 97, 
+        "order": 95, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -1723,7 +1723,7 @@
         "versionC": false, 
         "slide_id": "imbalanced-fight", 
         "percent_complete": "0", 
-        "order": 98, 
+        "order": 93, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -1746,7 +1746,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 99, 
+        "order": 100, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -1769,7 +1769,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 100, 
+        "order": 99, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -1792,7 +1792,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 101, 
+        "order": 105, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1815,7 +1815,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 102, 
+        "order": 103, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1838,7 +1838,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 103, 
+        "order": 101, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1854,7 +1854,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Most of our tools take YEARS to learn!</h3>\r\n<p class=\"top3\">These are our basic skills, <br>\r\n  we spend most of the time with them</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5\">Most of our tools take YEARS to learn!</h3>\r\n<p class=\"top3\">These are our basic skills, <br>\r\n  we spend most of the time with them.<br>\r\nThe all take <strong>practice</strong>.</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -1900,7 +1900,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Version Control (git, hg, svn, etc)</h3>\r\n<p class=\"top3\">Learn basic commands solidly<br>\r\n  Get comfortable with major operations<br>\r\n  (<code>reverting</code>, <code>resolving conflicts</code>, <code>merging</code>, <code>branching</code>, etc)</p>", 
+        "content": "<h3 class=\"overlay top-5\">Version Control (git, hg, svn, etc)</h3>\r\n<p class=\"top3\">Learn basic commands solidly.<br>\r\n  Get comfortable with major operations<br>\r\n  (<code>reverting</code>, <code>resolving conflicts</code>, <code>merging</code>, <code>branching</code>, etc).</p>", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -1918,12 +1918,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
-        "notes": "", 
+        "helper": "You can make serious<br>contributions just using <strong><code>grep</code></strong> and <strong><code>find</code></strong>.", 
+        "notes": "<h3 class=\"overlay top-5\">CLI search tools</h3>\r\n\r\n<code>wildcarding</code>, <code>piping</code>, <code>command substitution</code>, <code>variables/control structures</code>, <code>iteration</code>, etc", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Command Line (CLI)</h3>\r\n<p class=\"top3\">learn to use it well (go beyond `<code>cd</code>`)</p>\r\n<code>wildcarding</code>, <code>piping</code>, <code>command substitution</code>, <code>variables/control structures</code>, <code>iteration</code>, etc", 
+        "content": "<h3 class=\"overlay top-5\">Command Line (CLI)</h3>\r\n<p class=\"top3\">\r\n<strong>Learn to use it well</strong> (go beyond `<code>cd</code>`).</p>\r\n<p class=\"top3\"><strong>Regular Expressions</strong> (aka: <strong><code>regex</code></strong>).</p>", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -1946,7 +1946,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Mailing Lists/IRC/IM</h3>\r\n<p class=\"top3\">When/Which to use<br>\r\n  Is there a code of conduct?</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5\">Mailing Lists/IRC/IM</h3>\r\n<p class=\"top3\">When/Which to use?<br>\r\nWho to ask about different matter.<br>\r\nGeneral channels v. channels-with-a-purpose.<br>\r\nLanguage expectations.<br>\r\n<span class=\"grey\">Is there a code of conduct?</span></p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -1987,12 +1987,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "For those to whom this is obvious: I'm not talking to you. thx k.", 
+        "helper": "For those to whom this is obvious: <br>I'm not talking to you. thxk.", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "//PARTICIPATION\r\n", 
+        "content": "<h1>//PARTICIPATION<h1>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -2001,7 +2001,7 @@
         "percent_complete": "0", 
         "order": 130, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "blue"
     }
 },
 {
@@ -2130,7 +2130,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1>Congratulations!</h1>\r\n<h3>You are already here. Thank you! <br>Share and enjoy.<h3>", 
+        "content": "<h2>Congratulations!</h2>\r\n<h3>You are already here. <strong>Thank you!</strong> <br>Share and enjoy.<h3>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -2153,8 +2153,8 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\">Communicate! <br>Communicate! <br>Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
-        "header": "SET PEOPLE'S <strong>EXPECTATIONS</strong>", 
+        "content": "<h3 class=\"top-2\">Communicate! <br>Communicate! <br>Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
+        "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -2177,7 +2177,7 @@
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top-3\">Tell people what you're doing.</h3>\r\n<p class=\"top5\">For their sake.<br>\r\n Save them from wondering.</p>", 
-        "header": "SET PEOPLE'S <strong>EXPECTATIONS</strong>", 
+        "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -2206,7 +2206,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 149, 
+        "order": 110, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2222,7 +2222,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">All mistakes will eventually be washed clean by time and entropy</h3>\r\n<br>\r\n<h3 class=\"overlay top-3\">Communities are very robust.</h3>\r\n", 
+        "content": "<h3 class=\"overlay top-3\">All mistakes will eventually be washed clean by time and entropy</h3>\r\n<br>\r\n<h3 class=\"op-3\">Communities are very robust.</h3>\r\n", 
         "header": "Don\u2019t get <strong>disheartened</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -2269,7 +2269,7 @@
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top-3\">Do what you say you're going to do.</h3>\r\n<p class=\"top5\">But <strong>if you can\u2019t: Communicate!</strong><br>\r\n FOSS people are spectacularly understanding.</p>", 
-        "header": "SET PEOPLE'S <strong>EXPECTATIONS</strong>", 
+        "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -2291,7 +2291,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Issue tracker</h3>\r\n<p class=\"top3\">Learn to write a good bug report.<br>\r\n  \"Design decision needed\"/\"close\"v.\"feedback\" <br>\r\n  Fields should and shouldn\u2019t use</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5\">Issue tracker</h3>\r\n<p class=\"top3\">Learn to write a good bug report.<br>\r\n  \"Design decision needed\"/\"close\"v.\"feedback\" <br>\r\n  Fields should and shouldn\u2019t use.</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2314,7 +2314,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Learn to WRITE (clearly)</h2>\r\n<p class=\"top3\">Popular markups<br>\r\n<code>ReST</code>, <code>markdown</code>, etc</p>", 
+        "content": "<h3 class=\"overlay top-5\">Learn to WRITE</h2>\r\n<p class=\"top3 grey\"> (clearly)</p>\r\n<p class=\"top3\">Effectively communicate.</p>\r\n<p class=\"top3\">Popular markups (<code>ReST</code>, <code>markdown</code>, etc).</p>", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2322,29 +2322,6 @@
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 120, 
-        "talk": 1, 
-        "colour_scheme": ""
-    }
-},
-{
-    "pk": 114, 
-    "model": "slides.slide", 
-    "fields": {
-        "is_enabled": true, 
-        "style": "", 
-        "helper": "", 
-        "notes": "", 
-        "section": 11, 
-        "time": null, 
-        "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">CLI search tool: grep and find</h3>\r\n<p class=\"top3\">Regular Expressions (aka: <strong><code>regex</code></strong>)</p>", 
-        "header": "Master your Tools", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
-        "slide_id": "", 
-        "percent_complete": "0", 
-        "order": 113, 
         "talk": 1, 
         "colour_scheme": ""
     }
