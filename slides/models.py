@@ -113,5 +113,5 @@ class Slide(models.Model):
             slides = Slide.objects.filter(talk=self.talk)
 
             highest = slides.aggregate(Max('order'))['order__max']
-            self.order = highest + 1
+            self.order = highest + 3
             self.save()

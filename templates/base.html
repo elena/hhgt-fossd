@@ -14,6 +14,11 @@
   <header class="caption">
     <h1>PyCon 2014</h1>
     <p>Hitchhikers Guide to Open Source Participation</p>
+    <h2>
+      Per slide: {{ time_per_slide }}<br>
+      {%  if time_per_section %}Per section: {{ time_per_section }}{% endif %}
+    </h2>
+    </p>
   </header>
 
 {% for slide in slides %}
@@ -33,7 +38,7 @@
 {% endfor %}
 
   <p class="badge"><a href="https://github.com/elena/hhgt-fossd.github.io">Fork me on Github</a></p>
-  <div class="progress"><div>
-  <script src="{{STATIC_URL}}/shower.min.js"></script>
+  {# <div class="progress"><div> #}
+  <script src="{{STATIC_URL}}shower.min.js"></script>
 </body>
 </html>
