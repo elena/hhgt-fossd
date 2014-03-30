@@ -45,6 +45,7 @@
 .slide .top5   {margin-top: 50px;}
 .slide .top8   {margin-top: 80px;}
 .slide .top12   {margin-top: 120px;}
+.slide .top12   {margin-top: 150px;}
 .slide .top20   {margin-top: 200px;}
 .slide .btm2   {margin-bottom: 20px;}
 .slide .btm3   {margin-bottom: 30px;}
@@ -62,10 +63,10 @@
 .slide h2.title {position: absolute;  left: 0;  top: 0;  width: 100%;}
 
 .helper {position: absolute; right: 0; bottom: 0;}
-.helper {border: 6px dashed white; color: white;}
+.helper {border: 6px dashed rgba(255,255,255,0.9); color: white;}
 .helper {font-family: "Oxygen Mono"; font-size: 30px; line-height: 36px;}
 
-.slide blockquote:before {content:"“"; position:absolute; margin:-10px 0 0 -90px;}
+.slide blockquote:before {content:"“"; position:absolute; margin: -30px 0 0 -90px;}
 .slide blockquote:before {font-size: 150px; font-style: italic;}
 .slide blockquote {}
 
@@ -101,12 +102,14 @@ section.white {
   {background-color: rgba(0, 0, 0, 0.78);}
 
 .helper
-  {background-color: rgba(0, 0, 0, 0.65);}
+  {background-color: rgba(0, 0, 0, 0.50);}
+
+blockquote
+  {background-color: rgba(0, 0, 0, 0.15);}
 
 .slide h2
   {text-shadow: 1px 1px 1px #292929;}
 
-section.green,
 .helper
   {text-shadow: 1px 1px 1px #111111;}
 
@@ -126,9 +129,12 @@ h3
 .helper
   {font-family: "Oxygen Mono";}
 
+blockquote
+  {font-family: "Droid Serif", serif;}
+
 /* colors */
 .slide blockquote:before, h2
-  {color: #ddd;}
+  {color: #333;}
 
 .slide h2.title /* dampen main title text to allow 'white' strong */
   {color: rgba(255,255,255, 0.78); font-weight: normal;}
@@ -138,12 +144,12 @@ h3
 
 /* font-sizes */
 body, .slide    {font-size: 42px; line-height: 64px;}
-blockquote      {font-size: 45px;}
+blockquote      {font-size: 39px;}
 
 .slide h3       {font-size: 65px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.slide h1, big  {font-size: 105px;}
+.slide h1, .big {font-size: 105px;}
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px;}
@@ -172,7 +178,7 @@ blockquote      {font-size: 45px;}
 
 /* elements */
 blockquote
-  {margin-left: 50px;}
+  {margin-left: 10px;}
 
 .slide ul, .body
   {margin-top: 80px;}
@@ -185,11 +191,12 @@ blockquote
 .slide ul        {padding: 20px 50px;}
 .overlay         {padding: 10px 25px;}
 .helper          {padding: 5px 15px;}
+blockquote       {padding: 5px 20px;}
 
 /* UNIQUE positionings
    Special cases where placement needs be particular due to content */
 
-#libre h2     {margin-top: 90px;}
+#libre h2     {margin-top: 340px;}
 #comp8440 h2  {margin-top: 90px;}
 #fri .overlay {margin-top: 90px;}
 #flossd h2    {margin-top: -50px;}
