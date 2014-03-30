@@ -66,9 +66,10 @@
 .helper {border: 6px dashed rgba(255,255,255,0.9); color: white;}
 .helper {font-family: "Oxygen Mono"; font-size: 30px; line-height: 36px;}
 
+.slide blockquote:before,
+.slide blockquote:after  {font-size: 150px; font-style: italic;}
 .slide blockquote:before {content:"“"; position:absolute; margin: -30px 0 0 -90px;}
-.slide blockquote:before {font-size: 150px; font-style: italic;}
-.slide blockquote {}
+.slide blockquote:after {content:"”"; position:absolute; margin: 13px 0 0;}
 
 section.slide {
     background: url('../../../slides/bg-1b.png') #bbb no-repeat top left;}
@@ -87,12 +88,14 @@ section.red {
     color: #ffaaaa;
 }
 section.yellow {
-    background: url('../../../slides/bg-1.png') #FFE96F no-repeat top left;}
+    background: url('../../../slides/bg-0.png') #FFBB54 no-repeat top left;}
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 
 /* background: url('../../../slides/bg_red.jpg') no-repeat top left;} */
 section.white {
-    background: url('../../../slides/bg-1.png') white no-repeat top left;}
+    background: url('../../../slides/bg-1.png') white no-repeat top left;
+    color: black;
+}
     /* background: url('../../../slides/bg_white.jpg') no-repeat top left;} */
 
 .overlay, .halfL h2, .halfR h2
@@ -133,7 +136,7 @@ blockquote
   {font-family: "Droid Serif", serif;}
 
 /* colors */
-.slide blockquote:before, h2
+.slide blockquote:before, .slide blockquote:after, h2
   {color: #333;}
 
 .slide h2.title /* dampen main title text to allow 'white' strong */
@@ -152,7 +155,7 @@ blockquote      {font-size: 39px;}
 .slide h1, .big {font-size: 105px;}
 
 /* UNIQUE font-sizes */
-#flossd h2      {font-size: 85px;}
+#flossd h2      {font-size: 85px; line-height: 90px;}
 #cow h2.title   {font-size: 65px;}
 
 /* other font/text attributes */
@@ -198,5 +201,9 @@ blockquote       {padding: 5px 20px;}
 
 #libre h2     {margin-top: 340px;}
 #comp8440 h2  {margin-top: 90px;}
-#fri .overlay {margin-top: 90px;}
-#flossd h2    {margin-top: -50px;}
+#flossd h2    {margin-top: -75px; margin-left: 160px;}
+#fri .overlay {
+    width: 890px;
+    margin-top: 90px;
+    margin-left: -100px;
+    padding: 10px 45px;}

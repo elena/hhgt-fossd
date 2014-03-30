@@ -296,7 +296,7 @@
         "versionB": false, 
         "versionC": false, 
         "slide_id": "libre", 
-        "percent_complete": "0", 
+        "percent_complete": "100", 
         "order": 9, 
         "talk": 1, 
         "colour_scheme": ""
@@ -377,7 +377,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "kernel source code available for academic purposes<br>.. but don't copy, change, derive, resell, etc ...", 
+        "helper": "kernel source code available for academic purposes<br>.. but don't <strong>copy, change, derive, resell</strong>, etc ...", 
         "notes": "<p>%gates # M$ os code for academics &gt;&gt; if you *change* it and omgz if you change and and try to sell those changes - lawyer drop from the sky</p>\r\n\r\n<p>Coincidentally these guys are direct contemporaries</p>\r\n\r\n<p>They were at Harvard <strong>at the same time</strong>. But nearly certainly never met as Richards was doing Smart and Bill was doing Law.</p>\r\n", 
         "section": 2, 
         "time": null, 
@@ -399,9 +399,9 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "style": "shout", 
-        "helper": "(I'll use interchangeably)", 
-        "notes": "<p>Strictly, there is no definition.</p>\r\n<p># FLOSSD - Free Libre Open-Source (Software Development) (inherited from Tridg)\r\n\r\n<p>Some might say that it&#39;s the definition provided by the Open Source Initiative (OSI), but they were unfortunately unable to trademark the term.</p>\r\n\r\n<p>Anyone who makes their source code available can officially say that their software is open source.</p>\r\n\r\n<p>Let&#39;s take a step back.</p>\r\n", 
+        "style": "", 
+        "helper": "Free Software, Open Source, <strong>FOSS</strong>, <strong>FLOSS</strong>", 
+        "notes": "<p>Strictly, there is no definition.</p>F\r\n<p># FLOSSD - Free Libre Open-Source (Software Development) (inherited from Tridg)\r\n\r\n<p>Some might say that it&#39;s the definition provided by the Open Source Initiative (OSI), but they were unfortunately unable to trademark the term.</p>\r\n\r\n<p>Anyone who makes their source code available can officially say that their software is open source.</p>\r\n\r\n<p>Let&#39;s take a step back.</p>\r\n", 
         "section": 3, 
         "time": null, 
         "bg_img": "", 
@@ -411,10 +411,10 @@
         "versionB": false, 
         "versionC": false, 
         "slide_id": "flossd", 
-        "percent_complete": "0", 
-        "order": 11, 
+        "percent_complete": "100", 
+        "order": 13, 
         "talk": 1, 
-        "colour_scheme": "white"
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -434,7 +434,7 @@
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
-        "percent_complete": "0", 
+        "percent_complete": "100", 
         "order": 8, 
         "talk": 1, 
         "colour_scheme": ""
@@ -457,7 +457,7 @@
         "versionB": false, 
         "versionC": false, 
         "slide_id": "fri", 
-        "percent_complete": "0", 
+        "percent_complete": "100", 
         "order": 10, 
         "talk": 1, 
         "colour_scheme": ""
@@ -676,18 +676,18 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "... a public, open source, such as a newspaper\"", 
-        "notes": " - 1998 boardroom in Netscape, scared for free (anti-establishment), &quot;implicitly threatening&quot; agressive rebranding</p>\r\n\r\n\r\n<p>An information source that&#39;s public and open. Eg, a Newspaper.</p>\r\n\r\n<p>The term open source was appropriated in this way during the early tech-boom because business people could just not stand the idea of &quot;<strong>Free</strong>&quot; (even in the speech) sense is/was an anathema to them.</p>", 
+        "helper": "Public, \"open\" source, such as a newspaper/phone book", 
+        "notes": " - 1998 boardroom in Netscape, scared for free (anti-establishment), &quot;implicitly threatening&quot; agressive rebranding</p>\r\n\r\n\r\n<p>An information source that&#39;s public and open. Eg, a Newspaper.</p>\r\n\r\nPublic, \"open\" source, such as a newspaper/phone book\r\n\r\n<p>The term open source was appropriated in this way during the early tech-boom because business people could just not stand the idea of &quot;<strong>Free</strong>&quot; (even in the speech) sense is/was an anathema to them.</p>", 
         "section": 3, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>In a Netscape boardroom in 1998</p> \r\n<p>(Eric Raymond was there)</p>", 
-        "header": "\"Open Source\"", 
+        "content": "<h2 class=\"center\">\"Invented\" in a <strong>boardroom</strong><br> in 1998</h2> \r\n<p class=\"top-2 center\">Term \"<strong class=\"\">Free</strong>\" implicitly threatening to them.</p>", 
+        "header": "\"<strong>Open Source</strong>\"", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
-        "percent_complete": "0", 
+        "percent_complete": "100", 
         "order": 12, 
         "talk": 1, 
         "colour_scheme": ""
@@ -1963,20 +1963,20 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "style": "shout", 
-        "helper": "If spreadsheets are working ...", 
+        "style": "", 
+        "helper": "Unless you have a patch actually delivered.<br>Even then <strong>be nice</strong>.", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "\r\nAccept Other People's Methods\r\n<p>Don't be douche about other people's<br>\r\n  FOSS technical solutions that are currently working.</p>\r\n", 
-        "header": "", 
+        "content": "<h3 class=\"overlay\"><strong>Don't criticise</strong> other people's technical <br>fixes/solutions that are <br><strong>currently working</strong>.</h3>\r\n<blockquote class=\"top3 center\">Rough concensus, running code.</blockquote>", 
+        "header": "On each other's team", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 125, 
+        "order": 149, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1992,7 +1992,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1>//ON<br>PARTICIPATION<h1>\r\n", 
+        "content": "<h1>//ON<br>PARTICIPATION</h1>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -2024,7 +2024,7 @@
         "percent_complete": "0", 
         "order": 131, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -2130,7 +2130,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h2>Congratulations!</h2>\r\n<h3>You are already here. <strong>Thank you!</strong> <br>Share and enjoy.<h3>", 
+        "content": "<h2 class=\"overlay center\">Congratulations!</h2>\r\n<h3 class=\"center\">You are already here.<br><strong>Thank you!</strong> <br>Share and enjoy.<h3>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -2139,7 +2139,7 @@
         "percent_complete": "0", 
         "order": 138, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -2153,7 +2153,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"top-2\">Communicate! <br>Communicate! <br>Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
+        "content": "<h3 class=\"top-2 overlay center\">Communicate! <br>Communicate! <br>Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
         "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -2217,21 +2217,21 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
-        "notes": "", 
+        "helper": "Nobody cares how many times you <strong>fall down</strong>, <br> <strong>ONE fewer</strong> than the times you <strong>get up</strong> all that matters.", 
+        "notes": "\r\n\r\n\r\nNobody cares how many times you <strong>fall down</strong>. <br> All matters: <strong>one fewer</strong> than the times you <strong>get up</strong>.", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">All mistakes will eventually be washed clean by time and entropy</h3>\r\n<br>\r\n<h3 class=\"op-3\">Communities are very robust.</h3>\r\n", 
+        "content": "<h3 class=\"overlay top-3\">All <strong>mistakes</strong> will eventually be <br><strong>washed clean</strong> by time and entropy</h3>\r\n<br>\r\n<h3 class=\"op-3\">Communities are very robust.</h3>\r\n", 
         "header": "Don\u2019t get <strong>disheartened</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 150, 
+        "order": 160, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -2240,13 +2240,13 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "<strong>Same people</strong> come around.", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>~ Common in the community<br>\r\n  ~ Be respectful!</p>\r\nIt's a small world after all!\r\n", 
-        "header": "Same people!", 
+        "content": "<h3 class=\"overlay\"><strong>Don't criticise</strong> people for life decisions.</h3>\r\n<p class=\"top3\"><strong>Common</strong> in the <strong>community</strong>.<br>\r\nIt's a small world.</p>\r\n", 
+        "header": "On each other's team", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -2322,6 +2322,29 @@
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 120, 
+        "talk": 1, 
+        "colour_scheme": ""
+    }
+},
+{
+    "pk": 114, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 11, 
+        "time": null, 
+        "bg_img": "", 
+        "content": "", 
+        "header": "On each other's team", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": false, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 153, 
         "talk": 1, 
         "colour_scheme": ""
     }
