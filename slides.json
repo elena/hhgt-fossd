@@ -788,11 +788,11 @@
     "pk": 29, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": false, 
+        "is_enabled": true, 
         "style": "", 
         "helper": "", 
         "notes": "<p>Usually when I give this talk I go on about how software projects vary beyond description.</p>\r\n\r\n<p>But actually Python projects are all pretty similar.</p>\r\n\r\n<p>Don&#39;t be imaginative. Just don&#39;t bother.</p>\r\n", 
-        "section": 6, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<p>Language %</p>\r\n\r\n<p><samp><span style=\"color:#696969\">C &nbsp; &nbsp; &nbsp; &nbsp; 42.39<br />\r\nC++ &nbsp; &nbsp; &nbsp; 11.75<br />\r\nJavascript 9.01</span><br />\r\n<span style=\"color:#808080\">Java &nbsp; &nbsp; &nbsp; 8.75<br />\r\nPHP &nbsp; &nbsp; &nbsp; &nbsp;4.73<br />\r\nAutoconf &nbsp; 4.40</span><br />\r\n<span style=\"color:#008000\"><strong>Python &nbsp; &nbsp; 2.19</strong></span><br />\r\n<span style=\"color:#808080\">Shell &nbsp; &nbsp; &nbsp;2.00<br />\r\nRuby &nbsp; &nbsp; &nbsp; 1.70<br />\r\nPerl &nbsp; &nbsp; &nbsp; 1.54<br />\r\nXML Schema 1.50<br />\r\nAssembler &nbsp;1.48</span></samp><br />\r\n&nbsp;</p>\r\n", 
@@ -1386,11 +1386,11 @@
     "pk": 58, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": false, 
+        "is_enabled": true, 
         "style": "", 
         "helper": "", 
         "notes": "- why Licenses: because legally noone is allowed without\r\n# Copyleft does what it can to save us from exploitation\r\n- Eben Moglin: 9:1 hardware\r\n- Bill Joy: embarrassed for us\r\n- seriously consider proper copyleft: LGPL/Eclipse/MPL\r\n- MPLv2 came out late 2012\r\n- don't have to enforce, but have the option, hard to change license later\r\nEvery last major tech company is involved in the the OSI sense now.\r\nSocial waste transaction cost (quote: Daniel B. Ravicher (famous lawyer))\r\n", 
-        "section": 6, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "", 
@@ -1616,11 +1616,11 @@
     "pk": 68, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": false, 
+        "is_enabled": true, 
         "style": "", 
         "helper": "IDC, 2014 survey", 
         "notes": "", 
-        "section": 6, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<div class=\"overlay\">\r\n<h3>3.3M People on ohloh<br>\r\n   &#8532;M projects</h3>\r\n</div>\r\n<div class=\"overlay\">\r\n<h3>18.5M programmers</h3>\r\n  <div>11M professionals<br>7.5M \"hobbiests\"</div>\r\n</div>\r\n", 
@@ -1777,21 +1777,21 @@
     "pk": 76, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": false, 
+        "is_enabled": true, 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "content": "\r\n%pep8\r\n##We are python\r\n<div class=\"halfR\">\r\n  <p>Me says: </p>\r\n  <h2>2 types of project</h2>\r\n</div>\r\n<!-- >> but we are python, Honestly all our projects are pretty similar. -->", 
-        "header": "", 
+        "content": "<h3 class=\"center opac7\">We Are Beautifully Consistent</h3>\r\n<p class=\"opac7 center grey\">Me says:</p>\r\n<h2 class=\"center grey\"><strong class=\"\">2 types</strong><br>of project</h2>\r\n", 
+        "header": "We are <strong>Python</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
-        "slide_id": "", 
+        "slide_id": "%pep8 ##We are python <div class=\"halfR\">", 
         "percent_complete": "0", 
-        "order": 987, 
+        "order": 98, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2080,7 +2080,7 @@
         "style": "", 
         "helper": "IRC, Email, Sprints, User Groups, Conference", 
         "notes": "push-pull social networking github, socially-engaged stay longer\r\nThings are so easy on github (cycle is faster than ever)", 
-        "section": 8, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top-3 center\">Engage Socially</h3>\r\n  <p class=\"top5  center\">You are statistically more likely to stay involved with the project for longer.</p>\r\n", 
@@ -2103,7 +2103,7 @@
         "style": "", 
         "helper": "A strong cultural feature of FOSS", 
         "notes": "With the occasional notable exception, ", 
-        "section": 8, 
+        "section": 14, 
         "time": null, 
         "bg_img": "kiter.jpg", 
         "content": "<div class=\"halfL\">\r\n  <p class=\"overlay top12\">I'm awesome (<span class=\"red big\">\u2717</span>)</p>\r\n  <p class=\"overlay right\"><span class=\"red\">You suck!</span></p>\r\n</div>\r\n\r\n<div class=\"halfR\">\r\n  <p class=\"overlay top12\">I'm not very good (<span class=\"green big\">\u2713</span>)</p>\r\n  <p class=\"overlay right\"><span class=\"green\">You're awesome</span></p>\r\n</div>", 
@@ -2126,7 +2126,7 @@
         "style": "", 
         "helper": "It causes unnecessary friction<br>and impedes your progress.", 
         "notes": "", 
-        "section": 8, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<h1 class=\"center\"><strong>Drop</strong> your <strong>Ego</strong></h1>\r\n<p class=\"top12\">We all want the project to be the best.</p>\r\n", 
@@ -2149,7 +2149,7 @@
         "style": "", 
         "helper": "Giving <strong>good constructive criticism</strong><br> is a <strong>really hard</strong> skill.", 
         "notes": "", 
-        "section": 8, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top-2 center\">Learn to take \"feedback\"<br>(ie <strong>criticism</strong>)</h3>\r\n<p class=\"top3 center\">Accepting criticism is actually a skill.\r\n  <br>YOU ARE <strong>NOT</strong> YOUR CODE.\r\n</p>\r\n\r\n", 
@@ -3118,7 +3118,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<blockquote>\r\nThe software development methodologies adopted <br>\r\nare not the same as those found in <br>\r\nclosed source development projects.\r\n</blockquote>\r\n!! that thing aymeric said", 
+        "content": "<h1>//As a<br />\r\n<strong>Coder</strong></h1>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3141,7 +3141,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "", 
+        "content": "<blockquote class=\"center\">The software development methodologies adopted<br />\r\nare <strong>not the same</strong> as those found<br />\r\nin <strong>closed source</strong> development projects.</blockquote>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3253,7 +3253,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 10, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "Rarely document failures.\r\nStop talking in private.\r\n\"Don't be in the cave\"", 
@@ -3276,7 +3276,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 10, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "Lot of insecurity, nobody wants to look stupid.\r\n\"Myth of the Genius Programmer\"\r\n\r\nFailure is necessary.\r\nHot white fear you get, if you're going to: fail fast!\r\nFailure is not a option is BS, failing on the same thing repeatedly.\r\nDon't assign blame.", 
@@ -3299,7 +3299,7 @@
         "style": "", 
         "helper": "<strong>Resist the urge</strong> to weigh in, unless asked personally.", 
         "notes": ">> It's easy to get sucked in to non-technically-threatening discussions, fight this compulsion.<br>\r\n(unless your advice is specifically ask for!)\r\n\r\n<p></p>\r\n- beware of projects with a very well discussed logo and no code\r\n\r\nOnly invested people allowed to bikeshed.\r\n<strong>", 
-        "section": 10, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "<p class=\"center top15\">1957 argument that organizations give disproportionate weight to trivial issues.</p>\r\n<blockquote class=\"center\">\r\n<strong>Time spent</strong> in discussion will be in <strong>inverse proportion</strong> to the <strong>complexity</strong>.\r\n</blockquote>\r\n\r\n", 
@@ -3322,7 +3322,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 10, 
+        "section": 14, 
         "time": null, 
         "bg_img": "", 
         "content": "Doesn't matter how smart your are, if you can't work in a team/reach concensus.\r\nYou will not be successful.\r\n\r\nGet more than 5 people *you can't do anything*.\r\ntime and effort inversely proportional to complexity of project", 
@@ -3506,7 +3506,7 @@
         "style": "", 
         "helper": "\"Putting your thumb print on it.\"", 
         "notes": "", 
-        "section": 10, 
+        "section": 14, 
         "time": null, 
         "bg_img": "bikeshedding.jpg", 
         "content": "<h3 class=\"overlay center\">Bike-shedding</h3>\r\n<p class=\"center top20\">How much domain experience/knowledge required?</p>\r\n", 
@@ -3529,7 +3529,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "", 
@@ -3552,7 +3552,7 @@
         "style": "", 
         "helper": "Like \"Shared document\" but terminator style.", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<h2>VERSION CONTROL SYSTEMS (VCS)</h2>\r\n<h3>In the beginning ...</h3>\r\n<p>One person could work on project at once.</p>\r\n<p>Wikipedia's history page.</p>", 
@@ -3575,7 +3575,7 @@
         "style": "", 
         "helper": "Larry Wall", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<div class=\"halfR\">\r\n<h2>diff/patch</h2>\r\n<p>Universal language of software change.</p>\r\n</div>", 
@@ -3598,7 +3598,7 @@
         "style": "", 
         "helper": "All these systems are open source.", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "one-server", 
         "content": "<div class=\"halfR\">\r\n<h2><strong>SCCS</strong> (1972)<br />\r\n<strong>RCS</strong> (1982)<br />\r\n<strong>CVS</strong> (1986/9)<br />\r\n<strong>SVN</strong> (2000)</h2>\r\nMost of the Free Software ever developed.\r\n</div>", 
@@ -3621,7 +3621,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "DVCS wars early 2000s", 
@@ -3644,7 +3644,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<div class=\"overlay\">\r\n  <strong>Centralized</strong> \"Forking\" is <strong>BAD</strong>\r\n  <br><span class=\"grey\">discouraged (can be an act of aggression).</span>\r\n</div>\r\n\r\n<div class=\"overlay\">\r\n  <strong>Distributed</strong> \"Forking\" is the <strong>first thing you do</strong>.\r\n</div>", 
@@ -3667,7 +3667,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "vcs-graph", 
         "content": "<h3>3rd great era</h3>", 
@@ -3690,7 +3690,7 @@
         "style": "", 
         "helper": "So recently as 2007(!) lauding sourceforge.", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"center\">\r\n<strong>sourceforge</strong> <br>compared to<br> <strong>github</strong>\r\n</h3>\r\n<p class=\"center\">Is `<code>git</code>` perfect?<br><span class=\"grey\">(probably not)</span><br>", 
@@ -3713,7 +3713,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<h1>//CONCENTRATE</h1>\r\n<p class=\"top12 right\">Version Control ", 
@@ -3736,7 +3736,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<div class=\"vcswf\">\r\n<h4 class=\"top\">#1 Seek/Find/Reach out</h4>\r\n<p class=\"top0\">\r\n  <strong>notice</strong> itch<br>\r\n  <strong>find code</strong> <span class=\"grey\">(eyeball community)</span>\r\n</p>\r\n\r\n<h4 class=\"\">#2 Do your thing</h4>\r\n<p class=\"top0\">\r\n  <strong>fork</strong>, <strong>clone</strong>\r\n  <br>poke around <strong>code</strong> <span class=\"grey\">(grep, code, etc)</span>\r\n  <br><strong>commit</strong>, <strong>push</strong> <span class=\"grey\">(to your version)</span>\r\n</p>\r\n\r\n<h4 class=\"\">#3 Send back your work</h4>\r\n<p class=\"top0\"><strong>pull-request</strong> <span class=\"grey\">(comment/email)</span></p>\r\n</div>\r\n", 
@@ -3759,7 +3759,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 12, 
+        "section": 7, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"top3\">#1 <strong>Notice</strong> Itch, Find Source\r\n  <br><span class=\"gap grey\">Seek/Find/Reach out.</span></h3>\r\n<h3 class=\"top3\">#2 <strong>Work</strong> on your Contribution</h3>\r\n<h3 class=\"top3\">#3 <strong>Return</strong> your Contributions\r\n  <br><span class=\"gap grey\">Notify project, get feedback.</span></h3>\r\n", 
@@ -4048,6 +4048,52 @@
         "order": 73, 
         "talk": 1, 
         "colour_scheme": "yellow"
+    }
+},
+{
+    "pk": 179, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 10, 
+        "time": null, 
+        "bg_img": "", 
+        "content": "<h1>//As a<br />\r\n<strong>Non-Coder</strong></h1>\r\n", 
+        "header": "", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": false, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 259, 
+        "talk": 1, 
+        "colour_scheme": ""
+    }
+},
+{
+    "pk": 180, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 14, 
+        "time": null, 
+        "bg_img": "", 
+        "content": "", 
+        "header": "", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": false, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 990, 
+        "talk": 1, 
+        "colour_scheme": ""
     }
 },
 {
@@ -31509,6 +31555,852 @@
         "object_repr": "88. Finding Projects-99 ()", 
         "object_id": "88", 
         "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1504, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:28:07.580Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed content for slide \"137. Being Involved (do)-229 ()\". Changed content for slide \"138. Being Involved (do)-232 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1505, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:28:32.128Z", 
+        "object_repr": "138. Being Involved (do)-232 ()", 
+        "object_id": "138", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1506, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:29:07.007Z", 
+        "object_repr": "137. Being Involved (do)-229 ()", 
+        "object_id": "137", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1507, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:31:13.958Z", 
+        "object_repr": "138. Being Involved (do)-232 ()", 
+        "object_id": "138", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1508, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:31:50.974Z", 
+        "object_repr": "138. Being Involved (do)-232 ()", 
+        "object_id": "138", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1509, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:32:28.695Z", 
+        "object_repr": "138. Being Involved (do)-232 ()", 
+        "object_id": "138", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1510, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.960Z", 
+        "object_repr": "89. _unsorted-100 ()", 
+        "object_id": "89", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1511, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.964Z", 
+        "object_repr": "92. _unsorted-101 ()", 
+        "object_id": "92", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1512, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.968Z", 
+        "object_repr": "91. _unsorted-103 ()", 
+        "object_id": "91", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1513, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.974Z", 
+        "object_repr": "144. _unsorted-250 ()", 
+        "object_id": "144", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1514, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.980Z", 
+        "object_repr": "155. _unsorted-252 ()", 
+        "object_id": "155", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1515, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.987Z", 
+        "object_repr": "145. _unsorted-253 ()", 
+        "object_id": "145", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1516, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:35:11.996Z", 
+        "object_repr": "146. _unsorted-256 ()", 
+        "object_id": "146", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1517, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:36:36.799Z", 
+        "object_repr": "29. _unsorted-929 ()", 
+        "object_id": "29", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1518, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:36:36.806Z", 
+        "object_repr": "68. _unsorted-950 (how-many)", 
+        "object_id": "68", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1519, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:36:36.811Z", 
+        "object_repr": "58. _unsorted-951 ()", 
+        "object_id": "58", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1520, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:36:36.815Z", 
+        "object_repr": "76. _unsorted-987 ()", 
+        "object_id": "76", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1521, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:36:36.823Z", 
+        "object_repr": "90. _unsorted-105 ()", 
+        "object_id": "90", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1522, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.805Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1523, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.810Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1524, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.815Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1525, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.821Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1526, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.827Z", 
+        "object_repr": "160. VCS-295 ()", 
+        "object_id": "160", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1527, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.834Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1528, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.842Z", 
+        "object_repr": "162. VCS-301 ()", 
+        "object_id": "162", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1529, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.852Z", 
+        "object_repr": "163. VCS-304 ()", 
+        "object_id": "163", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1530, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.859Z", 
+        "object_repr": "164. VCS-307 ()", 
+        "object_id": "164", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1531, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.867Z", 
+        "object_repr": "165. VCS-310 (vcswf)", 
+        "object_id": "165", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1532, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:37:11.873Z", 
+        "object_repr": "166. VCS-313 ()", 
+        "object_id": "166", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1533, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:38:31.148Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Added slide \"179. Being Involved (do)-259 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1534, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:38:54.246Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed order for slide \"147. Being Involved (do)-260 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1535, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:39:10.544Z", 
+        "object_repr": "143. _unsorted-247 ()", 
+        "object_id": "143", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1536, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:39:10.551Z", 
+        "object_repr": "147. Being Involved (do)-259 ()", 
+        "object_id": "147", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1537, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:42:04.205Z", 
+        "object_repr": "_unsorted", 
+        "object_id": "14", 
+        "change_message": "Added slide \"180. _unsorted-990 ()\". Changed is_enabled for slide \"29. _unsorted-929 ()\". Changed is_enabled for slide \"68. _unsorted-950 (how-many)\". Changed is_enabled for slide \"58. _unsorted-951 ()\". Changed content, header and slide_id for slide \"76. _unsorted-987 (%pep8 ##We are python <div class=\"halfR\">)\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1538, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:42:14.330Z", 
+        "object_repr": "_unsorted", 
+        "object_id": "14", 
+        "change_message": "Changed is_enabled for slide \"76. _unsorted-987 (%pep8 ##We are python <div class=\"halfR\">)\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1539, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:42:28.800Z", 
+        "object_repr": "76. Finding Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1540, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:43:05.171Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1541, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:43:19.002Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order for slide \"76. Projects-110 (%pep8 ##We are python <div class=\"halfR\">)\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1542, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:47:29.555Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed order and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1543, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:48:28.800Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1544, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:48:59.518Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1545, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:49:39.252Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1546, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:49:49.779Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1547, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:50:56.106Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1548, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:51:32.675Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1549, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:51:56.315Z", 
+        "object_repr": "76. Projects-987 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1550, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T12:52:26.032Z", 
+        "object_repr": "76. Projects-98 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed order.", 
         "user": [
             "elena"
         ], 
