@@ -324,7 +324,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 3, 
+        "order": 4, 
         "talk": 1, 
         "title": "Early/History"
     }
@@ -354,7 +354,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 4, 
+        "order": 8, 
         "talk": 1, 
         "title": "Projects"
     }
@@ -364,7 +364,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 7, 
+        "order": 16, 
         "talk": 1, 
         "title": "VCS"
     }
@@ -374,7 +374,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 5, 
+        "order": 10, 
         "talk": 1, 
         "title": "Finding Projects"
     }
@@ -384,7 +384,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 8, 
+        "order": 18, 
         "talk": 1, 
         "title": "Being a Project Owner"
     }
@@ -394,7 +394,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 6, 
+        "order": 14, 
         "talk": 1, 
         "title": "Being Involved (do)"
     }
@@ -404,7 +404,7 @@
     "model": "slides.section", 
     "fields": {
         "colour_scheme": "", 
-        "order": 9, 
+        "order": 20, 
         "talk": 1, 
         "title": "Tools"
     }
@@ -417,6 +417,16 @@
         "order": 99, 
         "talk": 1, 
         "title": "Fin"
+    }
+},
+{
+    "pk": 13, 
+    "model": "slides.section", 
+    "fields": {
+        "colour_scheme": "", 
+        "order": 6, 
+        "talk": null, 
+        "title": "Why Contribute"
     }
 },
 {
@@ -1416,7 +1426,7 @@
         "style": "", 
         "helper": "(not money)", 
         "notes": "<p><strong>autonomy</strong>, <strong>mastery</strong> and <strong>purpose</strong></p>\r\n<p>%:: autonomy, mastery and purpose &gt;&gt; back to the idea of &quot;# Fun - Actually can&#39;t stop us. &gt;&gt; autonomy, mastery and purpose &gt;&gt; # Skilling up/being the &quot;Best&quot; &gt;&gt; - not &quot;during the day&quot; &gt;&gt; - exposure &gt;&gt; - omgz the best</p>\r\n", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "autonomy.jpg", 
         "content": "\r\n", 
@@ -1439,7 +1449,7 @@
         "style": "", 
         "helper": "Srsly, want to be the best?", 
         "notes": "  >> I imagine everyone here know this:\r\n  >> in these economic times we're a sector that's not suffering\r\n", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top center\">\r\n  \"<strong>Skill Up</strong>\"\r\n<br>Be the \"<strong>Best</strong>\"<br>\r\n</h3>\r\n\r\n<h3 class=\"overlay top3 center\">\r\n  <strong>Try things</strong><br>you don't do \"during the day\"<br>\r\n</h3>", 
@@ -1462,7 +1472,7 @@
         "style": "", 
         "helper": "Not cool to talk about in old-skool projects.", 
         "notes": "# Ethics\r\n - Aaron-Swartz-factor\r\n - altruism, values, \"make the world a better place\"\r\n - democracy, meritocracy\r\n - not cool to talk about in old-skool projects,\r\n   >> but I think (but unvalidated) it's cool for us\r\n", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "aaron.jpg", 
         "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\">\r\n  \"Make the <br>\r\n  <strong>world a better place.</strong>\"\r\n</div>\r\nMoral values<br>\r\nDemocracy/Meritocracy\r\n<div class=\"overlay top2\">But not everyone!</div>\r\n</div>", 
@@ -1497,7 +1507,7 @@
         "percent_complete": "0", 
         "order": 59, 
         "talk": 1, 
-        "colour_scheme": "green"
+        "colour_scheme": "white"
     }
 },
 {
@@ -1508,7 +1518,7 @@
         "style": "", 
         "helper": "Our brains are wired this way.", 
         "notes": "", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "connection.jpg", 
         "content": "<p class=\"top20 center\">Pretty much anything <br>anyone ever doesis for this.</p>\r\n<h3 class=\"top1 center\"><strong>Recognition</strong></h3>\r\n", 
@@ -1541,7 +1551,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 80, 
+        "order": 62, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1551,13 +1561,13 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "style": "shout", 
-        "helper": "Knowledge cannot independently be derived.", 
+        "style": "", 
+        "helper": "", 
         "notes": "", 
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1 class=\"upper\">All <strong>projects</strong><br>are <strong>different</strong></h1>", 
+        "content": "<h1 class=\"upper grey\">All <strong>projects</strong><br>are <strong>different</strong></h1>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -1566,7 +1576,7 @@
         "percent_complete": "0", 
         "order": 81, 
         "talk": 1, 
-        "colour_scheme": "red"
+        "colour_scheme": "white"
     }
 },
 {
@@ -1575,13 +1585,13 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "AKA \"Scratching your own itch\"", 
+        "helper": "Personal need/\"Scratching your own itch\"", 
         "notes": "", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>What's YOUR <strong>interest</strong>?<br>\r\nWhat's YOUR <strong>strength</strong>?<br>\r\nWhat <strong>skill</strong> do YOU currently want to work on?<br>\r\nWhat <strong>problem</strong> to YOU want to solve?<br>\r\nWhat do YOU do in your <strong>spare time</strong>?<br>\r\nweird form of teamwork</p>\r\n", 
-        "header": " \"Meeting a <strong>personal need</strong>\"", 
+        "content": "<p style=\"margin: -5px 0 0 50px; line-height: 63px;\" class=\"grey\">What's your <strong class=\"black\">interest</strong>?<br>\r\nWhat's your <strong class=\"black\">strength</strong>?<br>\r\nWhat <strong class=\"black\">skill</strong> do you currently want to work on?<br>\r\nWhat <strong class=\"black\">problem</strong> to you want to solve?<br>\r\nWhat do you do in your <strong class=\"black\">spare time</strong>?<br>\r\nweird form of teamwork</p>", 
+        "header": "", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -1589,7 +1599,7 @@
         "percent_complete": "0", 
         "order": 63, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1626,7 +1636,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"top-2 btm2\"><strong><a href=\"https://openhatch.org\">https://openhatch.org</a></strong></h3>\r\n<p>\r\n  <a href=\"https://github.com/explore\">https://github.com/explore</a><br>\r\n  <a href=\"http://sourceforge.net/p/forge/helpwanted/\">http://sourceforge.net/p/forge/helpwanted/</a><br>\r\n  <a href=\"http://teachingopensource.org/\">http://teachingopensource.org/</a><br>\r\n  <a href=\"https://opensource.com/ (redhat)\">https://opensource.com/ (redhat)</a><br>\r\n  <a href=\"http://community.ubuntu.com/contribute/\">http://community.ubuntu.com/contribute/</a><br>\r\n  <a href=\"http://contribute.jquery.org/\">http://contribute.jquery.org/</a><br>\r\n</p>\r\n", 
+        "content": "<div style=\"margin-left: 30px;\">\r\n<h3 class=\"black top-2 btm2\"><a href=\"https://openhatch.org\">https://<strong>openhatch</strong>.org</a></h3>\r\n\r\n<p class=\"grey\"><a href=\"https://github.com/explore\">https://<strong>github</strong>.com/<strong>explore</strong></a><br />\r\n<a href=\"http://sourceforge.net/p/forge/helpwanted/\">http://<strong>sourceforge</strong>.net/p/forge/<strong>helpwanted</strong>/</a><br />\r\n<a href=\"http://teachingopensource.org/\">http://teachingopensource.org/</a><br />\r\n<a href=\"https://opensource.com/ (redhat)\">https://opensource.com/ (redhat)</a><br />\r\n<a href=\"http://community.ubuntu.com/contribute/\">http://community.ubuntu.com/contribute/</a><br />\r\n<a href=\"http://contribute.jquery.org/\">http://contribute.jquery.org/</a></p>\r\n</div>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -1635,7 +1645,7 @@
         "percent_complete": "0", 
         "order": 61, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1644,7 +1654,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "Knowledge cannot <br>independently be derived.", 
         "notes": "", 
         "section": 6, 
         "time": null, 
@@ -1658,7 +1668,7 @@
         "percent_complete": "0", 
         "order": 82, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1681,7 +1691,7 @@
         "percent_complete": "0", 
         "order": 83, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1690,7 +1700,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "But ...", 
         "notes": "\r\n*Devanbu, Prem; Filkov, Vladimir et al (CS, UC Davies)", 
         "section": 6, 
         "time": null, 
@@ -1702,9 +1712,9 @@
         "versionC": false, 
         "slide_id": "cathedral-bazaar", 
         "percent_complete": "0", 
-        "order": 84, 
+        "order": 95, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1725,7 +1735,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 85, 
+        "order": 88, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1748,7 +1758,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 120, 
+        "order": 84, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1757,7 +1767,7 @@
     "pk": 76, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "style": "", 
         "helper": "", 
         "notes": "", 
@@ -1771,7 +1781,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 87, 
+        "order": 987, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1782,11 +1792,11 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "\"When Free Software Isn't Better\" Benjamin Mako Hill @makoshark", 
+        "helper": "\"When Free Software Isn't Better\" Benjamin Mako Hill", 
         "notes": " >> I suspected this but then had it confirmed by\r\n    @mako (friend of Aaron Swartz and ubuntu co-founder)", 
         "section": 6, 
         "time": null, 
-        "bg_img": "", 
+        "bg_img": "median.png", 
         "content": "", 
         "header": "Average: <strong>1</strong> contributor", 
         "versionA": false, 
@@ -1794,9 +1804,9 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 88, 
+        "order": 99, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -1817,7 +1827,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 89, 
+        "order": 100, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1833,16 +1843,16 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h2 class=\"top-2\">Have a good <br><strong>internal sense</strong><br> of when you're <strong>using<br> Free Software</strong></h2>\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "content": "<h2 class=\"top-2 center\">Have a good <br><strong>internal sense</strong><br> of when you're <br><strong>using Free Software</strong></h2>\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "header": "Learn to Look", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 90, 
+        "order": 70, 
         "talk": 1, 
-        "colour_scheme": "yellow"
+        "colour_scheme": ""
     }
 },
 {
@@ -1851,19 +1861,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "Remember: You're contributing your time and energy", 
+        "helper": "Projects will naturally capture your interest.", 
         "notes": "<!-- # Change your brain: learn to look for ways you can help -->\r\n<!-- - open your brain -->\r\n<!-- - use your brains, thinking is hard -->", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2 center\">Think like a Contributor</h3>\r\n<p class=\"top3\">Change your brain:\r\n<div class=\"right\"><strong>learn to look</strong> for ways you can help.</div>\r\n<br><div class=\"top5\">Projects to work on will emerge naturally.<div></p>\r\n\r\n\r\n\r\n\r\n", 
-        "header": "Learn to Look", 
+        "content": "<h3 class=\"overlay top-2 center\">Rather than being a Passive User</h3>\r\n\r\n<h3 class=\"top3 center\">Change your brain:\r\n<div class=\"center top0\"><strong>Learn to Look</strong><br>for ways you can help.</div>\r\n</h3>\r\n\r\n\r\n\r\n\r\n", 
+        "header": "Think like a Contributor", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 91, 
+        "order": 73, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1920,19 +1930,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "It takes <strong>effort</strong>, use your brain.", 
+        "helper": "Remember: You're contributing <strong>effort</strong>, it takes energy.", 
         "notes": "Remember: You're contributing your time and energy", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2 center\">Rather than being a passive user</h3>\r\n<p class=\"top1\">When you find <strong>bugs</strong>:\r\n  <br><span class=\"gap\"> <strong>isolate</strong>, <strong>replicate</strong> and <strong>report</strong> them<strong>properly</strong>.<br>\r\n <strong>Read</strong> and <strong>understand</strong> documentation<br>\r\n  <span class=\"gap\">(for clarity and coherence).</span><br>\r\n  <strong>Details</strong>, details, details (spelling, cruft).</p>\r\n\r\n", 
+        "content": "<p class=\"top1 center\">\r\n  <strong>Details</strong>, details, details <span class=\"opac7\">(spelling, cruft, etc).</span></p>\r\n</p>\r\n\r\n<p class=\"top3 center\"><span class=\"opac7\">When you find <strong>bugs</strong>:</span>\r\n  <br> <strong>Isolate</strong>, <strong>replicate</strong> and <strong>report</strong> bugs <strong>properly</strong>.\r\n</p>\r\n<p class=\"top3 center\">\r\n <strong>Read</strong> and <strong>understand</strong> documentation<br>\r\n  <span class=\"opac7\">(for clarity and coherence).</span><br>\r\n</p>\r\n", 
         "header": "Think like a Contributor", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 92, 
+        "order": 75, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1948,14 +1958,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1>Start <strong>Small</strong></h1>\r\n<p class=\"top12\">This is not the last time I'm going to say this.</p>\r\n", 
+        "content": "<h1 class=\"center\">Start <strong>Small</strong></h1>\r\n<p class=\"top12\">This is not the last time I'm going to say this.</p>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 94, 
+        "order": 97, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1978,7 +1988,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 96, 
+        "order": 80, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2001,7 +2011,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 95, 
+        "order": 85, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2012,19 +2022,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "First time: Like dinner parties and marathons<br>don't attempt something you've never done before.", 
+        "helper": "First time: Like dinner parties and marathons <br>don't attempt something you've never done before.", 
         "notes": "<div class=\"halfR\">\r\n</div>\r\nconfident, easy: \r\n\r\nFirst time: Like dinner parties and marathons <br>don't attempt something you've never done before.\r\nYou might waltz straight in.\r\n- it's like farting", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>For your first commit:<br>\r\n ~ Punch your weight<br>\r\n ~ Play to <strong>your strengths</strong><br>\r\n ~ Have <strong>Realistic Expectations</strong>\r\n</p>\r\n", 
+        "content": "<div style=\"margin-left: 120px; \">\r\n<h3 class=\"\">For your <strong>first commit</strong>:</h3>\r\n<p>\r\n\t<li>Punch your weight</li>\r\n\t<li>Play to <strong>your strengths</strong></li>\r\n\t<li>Have <strong>realistic expectations</strong></li>\r\n</p>\r\n</div>\r\n<p style=\"text-align: center;\">Talk to the project!</p>\r\n", 
         "header": "My First Contribution", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "imbalanced-fight", 
         "percent_complete": "0", 
-        "order": 93, 
+        "order": 98, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2035,12 +2045,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "Do something fun and productive.", 
+        "helper": "Some of the best FOSS projects in history.", 
         "notes": "Gotta procrastinate? Want to alleviate some guilt?\r\n>> Some of the best projects are the fruit of procrastinating Uni/PhD students.\r\n", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">Constructive Procrastination</h3>\r\n  <p class=\"top5\">\r\n    Students?<br>\r\n    Bored with work?\r\n  </p>\r\n", 
+        "content": "<h3 class=\"top-3 center\">Constructive Procrastination</h3>\r\n  <p class=\"top3 overlay  center\">\r\n    Studying?<br>\r\n    Bored with work?\r\n  </p>\r\n<p class=\"center\">Do something fun and productive.</p>\r\n", 
         "header": "Things you can do", 
         "versionA": false, 
         "versionB": false, 
@@ -2063,7 +2073,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">Engage Socially</h3>\r\n  <p class=\"top5\">You are statistically more likely to stay involved with the project for longer.</p>\r\n", 
+        "content": "<h3 class=\"overlay top-3 center\">Engage Socially</h3>\r\n  <p class=\"top5  center\">You are statistically more likely to stay involved with the project for longer.</p>\r\n", 
         "header": "Things you can do", 
         "versionA": false, 
         "versionB": false, 
@@ -2109,7 +2119,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1><strong>Drop</strong> your <strong>Ego</strong></h1>\r\n<p class=\"top12\">We all want the project to be the best.</p>\r\n", 
+        "content": "<h1 class=\"center\"><strong>Drop</strong> your <strong>Ego</strong></h1>\r\n<p class=\"top12\">We all want the project to be the best.</p>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -2132,7 +2142,7 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\">Learn to take \"feedback\" <div class=\"right\">(ie <strong>criticism</strong>)</div></h3>\r\n<p class=\"top8\">Accepting criticism is actually a skill.\r\n  <br>YOU ARE <strong>NOT</strong> YOUR CODE.\r\n</p>\r\n\r\n", 
+        "content": "<h3 class=\"overlay top-2 center\">Learn to take \"feedback\"<br>(ie <strong>criticism</strong>)</h3>\r\n<p class=\"top3 center\">Accepting criticism is actually a skill.\r\n  <br>YOU ARE <strong>NOT</strong> YOUR CODE.\r\n</p>\r\n\r\n", 
         "header": "Things you can do", 
         "versionA": false, 
         "versionB": false, 
@@ -2150,12 +2160,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "A substantial number of us are<br>self-taught/from other fields.", 
+        "helper": "Programmers are often self-taught/from other fields.", 
         "notes": "(spend ... time ... studying these things", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Most of our tools take YEARS to learn!</h3>\r\n<p class=\"top3\">These are our basic skills, <br>\r\n  we spend most of the time with them.<br>\r\nThe all take <strong>practice</strong>.</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5 center\">Most of our tools take YEARS to learn!</h3>\r\n<p class=\"top3 center\">Learn our Basic Tools<br>\r\n  We expend most of our effort/lives with them.</p>\r\n<p class=\"top3 center\">The all take <strong>practice</strong>.</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2178,7 +2188,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Text Editor</h3>\r\n<p class=\"top3\">Pick a good one, learn to use it well.</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5 center\">Text Editor</h3>\r\n\r\n<p class=\"top3 center\">Pick a <strong>good one</strong>, learn to <strong>use it well</strong>.</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2201,7 +2211,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Version Control (git, hg, svn, etc)</h3>\r\n<p class=\"top3\">Learn basic commands solidly.<br>\r\n  Get comfortable with major operations<br>\r\n  (<code>reverting</code>, <code>resolving conflicts</code>, <code>merging</code>, <code>branching</code>, etc).</p>", 
+        "content": "<h3 class=\"overlay top-5 center\">Version Control (git, hg, svn, etc)</h3>\r\n\r\n<p class=\"top3 center\">Learn <strong>basic commands</strong> solidly.<br />\r\nGet comfortable with <strong>major operations</strong><br />\r\n(<code>reverting</code>, <code>resolving conflicts</code>, <code>merging</code>, <code>branching</code>, etc).</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2219,12 +2229,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "You can make serious<br>contributions just using <strong><code>grep</code></strong> and <strong><code>find</code></strong>.", 
-        "notes": "<h3 class=\"overlay top-5\">CLI search tools</h3>\r\n\r\n<code>wildcarding</code>, <code>piping</code>, <code>command substitution</code>, <code>variables/control structures</code>, <code>iteration</code>, etc", 
+        "helper": "<code>aliasing</code>,  <code>wildcarding</code>, <code>command substitution</code>, <code>piping</code>, <code>variables/control structures</code>, <code>iteration</code>, etc", 
+        "notes": "<h3 class=\"overlay top-5\">CLI search tools</h3>\r\n\r\n<code>aliasing</code>, \r\n<code>wildcarding</code>, <code>command substitution</code>, <code>piping</code>, <code>variables/control structures</code>, <code>iteration</code>, etc\r\n\r\nYou can make serious<br>contributions just using <strong><code>grep</code></strong> and <strong><code>find</code></strong>.", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Command Line (CLI)</h3>\r\n<p class=\"top3\">\r\n<strong>Learn to use it well</strong> (go beyond `<code>cd</code>`).</p>\r\n<p class=\"top3\"><strong>Regular Expressions</strong> (aka: <strong><code>regex</code></strong>).</p>", 
+        "content": "<h3 class=\"overlay top-5 center\">Command Line (CLI)</h3>\r\n\r\n<p class=\"top2 center\">Learn to <strong>use it well</strong> (go beyond `<code>cd</code>`).</p>\r\n\r\n<p class=\"top0 center\">Regular Expressions (<strong><code>regex</code></strong>).</p>\r\n\r\n<p class=\"top0 center\"><strong><code>grep</code></strong> and <strong><code>find</code></strong></p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2247,7 +2257,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Mailing Lists/IRC/IM</h3>\r\n<p class=\"top3\">When/Which to use?<br>\r\nWho to ask about different matter.<br>\r\nGeneral channels v. channels-with-a-purpose.<br>\r\nLanguage expectations.<br>\r\n<span class=\"grey\">Is there a code of conduct?</span></p>\r\n", 
+        "content": "<h3 class=\"overlay top-5 center\">Mailing Lists/IRC/IM</h3>\r\n\r\n<p class=\"top3 center\"><strong>When</strong>/<strong>Which</strong> to use?<br />\r\n<strong>Who to ask</strong> about different matter.<br />\r\n<strong>General</strong> channels v. channels-with-a-<strong>purpose</strong>.<br />\r\nLanguage <strong>expectations</strong>.<br />\r\n<span class=\"grey\">Is there a code of conduct?</span></p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2277,7 +2287,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 149, 
+        "order": 125, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2316,14 +2326,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "kroto.jpg", 
-        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\">\r\nOn feeling stupid: <br>\r\n<strong>Everyone does.</strong> <br>\r\n<strong>Everyone is</strong> about most things.<br>\r\nThe \"<b>best</b>\" leverage.\r\n</div>\r\n</div>", 
-        "header": "SAYING: <strong>I DON\u2019T KNOW</strong>", 
+        "content": "<div class=\"halfR\" style=\"margin-left: -50px; width: 555px\">\r\n<div class=\"overlay top12\">\r\n<span class=\"opac7\">On feeling stupid:</span> <br>\r\nEveryone <strong>does</strong>.<br>\r\nEveryone <strong>is</strong> about most things.<br>\r\n<div class=\"top2\">The \"<b>best</b>\" leverage\r\n<div class=\"opac7\">(and are usually very humble).</div>\r\n</div>\r\n</div>", 
+        "header": "&nbsp; &nbsp; &nbsp; SAYING: <strong>I DON\u2019T KNOW</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 131, 
+        "order": 150, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -2339,14 +2349,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<div class=\"overlay\">\r\n<p><strong>Rule of Thumb</strong>:<br>\r\nIf you're stuck for <strong>1\u20442 hour</strong><br>\r\n<span class=\"gap\">go to: IRC, mailing lists, IM, etc\r\n</span></p>\r\n</div>\r\n\r\n<p>How long will you drive around before you ask for directions?</p>\r\n", 
+        "content": "<div class=\"overlay\">\r\n<h3><strong>Rule of Thumb</strong>:<br>\r\nIf you're stuck for <strong>1\u20442 hour</strong><br>\r\n<span class=\"gap\">go to: IRC, mailing lists, IM, etc\r\n</span></h3>\r\n</div>\r\n\r\n<p class=\"top2 center opac7\">How long will you drive around before <br>you <b>ask for directions</b>?</p>\r\n", 
         "header": "<strong>ASK</strong>/<strong>LISTEN</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 133, 
+        "order": 153, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2357,19 +2367,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "They know the feel because they've been there", 
+        "helper": "They know the feel because they've been there.", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\"><strong>Don\u2019t agonise</strong> (spare yourself pain!)</h3>\r\n<p class=\"top2\">\r\nExperienced people often can see/feel <br>\r\n<span class=\"gap\">you struggling (but will be polite).<span></p>\r\n<p class=\"top2\">\r\nIn short term: it may be intimidating to ask<br>\r\nIn medium term: you're learning faster\r\n</p>\r\n", 
+        "content": "<h3 class=\"overlay\"><strong>Don\u2019t agonise</strong> (spare yourself pain!)</h3>\r\n<p class=\"top2\">\r\nExperienced people often can see/feel <br>\r\n<span class=\"gap\">you struggling (but will be polite).<span></p>\r\n<p class=\"top2\">\r\nIn short term: it may be intimidating to ask<br>\r\nIn medium term: you're learning faster\r\n</p>\r\n", 
         "header": "<strong>ASK</strong>/<strong>LISTEN</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 132, 
+        "order": 152, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2385,14 +2395,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-2\">\r\nState it up front.<br>\r\nState as simply as possible. </h3><br>\r\n<blockquote>\r\nbrief, short, to the point, concise, succint<br>\r\nsummary, pithy, crisp, incisive\r\n</blockquote>\r\n", 
+        "content": "<h3 class=\"overlay\">State it <strong>up front</strong>.<br />\r\nState as <strong>simply</strong> as possible.</h3>\r\n\r\n<blockquote class=\"top5 center\"><span style=\"white-space:nowrap;\">brief, short, to the point, concise, succint</span><br />\r\nsummary, pithy, crisp, incisive</blockquote>\r\n", 
         "header": "ASK/EXPLAIN: <strong>Be Terse</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 134, 
+        "order": 145, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2403,12 +2413,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "Both <strong>Online</strong> and <strong>Offline</strong>", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<blockquote>Decisions are made by the people<br>who turn up. </blockquote>\r\n<p class=\"top3\">\r\nUser Groups, Hackerspaces, Conferences</p>\r\n<p>\r\nIRC, Email Lists, </p>", 
+        "content": "<blockquote class=\"center\"><strong>Decisions</strong> are <strong>made</strong> by<br />\r\nthe people <strong>who show up</strong>.</blockquote>\r\n\r\n<p class=\"top5 center\">User Groups, Hackerspaces, Conferences</p>\r\n\r\n<p class=\"top0 center\">IRC, Email Lists,</p>\r\n", 
         "header": "<strong>Turn up</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -2450,12 +2460,12 @@
         "is_enabled": true, 
         "style": "", 
         "helper": "Shallow and often.", 
-        "notes": "18%\r\n", 
+        "notes": "18%\r\nSET <strong>EXPECTATIONS</strong>", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"top-2 overlay center\">Communicate! <br>Communicate! <br>Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
-        "header": "SET <strong>EXPECTATIONS</strong>", 
+        "content": "<h3 class=\"overlay center\">Communicate! Communicate!</h3>\r\n<p class=\"top3\">95% human problems are caused by ...<div class=\"right\">... and are solved by.</div></p>", 
+        "header": "Communicate! ", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -2477,14 +2487,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">Tell people what you're doing.</h3>\r\n<p class=\"top5\">For their sake.<br>\r\n Save them from wondering.</p>", 
+        "content": "<h3 class=\"overlay top-3\">Tell people what you're doing.</h3>\r\n<p class=\"top5 center\">For their sake.<br>\r\n Save them from wondering.</p>", 
         "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 145, 
+        "order": 149, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2523,7 +2533,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">All <strong>mistakes</strong> will eventually be <br><strong>washed clean</strong> by time and entropy</h3>\r\n<br>\r\n<h3 class=\"op-3\">Communities are very robust.</h3>\r\n", 
+        "content": "<h3 class=\"overlay top-3 center\">All <strong>mistakes</strong> will eventually be <br><strong>washed clean</strong> by time and entropy.</h3>\r\n<br>\r\n<h3 class=\"top-3 center\">Communities are very robust.</h3>\r\n", 
         "header": "Don\u2019t get <strong>disheartened</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -2546,14 +2556,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay\"><strong>Don't criticise</strong> people for life decisions.</h3>\r\n<p class=\"top3\"><strong>Common</strong> in the <strong>community</strong>.<br>\r\nIt's a small world.</p>\r\n", 
+        "content": "<h3 class=\"overlay\"><strong>Don't criticise</strong> people for life decisions.</h3>\r\n<p class=\"top3 center\"><strong>Common</strong> in the <strong>community</strong>.<br>\r\nIt's a small world.</p>\r\n", 
         "header": "On each other's team", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 151, 
+        "order": 128, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2564,19 +2574,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "18%", 
         "notes": "Probably the most valuable thing <br>I\u2019ve learnt in the last 5 years.", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3\">Do what you say you're going to do.</h3>\r\n<p class=\"top5\">But <strong>if you can\u2019t: Communicate!</strong><br>\r\n FOSS people are spectacularly understanding.</p>", 
+        "content": "<h3 class=\"overlay\">Do what you say you're going to do.</h3>\r\n<p class=\"top5\">But <strong>if you can\u2019t: Communicate!</strong><br>\r\n FOSS people are spectacularly understanding.</p>", 
         "header": "SET <strong>EXPECTATIONS</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 148, 
+        "order": 147, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2587,12 +2597,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
-        "notes": "", 
+        "helper": "Don't just copy/paste traceback.", 
+        "notes": "Don't just copy/paste traceback.", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Issue tracker</h3>\r\n<p class=\"top3\">Learn to write a good bug report.<br>\r\n  \"Design decision needed\"/\"close\"v.\"feedback\" <br>\r\n  Fields should and shouldn\u2019t use.</p>\r\n", 
+        "content": "<h3 class=\"overlay top-5 center\">Issue tracker</h3>\r\n\r\n<p class=\"top3 center\">Learn to write a <strong>good bug report</strong>.<br />\r\n&quot;Design decision needed&quot;/&quot;<strong>close</strong>&quot;v.&quot;<strong>feedback</strong>&quot;<br />\r\nFields you should and shouldn&rsquo;t use.</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2615,7 +2625,7 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-5\">Learn to WRITE</h2>\r\n<p class=\"top3 grey\"> (clearly)</p>\r\n<p class=\"top3\">Effectively communicate.</p>\r\n<p class=\"top3\">Popular markups (<code>ReST</code>, <code>markdown</code>, etc).</p>", 
+        "content": "<h3 class=\"overlay top-5 center\">Learn to <strong>WRITE</strong></h3>\r\n\r\n<p class=\"top0 grey center\">(clearly)</p>\r\n\r\n<p class=\"top3 center\">Effectively Communicate</p>\r\n\r\n<p class=\"top3 center\">Have a working knowledge of popular <strong>markups</strong><br />\r\n(<code>ReST</code>, <code>markdown</code>, etc).</p>\r\n", 
         "header": "Master your Tools", 
         "versionA": false, 
         "versionB": false, 
@@ -2633,19 +2643,19 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "Save it for the proprietary world.", 
         "notes": "", 
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "content": "", 
+        "content": "<h3 class=\"overlay\"><strong>Don&#39;t criticise</strong> other FOSS projects.</h3>\r\n\r\n<p class=\"top3 center\"> ... without <strong>contacting the project</strong> first.<br />\r\nSend an <strong>email</strong> or submit a <strong>ticket</strong>.</p>\r\n\r\n<p class=\"right\">Pull up <strong>anyone else</strong> you see doing this.</p>\r\n\r\n", 
         "header": "On each other's team", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 153, 
+        "order": 123, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -3760,7 +3770,7 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "Fortunately we all use virtual environments.", 
         "notes": "", 
         "section": 9, 
         "time": null, 
@@ -3841,9 +3851,9 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 75, 
+        "order": 150, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -3903,7 +3913,7 @@
         "section": 2, 
         "time": null, 
         "bg_img": "breach.jpg", 
-        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\">\r\nDon&#39;t have to enforce.<br />\r\n<strong>Breach</strong>? Ask politely <br><span class=\"grey\">(possibly a mistake)</span>.<br />\r\n<br>\r\nIf have a good license\r\n<br>can pull out FOSS lawyer.\r\n</div>\r\n</div>\r\n", 
+        "content": "<div class=\"halfR\" style=\"width: 485px; margin-left: 28px;\">\r\n<div class=\"top12\">\r\nDon&#39;t <strong>have</strong> to enforce.\r\n</div>\r\n\r\n<div class=\"top3\"><strong>Breach</strong>? Ask politely<br />\r\n<span class=\"grey\">(possibly a mistake)</span>.</div>\r\n\r\n<div class=\"top3\">If you have a <strong>good license</strong><br />\r\ncan ask a FOSS lawyer for help.</div>\r\n\r\n</div>\r\n", 
         "header": "<strong>Using</strong> Your License", 
         "versionA": false, 
         "versionB": false, 
@@ -3969,10 +3979,10 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1>//WHY<br>\r\nCONTRIBUTE?</h1>", 
+        "content": "<h1 class=\"grey\">//<strong>WHY</strong><br>\r\nCONTRIBUTE?</h1>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3981,7 +3991,7 @@
         "percent_complete": "0", 
         "order": 51, 
         "talk": 1, 
-        "colour_scheme": "blue"
+        "colour_scheme": "white"
     }
 },
 {
@@ -3992,7 +4002,7 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"overlay top center\">\r\n  Watch fast <strong>Failure</strong><br>Pursue <strong>Perfection</strong><br>\r\n</h3>\r\n\r\n<p class=\"overlay top3 center\">\r\n  Exposure <strong>FOR you</strong> to <span class=\"lgrey\">things and people</span><br>\r\n  Exposure of <span class=\"lgrey\">things and people</span> <strong>TO you</strong>\r\n</p>\r\n", 
@@ -4015,17 +4025,17 @@
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 6, 
+        "section": 13, 
         "time": null, 
         "bg_img": "fun.png", 
-        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\" style=\"margin-left:-10px;\"><strong>Compelling</strong> and <strong>challenging</strong>\r\n</div>\r\n\r\n\r\n<div style=\"white-space:nowrap\"><strong>Chaotic</strong>, <strong>Anarchic</strong> <br> <span class=\"gap\">and <strong>Opinionated</strong></span></div>\r\n\r\n<div class=\"overlay\"><strong>Serendipitous</strong>:<br />\r\nDon&#39;t know where it will go.</div>\r\n\r\nWe&#39;d <span class=\"grey\" style=\"opacity: 0.5\">(probably)</span> do it anyway.\r\n\r\n</div>\r\n", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\" style=\"margin-left:-10px;\"><strong>Compelling</strong> and <strong>challenging</strong>\r\n</div>\r\n\r\n\r\n<div style=\"white-space:nowrap\"><strong>Chaotic</strong>, <strong>Anarchic</strong> <br> <span class=\"gap\">and <strong>Opinionated</strong></span></div>\r\n\r\n<div class=\"overlay\"><strong>Serendipitous</strong>:<br />\r\nDon&#39;t know where it will go.</div>\r\n\r\nWe&#39;d <span class=\"white\" style=\"opacity: 0.5\">(probably)</span> do it anyway.\r\n\r\n</div>\r\n", 
         "header": "<strong>Fun</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 71, 
+        "order": 73, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -27384,6 +27394,3318 @@
         "action_time": "2014-03-31T08:07:09.873Z", 
         "object_repr": "178. Projects-71 ()", 
         "object_id": "178", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1276, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:09:05.658Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order for slide \"178. Projects-73 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1277, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:10:49.326Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order for slide \"170. Projects-87 ()\". Changed order and is_enabled for slide \"76. Projects-987 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1278, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:10:54.370Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1279, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:11:53.505Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed colour_scheme for slide \"71. Projects-82 ()\". Changed colour_scheme for slide \"72. Projects-83 ()\". Changed colour_scheme for slide \"73. Projects-84 (cathedral-bazaar)\". Changed colour_scheme for slide \"170. Projects-87 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1280, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:23:04.090Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed bg_img for slide \"77. Projects-88 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1281, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:25:11.475Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed colour_scheme for slide \"77. Projects-88 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1282, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:25:48.730Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed helper for slide \"77. Projects-88 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1283, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:31:56.864Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content and colour_scheme for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1284, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:32:47.213Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content and colour_scheme for slide \"176. Projects-51 ()\". Changed content and style for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1285, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:33:08.789Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1286, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:33:31.242Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content and colour_scheme for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1287, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:33:51.307Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed colour_scheme for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1288, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:36:00.428Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content for slide \"176. Projects-51 ()\". Changed content and colour_scheme for slide \"66. Projects-81 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1289, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:36:37.272Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed helper for slide \"66. Projects-81 ()\". Changed helper for slide \"71. Projects-82 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1290, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:38:24.995Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed helper for slide \"73. Projects-84 (cathedral-bazaar)\". Changed order for slide \"74. Projects-100 ()\". Changed order for slide \"170. Projects-150 ()\". Changed order for slide \"78. Projects-120 ()\". Changed order for slide \"75. Projects-110 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1291, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:40:47.246Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order for slide \"73. Projects-95 (cathedral-bazaar)\". Changed order for slide \"77. Projects-99 ()\". Changed order for slide \"75. Projects-84 ()\". Changed order for slide \"78. Projects-88 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1292, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:41:11.118Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order for slide \"78. Projects-100 ()\". Changed order for slide \"74. Projects-88 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1293, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:42:51.548Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed content for slide \"178. Projects-73 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1294, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-03-31T08:44:34.943Z", 
+        "object_repr": "Why", 
+        "object_id": "13", 
+        "change_message": "", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1295, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:44:42.142Z", 
+        "object_repr": "Why Contribute", 
+        "object_id": "13", 
+        "change_message": "Changed title.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1296, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.494Z", 
+        "object_repr": "Why Contribute", 
+        "object_id": "13", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1297, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.498Z", 
+        "object_repr": "Early/History", 
+        "object_id": "2", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1298, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.503Z", 
+        "object_repr": "Projects", 
+        "object_id": "6", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1299, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.507Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1300, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.511Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1301, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.516Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1302, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.521Z", 
+        "object_repr": "Being a Project Owner", 
+        "object_id": "9", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1303, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:45:21.528Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1304, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.650Z", 
+        "object_repr": "176. Why Contribute-51 ()", 
+        "object_id": "176", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1305, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.664Z", 
+        "object_repr": "61. Why Contribute-54 ()", 
+        "object_id": "61", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1306, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.730Z", 
+        "object_repr": "177. Why Contribute-55 ()", 
+        "object_id": "177", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1307, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.781Z", 
+        "object_repr": "60. Why Contribute-60 ()", 
+        "object_id": "60", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1308, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.821Z", 
+        "object_repr": "64. Why Contribute-68 ()", 
+        "object_id": "64", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1309, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.854Z", 
+        "object_repr": "62. Why Contribute-72 ()", 
+        "object_id": "62", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1310, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:46:18.866Z", 
+        "object_repr": "178. Why Contribute-73 ()", 
+        "object_id": "178", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1311, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:47:06.352Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed colour_scheme for slide \"63. Finding Projects-59 ()\". Changed colour_scheme for slide \"69. Finding Projects-61 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1312, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:47:47.784Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed colour_scheme for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1313, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:49:25.611Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"69. Finding Projects-61 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1314, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:50:21.239Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"69. Finding Projects-61 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1315, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:51:28.755Z", 
+        "object_repr": "69. Finding Projects-61 ()", 
+        "object_id": "69", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1316, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:53:29.214Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed colour_scheme for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1317, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:53:57.814Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1318, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:54:37.761Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1319, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:55:11.793Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1320, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:55:47.122Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1321, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:56:04.260Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1322, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:56:32.954Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1323, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:57:12.656Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed helper and header for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1324, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:57:43.782Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1325, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:58:01.716Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content and colour_scheme for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1326, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:58:32.587Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content and colour_scheme for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1327, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T08:59:51.504Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1328, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:00:40.547Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1329, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:01:11.431Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"67. Finding Projects-63 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1330, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:03:12.545Z", 
+        "object_repr": "67. Finding Projects-63 ()", 
+        "object_id": "67", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1331, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:23:26.999Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order for slide \"79. Finding Projects-70 ()\". Changed order for slide \"80. Finding Projects-73 ()\". Changed order for slide \"83. Finding Projects-75 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1332, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:25:10.103Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed helper for slide \"80. Finding Projects-73 ()\". Changed helper for slide \"83. Finding Projects-75 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1333, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:25:57.574Z", 
+        "object_repr": "79. Finding Projects-70 ()", 
+        "object_id": "79", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1334, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:26:21.209Z", 
+        "object_repr": "79. Finding Projects-70 ()", 
+        "object_id": "79", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1335, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:27:14.939Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"80. Finding Projects-73 ()\". Changed content for slide \"83. Finding Projects-75 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1336, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:28:16.943Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"80. Finding Projects-73 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1337, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:28:57.928Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1338, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:29:20.701Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1339, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:30:19.296Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1340, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:31:17.456Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1341, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:32:43.554Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1342, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:33:52.967Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1343, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:33:55.803Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1344, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:34:45.583Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1345, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:35:41.890Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1346, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:35:47.553Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1347, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:36:58.098Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1348, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:37:12.162Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1349, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:38:43.511Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1350, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:39:30.324Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1351, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:40:06.187Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1352, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:40:51.836Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1353, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:41:09.334Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1354, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:41:39.767Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1355, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:41:52.419Z", 
+        "object_repr": "83. Finding Projects-75 ()", 
+        "object_id": "83", 
+        "change_message": "Changed helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1356, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:43:25.821Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1357, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:43:58.508Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1358, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:45:25.695Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1359, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:45:51.182Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1360, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:46:33.333Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1361, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:46:49.544Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1362, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:47:11.774Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1363, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:47:28.072Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1364, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:48:30.459Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1365, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:48:52.884Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1366, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:49:57.051Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1367, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:50:03.324Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1368, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:50:12.582Z", 
+        "object_repr": "87. Finding Projects-93 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1369, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:51:20.881Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order for slide \"87. Finding Projects-98 (imbalanced-fight)\". Changed order for slide \"84. Finding Projects-97 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1370, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:52:09.456Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order for slide \"65. Finding Projects-96 ()\". Changed order for slide \"86. Finding Projects-80 ()\". Changed order for slide \"85. Finding Projects-85 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1371, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:52:47.501Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order for slide \"65. Finding Projects-62 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1372, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:53:28.508Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1373, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:54:56.239Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"89. Finding Projects-99 ()\". Changed content for slide \"88. Finding Projects-100 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1374, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:56:07.010Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content and helper for slide \"88. Finding Projects-100 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1375, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:57:18.117Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"88. Finding Projects-100 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1376, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T09:57:44.650Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"88. Finding Projects-100 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1377, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:00:24.472Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"83. Finding Projects-75 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1378, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:01:24.110Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed order for slide \"86. Finding Projects-85 ()\". Changed order for slide \"85. Finding Projects-80 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1379, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:04:24.269Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"92. Finding Projects-101 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1380, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:04:47.710Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"92. Finding Projects-101 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1381, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:05:31.616Z", 
+        "object_repr": "92. Finding Projects-101 ()", 
+        "object_id": "92", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1382, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:06:38.692Z", 
+        "object_repr": "Finding Projects", 
+        "object_id": "8", 
+        "change_message": "Changed content for slide \"84. Finding Projects-97 ()\". Changed content for slide \"92. Finding Projects-101 ()\". Changed content for slide \"91. Finding Projects-103 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1383, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:08:35.622Z", 
+        "object_repr": "Being a Project Owner", 
+        "object_id": "9", 
+        "change_message": "Changed helper for slide \"167. Being a Project Owner-180 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1384, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:12:15.472Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"93. Tools-104 ()\". Changed content for slide \"94. Tools-108 ()\". Changed content for slide \"95. Tools-110 ()\". Changed content for slide \"96. Tools-112 ()\". Changed content for slide \"97. Tools-118 ()\". Changed content for slide \"113. Tools-120 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1385, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:12:50.442Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"93. Tools-104 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1386, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:13:40.503Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"93. Tools-104 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1387, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:14:11.761Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed helper for slide \"93. Tools-104 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1388, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:14:47.404Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"93. Tools-104 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1389, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:15:13.558Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"93. Tools-104 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1390, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:16:07.811Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"95. Tools-110 ()\". Changed content for slide \"112. Tools-111 ()\". Changed content for slide \"96. Tools-112 ()\". Changed content for slide \"97. Tools-118 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1391, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:16:42.102Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"94. Tools-108 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1392, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:17:26.264Z", 
+        "object_repr": "112. Tools-111 ()", 
+        "object_id": "112", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1393, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:18:18.748Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed helper for slide \"112. Tools-111 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1394, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:18:56.636Z", 
+        "object_repr": "112. Tools-111 ()", 
+        "object_id": "112", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1395, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:19:32.858Z", 
+        "object_repr": "112. Tools-111 ()", 
+        "object_id": "112", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1396, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:21:45.541Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1397, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:22:08.961Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed content, notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1398, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:22:32.149Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1399, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:22:52.714Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1400, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:23:33.207Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1401, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:24:05.308Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1402, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:25:22.690Z", 
+        "object_repr": "97. Tools-118 ()", 
+        "object_id": "97", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1403, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:26:19.378Z", 
+        "object_repr": "113. Tools-120 ()", 
+        "object_id": "113", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1404, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:26:46.453Z", 
+        "object_repr": "113. Tools-120 ()", 
+        "object_id": "113", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1405, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:27:13.538Z", 
+        "object_repr": "113. Tools-120 ()", 
+        "object_id": "113", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1406, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:27:30.661Z", 
+        "object_repr": "113. Tools-120 ()", 
+        "object_id": "113", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1407, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:29:25.767Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1408, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:29:48.418Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1409, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:30:42.215Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1410, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:31:33.641Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1411, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:32:09.686Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1412, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:32:33.193Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed header.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1413, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:32:53.638Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed header.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1414, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:33:34.486Z", 
+        "object_repr": "100. Tools-131 ()", 
+        "object_id": "100", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1415, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:34:38.346Z", 
+        "object_repr": "103. Tools-134 ()", 
+        "object_id": "103", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1416, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:35:00.867Z", 
+        "object_repr": "103. Tools-134 ()", 
+        "object_id": "103", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1417, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:35:24.508Z", 
+        "object_repr": "103. Tools-134 ()", 
+        "object_id": "103", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1418, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:35:49.914Z", 
+        "object_repr": "103. Tools-134 ()", 
+        "object_id": "103", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1419, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:36:22.477Z", 
+        "object_repr": "103. Tools-134 ()", 
+        "object_id": "103", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1420, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:37:08.502Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1421, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:37:25.887Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1422, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:38:19.863Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1423, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:39:03.970Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1424, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:39:22.607Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1425, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:39:33.130Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1426, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:40:20.886Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1427, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:40:48.226Z", 
+        "object_repr": "104. Tools-135 ()", 
+        "object_id": "104", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1428, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:41:37.289Z", 
+        "object_repr": "107. Tools-145 ()", 
+        "object_id": "107", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1429, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:43:47.750Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"102. Tools-152 ()\". Changed order for slide \"101. Tools-153 ()\". Changed order for slide \"103. Tools-154 ()\". Changed order for slide \"104. Tools-175 ()\". Changed order for slide \"105. Tools-178 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1430, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:44:39.807Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"107. Tools-146 ()\". Changed order for slide \"103. Tools-145 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1431, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:45:44.078Z", 
+        "object_repr": "106. Tools-144 ()", 
+        "object_id": "106", 
+        "change_message": "Changed header, content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1432, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:47:24.728Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content, header and notes for slide \"106. Tools-144 ()\". Changed order for slide \"98. Tools-180 ()\". Changed order for slide \"110. Tools-185 ()\". Changed order for slide \"114. Tools-190 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1433, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:47:48.635Z", 
+        "object_repr": "106. Tools-144 ()", 
+        "object_id": "106", 
+        "change_message": "Changed header, content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1434, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:48:36.299Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"107. Tools-149 ()\". Changed order for slide \"111. Tools-147 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1435, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:49:30.973Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"106. Tools-144 ()\". Changed content for slide \"103. Tools-145 ()\". Changed content for slide \"111. Tools-147 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1436, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:49:58.404Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"103. Tools-145 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1437, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:50:35.737Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"102. Tools-152 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1438, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:51:15.924Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"101. Tools-153 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1439, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:53:06.014Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed helper for slide \"102. Tools-152 ()\". Changed content for slide \"101. Tools-153 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1440, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:53:46.840Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"107. Tools-149 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1441, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:54:11.832Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"100. Tools-150 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1442, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:54:43.619Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed helper for slide \"111. Tools-147 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1443, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:55:32.099Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"104. Tools-135 ()\". Changed order for slide \"105. Tools-138 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1444, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:56:51.185Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"102. Tools-156 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1445, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:57:48.768Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"101. Tools-153 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1446, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:58:39.661Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"102. Tools-152 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1447, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:59:16.125Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"109. Tools-160 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1448, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T10:59:48.424Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"109. Tools-160 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1449, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:04:48.182Z", 
+        "object_repr": "114. Tools-190 ()", 
+        "object_id": "114", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1450, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:05:37.860Z", 
+        "object_repr": "114. Tools-190 ()", 
+        "object_id": "114", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1451, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:06:33.895Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed content for slide \"110. Tools-185 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1452, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:07:27.596Z", 
+        "object_repr": "Tools", 
+        "object_id": "11", 
+        "change_message": "Changed order for slide \"98. Tools-125 ()\". Changed order for slide \"110. Tools-128 ()\". Changed order for slide \"114. Tools-123 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1453, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:08:33.437Z", 
+        "object_repr": "94. Tools-108 ()", 
+        "object_id": "94", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1454, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:09:57.196Z", 
+        "object_repr": "95. Tools-110 ()", 
+        "object_id": "95", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1455, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:10:21.161Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1456, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:22:26.085Z", 
+        "object_repr": "173. Early/History-67 ()", 
+        "object_id": "173", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1457, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:23:15.890Z", 
+        "object_repr": "173. Early/History-67 ()", 
+        "object_id": "173", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1458, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:24:47.938Z", 
+        "object_repr": "173. Early/History-67 ()", 
+        "object_id": "173", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1459, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T11:26:53.012Z", 
+        "object_repr": "173. Early/History-67 ()", 
+        "object_id": "173", 
         "change_message": "Changed content.", 
         "user": [
             "elena"

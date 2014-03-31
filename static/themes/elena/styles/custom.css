@@ -36,6 +36,7 @@
 .slide .orange {color: rgba(219, 124, 0, 1);/*rgba(179, 120, 31, 1); */}
 .slide .red    {color: red}
 .slide .gap    {padding-left: 100px;}
+.slide .opac7    {opacity: 0.7;}
 
 .slide .top-2   {margin-top: -20px;}
 .slide .top-4   {margin-top: -45px;}
