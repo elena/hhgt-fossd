@@ -31,6 +31,7 @@ class SlideInlines(admin.TabularInline):
         'colour_scheme',
         'section',
         'slide_id',
+        'is_enabled',
     ]
     extra = 0
     can_delete = True
