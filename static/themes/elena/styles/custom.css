@@ -132,7 +132,7 @@ body
 h3
   {font-family: 'Yanone Kaffeesatz', sans-serif;}
 
-.helper
+.helper, .code
   {font-family: "Oxygen Mono";}
 
 blockquote
@@ -155,7 +155,7 @@ blockquote      {font-size: 39px;}
 .slide h3       {font-size: 65px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.slide .big            {font-size: 105px;}
+.slide .big     {font-size: 105px; line-height: 105px;}
 .slide h1       {font-size: 95px; line-height: 105px;}
 
 /* UNIQUE font-sizes */
@@ -214,3 +214,4 @@ blockquote       {padding: 5px 20px;}
 #vcswf .top  {margin-top: -85px;}
 #vcswf p     {margin-left: 150px;}
 #vcswf.vcswf {margin-left: 50px;}
+.slide td div.code {float:none}

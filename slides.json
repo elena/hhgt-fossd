@@ -1162,11 +1162,11 @@
         "is_enabled": false, 
         "style": "", 
         "helper": "", 
-        "notes": "", 
+        "notes": "# Python 2% (Black Duck, ohloh, @mako)\r\n  >> no offense guys\r\n  - ~335K/ 1% active (0.7%/0.4% high/very high)\r\n", 
         "section": 2, 
         "time": null, 
-        "bg_img": "", 
-        "content": "# Python 2% (Black Duck, ohloh, @mako)\r\n  >> no offense guys\r\n  - ~335K/ 1% active (0.7%/0.4% high/very high)\r\n", 
+        "bg_img": "chart.png", 
+        "content": "", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -1196,7 +1196,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 42, 
+        "order": 942, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1242,7 +1242,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 44, 
+        "order": 944, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1322,7 +1322,7 @@
     "fields": {
         "is_enabled": false, 
         "style": "", 
-        "helper": "Ref: blackduck data", 
+        "helper": "", 
         "notes": "%license-graph\r\n# Licenses graph\r\n- Never has a little guy lost\r\nhobbiest with volunteer lawyer against biggest corporations", 
         "section": 2, 
         "time": null, 
@@ -3781,21 +3781,21 @@
     "pk": 168, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": false, 
+        "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "Don&#39;t write your own", 
         "notes": "", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "LIMITATION OF LIABILITY\r\n- Disclaim warantee\r\n- Non-Commercial\r\n- Non-derivative is a pain!", 
-        "header": "", 
+        "content": "<div class=\"center\">\r\n<div class=\"top2\"><span class=\"red\">LIMITATION OF LIABILITY/Disclaim Warranty</span><br />\r\nCopy &quot;<strong>rights</strong>&quot; allowed? <strong>Freedoms </strong>offered?<br />\r\nCommercial/Derivative/&quot;contact the author&quot;</div>\r\n\r\n<div class=\"top2\"><strong>Good lawyers</strong> will simply <strong>reject</strong>.<br />\r\n<strong>Evil lawyers</strong> will hunt you down <em>forever</em>.</div>\r\n\r\n<div>&nbsp;</div>\r\n</div>\r\n", 
+        "header": "Use an <strong>OSI License</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 316, 
+        "order": 45, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -3811,7 +3811,7 @@
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "<table>\r\n<tr><td>GPLv2/LGPLv2 and GPLv3/LGPLv3</td><td><strong>54%<strong></td><tr>\r\n<tr><td>Apache License 2.0</td><td>13%</td></tr>\r\n<tr><td>MIT License</td><td>11%</td></tr>\r\n<tr><td>BSD License 2.0 License</td><td>7%</td></tr>\r\n<tr class=\"grey\"><td>rest</td><td><15%</td></tr>\r\n</table>", 
+        "content": "<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><strong>GPLv2</strong>/<strong>LGPLv2</strong> and <strong>GPLv3</strong>/<strong>LGPLv3</strong></td>\r\n\t\t\t<td>\r\n\t\t\t<div class=\"code right\"><strong>54%</strong></div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>Apache</strong> License 2.0</td>\r\n\t\t\t<td>\r\n\t\t\t<div>\r\n\t\t\t<div class=\"code right\">13%</div>\r\n\t\t\t</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>MIT</strong> License</td>\r\n\t\t\t<td>\r\n\t\t\t<div class=\"code right\">11%</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>BSD</strong> License 2.0 License</td>\r\n\t\t\t<td>\r\n\t\t\t<div class=\"code right\">7%</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>rest</td>\r\n\t\t\t<td>\r\n\t\t\t<div class=\"code right\">&lt;15%</div>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3833,8 +3833,8 @@
         "notes": "", 
         "section": 2, 
         "time": null, 
-        "bg_img": "", 
-        "content": "we are python", 
+        "bg_img": "chart.png", 
+        "content": "<div class=\"overlay right\" style=\"margin-top:240px;\">\r\n<div class=\"big\">2%</div>\r\n~335K projects<br>\r\n<span class=\"grey\">(maybe)</span> 1500 active\r\n</div>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3852,13 +3852,13 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "quote Daniel B. Ravicher (famous lawyer)", 
         "notes": "", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
-        "content": "Limitation of Liability/Disclaim warranty\r\n- Non-Commercial\r\n- Non-derivative is a pain!", 
-        "header": "", 
+        "content": "<p class=\"top15 center\">Every last major tech company is FOSS now.</p>. \r\n<h3 class=\"overlay center\">Question<strong>Copyright</strong>.org</h3>\r\n", 
+        "header": "\"Social waste<br>transaction cost\"", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -25295,6 +25295,492 @@
         "object_repr": "Early/History", 
         "object_id": "2", 
         "change_message": "Changed content for slide \"171. Early/History-61 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1165, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T04:44:25.796Z", 
+        "object_repr": "169. Early/History-55 ()", 
+        "object_id": "169", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1166, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T04:46:07.162Z", 
+        "object_repr": "169. Early/History-55 ()", 
+        "object_id": "169", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1167, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T04:47:00.778Z", 
+        "object_repr": "169. Early/History-55 ()", 
+        "object_id": "169", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1168, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:08:00.637Z", 
+        "object_repr": "Early/History", 
+        "object_id": "2", 
+        "change_message": "Changed helper for slide \"56. Early/History-948 ()\". Changed content, notes and bg_img for slide \"49. Early/History-949 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1169, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:08:36.690Z", 
+        "object_repr": "Early/History", 
+        "object_id": "2", 
+        "change_message": "Changed content and bg_img for slide \"170. Early/History-58 ()\". Changed content for slide \"49. Early/History-949 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1170, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:12:08.161Z", 
+        "object_repr": "170. Early/History-58 ()", 
+        "object_id": "170", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1171, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:13:14.558Z", 
+        "object_repr": "170. Early/History-58 ()", 
+        "object_id": "170", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1172, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:36:10.703Z", 
+        "object_repr": "169. Early/History-55 ()", 
+        "object_id": "169", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1173, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:38:37.669Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1174, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:42:19.063Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed header, content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1175, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:43:29.546Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1176, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:51:45.421Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1177, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:53:00.303Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1178, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:54:52.313Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1179, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:55:27.214Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed is_enabled.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1180, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:56:15.995Z", 
+        "object_repr": "168. Early/History-316 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1181, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T05:57:09.883Z", 
+        "object_repr": "Early/History", 
+        "object_id": "2", 
+        "change_message": "Changed order for slide \"168. Early/History-45 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1182, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:02:15.732Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed header, content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1183, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:03:13.274Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1184, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:04:09.820Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1185, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:04:42.655Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1186, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:05:00.424Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1187, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:06:11.812Z", 
+        "object_repr": "168. Early/History-45 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1188, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:10:44.582Z", 
+        "object_repr": "171. Early/History-61 ()", 
+        "object_id": "171", 
+        "change_message": "Changed header, content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1189, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:11:20.934Z", 
+        "object_repr": "171. Early/History-61 ()", 
+        "object_id": "171", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1190, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:11:34.120Z", 
+        "object_repr": "171. Early/History-61 ()", 
+        "object_id": "171", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1191, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T06:14:40.692Z", 
+        "object_repr": "Early/History", 
+        "object_id": "2", 
+        "change_message": "Changed order for slide \"50. Early/History-942 ()\". Changed order for slide \"52. Early/History-944 ()\".", 
         "user": [
             "elena"
         ], 

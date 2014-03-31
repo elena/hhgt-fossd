@@ -22,16 +22,17 @@ class SlideInlines(admin.TabularInline):
     fields = [
         'order',
         'content',
-        'notes',
         'helper',
         'header',
         'bg_img',
         'percent_complete',
         'style',
         'colour_scheme',
+        'is_enabled',
         'section',
         'slide_id',
-        'is_enabled',
+
+        'notes',
     ]
     extra = 0
     can_delete = True
@@ -53,7 +54,6 @@ class SlideAdmin(admin.ModelAdmin):
     list_display = [
         'order',
         'content',
-        'notes',
         'helper',
         'header',
         'section',
@@ -67,12 +67,13 @@ class SlideAdmin(admin.ModelAdmin):
         #'is_enabled',
         'bg_img',
         'talk',
+        'notes',
+
     ]
     list_editable = [
         'percent_complete',
         'content',
         'section',
-        'notes',
         'helper',
         'style',
         # 'colour_scheme',
@@ -84,6 +85,7 @@ class SlideAdmin(admin.ModelAdmin):
         'order',
         'bg_img',
         # 'is_enabled',
+        'notes',
     ]
     list_display_links = [
         'talk',
