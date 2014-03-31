@@ -3532,7 +3532,7 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1 class=\"center top-4\" style=\"white-space:nowrap; margin-left: -28px;\">LEARN to use <strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 black\">What is git?<p>", 
+        "content": "<h1 class=\"center top-4\" style=\"white-space:nowrap; margin-left: -28px;\">LEARN to use <strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 \">What is git?<p>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3555,8 +3555,8 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "\r\n<h3 class=\"top20 center\">In the beginning ...</h3>\r\n<p>One person could work on project at once.</p>\r\n<p>Wikipedia's history page.</p>", 
-        "header": "VERSION CONTROL SYSTEMS (VCS)", 
+        "content": "<p class=\"center top5\"><strong>Programming</strong> is <strong>easy</strong><br />\r\n<strong>Software</strong> is <strong>hard</strong></p>\r\n\r\n<h3 class=\"overlay top3 center\">Only <strong>one person</strong> could<br />\r\nwork on a project <strong>at once</strong>.</h3>\r\n", 
+        "header": "VERSION CONTROL SYSTEMS", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3577,8 +3577,8 @@
         "notes": "", 
         "section": 7, 
         "time": null, 
-        "bg_img": "", 
-        "content": "\r\n<h2 class=\"top15\">diff/patch</h2>\r\n<p>Universal language of software change.</p>\r\n", 
+        "bg_img": "diff.png", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top15\" style=\"width: 430px; margin-left: 32px;\">\r\n<h3 class=\" center\"><strong><code>diff</code></strong>/<strong><code>patch</code></strong></h3>\r\n\r\n<p class=\" center top2\">Universal language<br>of software change.</p>\r\n</div>\r\n</div>", 
         "header": "VCS History", 
         "versionA": false, 
         "versionB": false, 
@@ -3587,7 +3587,7 @@
         "percent_complete": "0", 
         "order": 289, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -3600,9 +3600,9 @@
         "notes": "", 
         "section": 7, 
         "time": null, 
-        "bg_img": "one-server", 
-        "content": "<h3><strong>SCCS</strong> (1972)<br />\r\n<strong>RCS</strong> (1982)<br />\r\n<strong>CVS</strong> (1986/9)<br />\r\n<strong>SVN</strong> (2000)</h2>\r\nMost of the Free Software ever developed.\r\n</h3>", 
-        "header": "Centralized Version Control", 
+        "bg_img": "one-server.png", 
+        "content": "<div class=\"halfR\" style=\"width:550px; margin-left: -30px;\">\r\n\r\n<div class=\"overlay top12\" style=\"margin-left:-10px;\">\r\n<strong>SCCS</strong> (1972)<br />\r\n<strong>RCS</strong> (1982)<br />\r\n<strong>CVS</strong> (1986/9)<br />\r\n<strong>SVN</strong> (2000)\r\n~60% FOSS 2008\r\n</div>\r\n<span class=\"black\">Most Free Software \r\n<br>ever developed.</span>\r\n</div>", 
+        "header": "Centralized", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3624,8 +3624,8 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "DVCS wars early 2000s", 
-        "header": "Distributed Version Control", 
+        "content": "<h3 class=\"center overlay top15\">DVCS wars early 2000s</h3>\r\n<p class=\"center\">Bazaar, Mercurial, DARCS, Monotone, Git</p>", 
+        "header": "Distributed", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3647,8 +3647,8 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "<div class=\"overlay\">\r\n  <strong>Centralized</strong> \"Forking\" is <strong>BAD</strong>\r\n  <br><span class=\"grey\">discouraged (can be an act of aggression).</span>\r\n</div>\r\n\r\n<div class=\"overlay\">\r\n  <strong>Distributed</strong> \"Forking\" is the <strong>first thing you do</strong>.\r\n</div>", 
-        "header": "Difference surrounds \"Forking\"", 
+        "content": "\r\n<h3 class=\"center overlay \">Should you <strong>Fork</strong>?</h3>\r\n\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralized: &quot;Forking&quot; is <strong>BAD</strong><br />\r\n<span class=\"grey\">discouraged (can be an act of aggression).</span></p>\r\n</div>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Distributed: &quot;Forking&quot; is the <strong>first thing you do</strong>.</p>\r\n</div>\r\n", 
+        "header": "Difference: Forking", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3663,11 +3663,11 @@
     "pk": 162, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "style": "", 
         "helper": "", 
         "notes": "", 
-        "section": 7, 
+        "section": 14, 
         "time": null, 
         "bg_img": "vcs-graph", 
         "content": "<h3>3rd great era</h3>", 
@@ -3693,7 +3693,7 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"center\">\r\n<strong>sourceforge</strong> <br>compared to<br> <strong>github</strong>\r\n</h3>\r\n<p class=\"center\">Is `<code>git</code>` perfect?<br><span class=\"grey\">(probably not)</span><br>", 
+        "content": "<h3 class=\"center\"><strong>sourceforge</strong> compared to<strong> github</strong></h3>\r\n\r\n<p class=\"center top5\">Is `<code>git</code>` perfect?<br />\r\n<span class=\"grey\">(probably not)</span></p>\r\n", 
         "header": "<strong>VCS may change</strong> again", 
         "versionA": false, 
         "versionB": false, 
@@ -3771,7 +3771,7 @@
         "percent_complete": "0", 
         "order": 313, 
         "talk": 1, 
-        "colour_scheme": "blue"
+        "colour_scheme": "white"
     }
 },
 {
@@ -4092,6 +4092,29 @@
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 990, 
+        "talk": 1, 
+        "colour_scheme": ""
+    }
+},
+{
+    "pk": 181, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 7, 
+        "time": null, 
+        "bg_img": "", 
+        "content": "<h3 class=\"center overlay nowrap\">Where is the <strong>&quot;Master&quot; Repository</strong> kept?</h3>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralised: <strong>One cardinal version</strong><br />\r\n<span class=\"grey\">Need to connect to make changes (can be slow).</span></p>\r\n</div>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Distributed: <strong>Every one has own version</strong><br />\r\n<span class=\"grey\">Changes are distributed.</span></p>\r\n</div>\r\n", 
+        "header": "Difference: Master", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": false, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 297, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -34927,6 +34950,978 @@
         "content_type": [
             "slides", 
             "section"
+        ]
+    }
+},
+{
+    "pk": 1691, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:30:18.239Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1692, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:31:03.955Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed bg_img.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1693, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:31:22.173Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1694, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:31:35.954Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed header.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1695, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:33:48.348Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content for slide \"159. VCS-292 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1696, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:34:02.259Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1697, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:34:47.848Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1698, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:35:19.296Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1699, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:38:48.016Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1700, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:39:11.111Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1701, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:40:17.614Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1702, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:40:36.427Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1703, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:41:06.298Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1704, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:41:26.506Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1705, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:42:19.814Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1706, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:42:45.347Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1707, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:59:57.264Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1708, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:00:07.510Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed bg_img.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1709, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:02:01.043Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1710, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:02:21.421Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1711, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:02:47.983Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1712, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:02:59.885Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1713, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:09:36.969Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1714, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:10:55.472Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1715, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:11:37.709Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1716, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:12:41.772Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1717, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:13:27.156Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1718, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:14:36.630Z", 
+        "object_repr": "160. VCS-295 ()", 
+        "object_id": "160", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1719, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:16:09.395Z", 
+        "object_repr": "160. VCS-295 ()", 
+        "object_id": "160", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1720, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:16:32.658Z", 
+        "object_repr": "160. VCS-295 ()", 
+        "object_id": "160", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1721, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:16:47.970Z", 
+        "object_repr": "160. VCS-295 ()", 
+        "object_id": "160", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1722, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:17:29.845Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1723, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:17:48.064Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1724, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:20:42.460Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Added slide \"181. VCS-297 ()\". Changed header for slide \"161. VCS-298 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1725, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:21:09.117Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content for slide \"181. VCS-297 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1726, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:22:52.933Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1727, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:23:18.284Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1728, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:23:29.006Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1729, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:23:57.492Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1730, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:25:16.370Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1731, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:26:33.092Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1732, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:26:49.651Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1733, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:27:35.311Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1734, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:27:57.715Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1735, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:28:29.809Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1736, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:29:22.333Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1737, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:29:53.766Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1738, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:30:39.418Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1739, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:31:31.094Z", 
+        "object_repr": "163. VCS-304 ()", 
+        "object_id": "163", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1740, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:31:47.033Z", 
+        "object_repr": "163. VCS-304 ()", 
+        "object_id": "163", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1741, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:33:03.741Z", 
+        "object_repr": "166. VCS-313 ()", 
+        "object_id": "166", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1742, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:33:47.074Z", 
+        "object_repr": "162. _unsorted-301 ()", 
+        "object_id": "162", 
+        "change_message": "Changed section and is_enabled.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1743, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:34:28.607Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1744, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T16:34:41.862Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
         ]
     }
 }
