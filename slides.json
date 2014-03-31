@@ -2083,7 +2083,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay top-3 center\"><strong>You Are Here By Choice</strong><br />\r\nEngage Socially</h3>\r\n\r\n<p class=\"top5  center\">You are statistically more likely to stay involved with the project for longer.</p>\r\n", 
+        "content": "<h3 class=\"overlay top-3 center\">You are Here <strong>by Choice</strong></h3>\r\n\r\n<h3 class=\"top3 center \">Engage Socially</h3>\r\n\r\n<p class=\"top5  center\">You are statistically more likely to stay involved with the project for longer.</p>\r\n", 
         "header": "How FOSS is different", 
         "versionA": false, 
         "versionB": false, 
@@ -2092,7 +2092,7 @@
         "percent_complete": "0", 
         "order": 270, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -2115,7 +2115,7 @@
         "percent_complete": "0", 
         "order": 265, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -2161,7 +2161,7 @@
         "percent_complete": "0", 
         "order": 257, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -3148,9 +3148,9 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 239, 
+        "order": 240, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -3164,7 +3164,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p><b>Code Review incoming patches</b><br>\r\n  (can do anonymously)<p>\r\n<p><b>Fix HTML or markup</b></p>\r\n<p><b>Bug replication</b></p>\r\n<p><b>Test out a beta or release candidate</b><br>(and do bug replications)</br>\r\n<p><b>Help out on the <strong>Users list</strong>/IRC</b><br>\r\n  (fielding questions)</p>", 
+        "content": "\r\n<p class=\"center top-2\"><strong>Code Review</strong> incoming patches<br />\r\n<span class=\"grey\">(can do anonymously)</span></p>\r\n\r\n<p class=\"center top-2\"><strong>Fix HTML</strong> or markup</p>\r\n\r\n<p class=\"center top-2\"><b>Bug replication</b></p>\r\n\r\n<p class=\"center top-2\">Test out a <strong>beta</strong> or <strong>release candidate</strong></p>\r\n\r\n<p class=\"center top-2\">Help out on the <strong>Users list</strong>/<strong>IRC</strong><br />\r\n<span class=\"grey\">(fielding questions)</span></p>\r\n", 
         "header": "As a <strong>Coder</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -3173,7 +3173,7 @@
         "percent_complete": "0", 
         "order": 235, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -3187,7 +3187,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p class=\"center\">Spend most your time:\r\n<br>documenting\r\n<br>maintaining\r\n<br>fixing\r\n<br>testing\r\n<br><strong>reading</strong> code</p>", 
+        "content": "<p class=\"center top-2\">Spend most your time:\r\n<br><strong>Reading</strong> Code\r\n<br>Fixing\r\n<br>Testing\r\n<br>Maintaining\r\n<br>Documenting\r\n</p>", 
         "header": "As a <strong>Coder</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -3196,7 +3196,7 @@
         "percent_complete": "0", 
         "order": 238, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "white"
     }
 },
 {
@@ -3211,7 +3211,7 @@
         "time": null, 
         "bg_img": "", 
         "content": "<h3 class=\"center overlay\"><strong>Small Projects</strong><br />\r\nCan Turn on a Dime for Your Idea</h3>\r\n\r\n<p class=\"center\"><strong>Envisioning</strong> and <strong>implementing</strong><br />\r\nis expensive for small projects.</p>\r\n\r\n<p class=\"center\"><span class=\"opac7\">(<strong>Big/Famous Projects</strong> are <strong>Not</strong>)</span></p>\r\n", 
-        "header": "Projects are <strong>Flexible</strong>", 
+        "header": "Some Projects are <strong>Flexible</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3219,7 +3219,7 @@
         "percent_complete": "0", 
         "order": 241, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -3233,7 +3233,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3  class=\"center overlay\"><strong>Stable</strong>/Working <strong>></strong> your <strong>Ego</strong></h3>\r\n<p class=\"center top3\">Expect to get <strong>Rejection</strong>\r\n<br>but playful, friendly, caring rejection.</p>\r\n", 
+        "content": "<h3  class=\"center overlay\">(<strong>Stable</strong>/Working) <strong><code class=\"\">></code></strong> (your <strong>Ego</strong>)</h3>\r\n<p class=\"center top3\">Expect to get <strong>Rejection</strong>\r\n<br>but playful, friendly, caring rejection.</p>\r\n", 
         "header": "How FOSS is different", 
         "versionA": false, 
         "versionB": false, 
@@ -3242,7 +3242,7 @@
         "percent_complete": "0", 
         "order": 255, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -3288,7 +3288,7 @@
         "percent_complete": "0", 
         "order": 242, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -3343,12 +3343,12 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
-        "notes": "", 
+        "helper": "MSF, EWB, Lawyers", 
+        "notes": " style=\"margin-left:-10px;\"\r\n\r\n\r\n style=\"white-space:nowrap\"<div class=\"top12 overlay center\"><strong>\r\n</strong></div>", 
         "section": 10, 
         "time": null, 
-        "bg_img": "", 
-        "content": "50%/50%\r\n- MSF, EWB, Pro Bono (band, sporting team)", 
+        "bg_img": "msf.png", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12 center\"><strong>50%/50%</strong></div>\r\n\r\n<div class=\"top3 center black\">FOSS <strong>need</strong> non-Coders.</div>\r\n\r\n<div class=\"top1 center black\">\r\nFOSS needs to \r\n<br><strong>involve </strong> non-Coders \r\n<br />more effectively.</div>\r\n</div>\r\n", 
         "header": "<strong>Non-coders</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -3357,7 +3357,7 @@
         "percent_complete": "0", 
         "order": 359, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -3371,7 +3371,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h1 class=\"center grey\">LEARN <span class=\"white\">GITHUB</span></h1>\r\n<p class=\"center\">Be comfortable with<br><strong>how to make contributions</strong><br>and everything else will follow.", 
+        "content": "<h1 class=\"center top-4\" style=\"white-space:nowrap; margin-left: -28px;\">LEARN to use <strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 black\">Be comfortable with<br><strong>how to make contributions</strong><br>and everything else will follow.", 
         "header": "If you are <strong>not a coder</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -3380,7 +3380,7 @@
         "percent_complete": "0", 
         "order": 362, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -3394,7 +3394,7 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h3 class=\"overlay center\">Use the tools your friends are using</h3>\r\n <p class=\"center\">(the best support!)</p>\r\n<p class=\"center\">Use tools that are<br><strong>easy to install</strong><br>\r\n (be kind to yourself).</p>", 
+        "content": "<h3 class=\"overlay center\">Use the Tools Your Friends are Using</h3>\r\n <p class=\"center opac7 \">(the best support!)</p>\r\n<p class=\"center\">Use tools that are<br><strong>easy to install</strong><br>\r\n (be kind to yourself).</p>", 
         "header": "If you are <strong>not a coder</strong>", 
         "versionA": false, 
         "versionB": false, 
@@ -3403,7 +3403,7 @@
         "percent_complete": "0", 
         "order": 365, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -3412,13 +3412,13 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
+        "helper": "<p>All these things take tremendous <strong>talent</strong> and <strong>effort</strong>.</p>", 
         "notes": "", 
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "<p>Code Review (learning)<br>\r\nEvery project needs: designers, content makers, writers", 
-        "header": "Things you can do as a <strong>non-coder</strong>", 
+        "content": "<p class=\"center\"><strong>Code Review</strong> (learning)</p>\r\n\r\n<p class=\"center top2\">Every project needs:<br />\r\n<strong>Designers</strong>, <strong>Content</strong> <strong>makers</strong>, <strong>Writers</strong></p>\r\n\r\n<p class=\"center top2\">Many kinds of unusual task!</p>\r\n", 
+        "header": "As a <strong>non-coder</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3426,7 +3426,7 @@
         "percent_complete": "0", 
         "order": 368, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -3435,21 +3435,21 @@
     "fields": {
         "is_enabled": true, 
         "style": "", 
-        "helper": "", 
-        "notes": "", 
+        "helper": "Programmers aren't very smart,<br> if you're comfortable they will be.", 
+        "notes": "# The world needs more technical lawyers!\r\n- sincerely Eben Moglin, Karen Sandler\r\n\r\n# The world needs more designers\r\n- fight the \"programming since 8\" phenomenon", 
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "content": "# The world needs more technical lawyers!\r\n- sincerely Eben Moglin, Karen Sandler\r\n\r\n# The world needs more designers\r\n- fight the \"programming since 8\" phenomenon", 
-        "header": "", 
+        "content": "<h3 class=\"overlay center\">Be Modest and be OK with Yourself</h3>\r\n\r\n<p class=\"center top0\">Be confident you can do something they can&#39;t.</p>\r\n<p class=\"center top0\"><strong>Beware</strong> of the gaping holes in their knowledge outside code and be gentle about this.</p>\r\n\r\n", 
+        "header": "As a <strong>non-coder</strong>", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 371, 
+        "order": 374, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -3470,7 +3470,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 374, 
+        "order": 239, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -3532,7 +3532,7 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "", 
+        "content": "<h1 class=\"center top-4\" style=\"white-space:nowrap; margin-left: -28px;\">LEARN to use <strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 black\">What is git?<p>", 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
@@ -3541,7 +3541,7 @@
         "percent_complete": "0", 
         "order": 283, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -3555,8 +3555,8 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "<h2>VERSION CONTROL SYSTEMS (VCS)</h2>\r\n<h3>In the beginning ...</h3>\r\n<p>One person could work on project at once.</p>\r\n<p>Wikipedia's history page.</p>", 
-        "header": "What is git?", 
+        "content": "\r\n<h3 class=\"top20 center\">In the beginning ...</h3>\r\n<p>One person could work on project at once.</p>\r\n<p>Wikipedia's history page.</p>", 
+        "header": "VERSION CONTROL SYSTEMS (VCS)", 
         "versionA": false, 
         "versionB": false, 
         "versionC": false, 
@@ -3578,7 +3578,7 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "content": "<div class=\"halfR\">\r\n<h2>diff/patch</h2>\r\n<p>Universal language of software change.</p>\r\n</div>", 
+        "content": "\r\n<h2 class=\"top15\">diff/patch</h2>\r\n<p>Universal language of software change.</p>\r\n", 
         "header": "VCS History", 
         "versionA": false, 
         "versionB": false, 
@@ -3601,7 +3601,7 @@
         "section": 7, 
         "time": null, 
         "bg_img": "one-server", 
-        "content": "<div class=\"halfR\">\r\n<h2><strong>SCCS</strong> (1972)<br />\r\n<strong>RCS</strong> (1982)<br />\r\n<strong>CVS</strong> (1986/9)<br />\r\n<strong>SVN</strong> (2000)</h2>\r\nMost of the Free Software ever developed.\r\n</div>", 
+        "content": "<h3><strong>SCCS</strong> (1972)<br />\r\n<strong>RCS</strong> (1982)<br />\r\n<strong>CVS</strong> (1986/9)<br />\r\n<strong>SVN</strong> (2000)</h2>\r\nMost of the Free Software ever developed.\r\n</h3>", 
         "header": "Centralized Version Control", 
         "versionA": false, 
         "versionB": false, 
@@ -33751,6 +33751,1176 @@
         "object_repr": "Being Involved (do)", 
         "object_id": "10", 
         "change_message": "Changed order and content for slide \"179. Being Involved (do)-320 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1626, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:15:36.238Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content and bg_img.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1627, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:16:02.890Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1628, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:18:22.910Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1629, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:19:09.940Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1630, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:20:01.205Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content, notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1631, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:20:35.073Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1632, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:22:40.503Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1633, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:23:18.730Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1634, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:23:44.677Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1635, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:24:07.453Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1636, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:24:21.375Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1637, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:24:42.151Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1638, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:25:11.429Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1639, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:26:49.672Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1640, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:27:14.166Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1641, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:28:21.124Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1642, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:28:39.349Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1643, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:29:12.669Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed header.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1644, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:30:06.957Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1645, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:30:25.420Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1646, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:31:05.882Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1647, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:31:49.960Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1648, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:32:23.831Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1649, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:33:00.318Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1650, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:33:20.309Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1651, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:33:42.838Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1652, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:34:03.009Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1653, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:35:27.706Z", 
+        "object_repr": "148. Being Involved (do)-362 ()", 
+        "object_id": "148", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1654, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:36:32.072Z", 
+        "object_repr": "149. Being Involved (do)-365 ()", 
+        "object_id": "149", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1655, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:37:44.106Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1656, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:37:54.769Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1657, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:40:48.363Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed header, content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1658, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:46:56.123Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1659, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:57:25.098Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1660, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:58:15.926Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1661, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:59:03.228Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1662, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T14:59:29.383Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1663, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:00:39.026Z", 
+        "object_repr": "140. Being Involved (do)-238 ()", 
+        "object_id": "140", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1664, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:01:01.689Z", 
+        "object_repr": "140. Being Involved (do)-238 ()", 
+        "object_id": "140", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1665, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:02:14.999Z", 
+        "object_repr": "141. Being Involved (do)-241 ()", 
+        "object_id": "141", 
+        "change_message": "Changed header.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1666, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:03:16.825Z", 
+        "object_repr": "142. Being Involved (do)-255 ()", 
+        "object_id": "142", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1667, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:03:33.419Z", 
+        "object_repr": "142. Being Involved (do)-255 ()", 
+        "object_id": "142", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1668, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:04:15.674Z", 
+        "object_repr": "142. Being Involved (do)-255 ()", 
+        "object_id": "142", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1669, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:06:04.959Z", 
+        "object_repr": "89. Being Involved (do)-270 ()", 
+        "object_id": "89", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1670, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:06:28.071Z", 
+        "object_repr": "89. Being Involved (do)-270 ()", 
+        "object_id": "89", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1671, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:06:44.145Z", 
+        "object_repr": "89. Being Involved (do)-270 ()", 
+        "object_id": "89", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1672, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:07:45.449Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed colour_scheme for slide \"139. Being Involved (do)-235 ()\". Changed colour_scheme for slide \"140. Being Involved (do)-238 ()\". Changed colour_scheme for slide \"138. Being Involved (do)-239 ()\". Changed colour_scheme for slide \"141. Being Involved (do)-241 ()\". Changed colour_scheme for slide \"144. Being Involved (do)-242 ()\". Changed colour_scheme for slide \"142. Being Involved (do)-255 ()\". Changed colour_scheme for slide \"92. Being Involved (do)-257 ()\". Changed colour_scheme for slide \"90. Being Involved (do)-265 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1673, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:08:39.564Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed colour_scheme for slide \"147. Being Involved (do)-359 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1674, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:08:55.764Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed colour_scheme for slide \"151. Being Involved (do)-371 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1675, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:09:25.644Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed content for slide \"151. Being Involved (do)-371 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1676, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:10:11.622Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed content and helper for slide \"151. Being Involved (do)-371 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1677, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:10:49.058Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed content for slide \"151. Being Involved (do)-371 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1678, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:12:15.577Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1679, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:13:33.516Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1680, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:14:29.928Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1681, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:14:53.361Z", 
+        "object_repr": "151. Being Involved (do)-371 ()", 
+        "object_id": "151", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1682, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:19:16.547Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed order for slide \"138. Being Involved (do)-240 ()\". Changed order for slide \"151. Being Involved (do)-239 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1683, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:20:07.351Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed order for slide \"151. Being Involved (do)-274 ()\". Changed order for slide \"152. Being Involved (do)-239 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1684, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:20:23.544Z", 
+        "object_repr": "Being Involved (do)", 
+        "object_id": "10", 
+        "change_message": "Changed order for slide \"151. Being Involved (do)-374 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1685, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:20:51.536Z", 
+        "object_repr": "89. Being Involved (do)-270 ()", 
+        "object_id": "89", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1686, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:21:24.806Z", 
+        "object_repr": "89. Being Involved (do)-270 ()", 
+        "object_id": "89", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1687, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:24:00.986Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content and colour_scheme for slide \"156. VCS-283 ()\". Changed content and header for slide \"157. VCS-286 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1688, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:24:25.522Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content for slide \"157. VCS-286 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1689, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:25:04.457Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content for slide \"157. VCS-286 ()\". Changed content for slide \"158. VCS-289 ()\".", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "section"
+        ]
+    }
+},
+{
+    "pk": 1690, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-31T15:25:54.397Z", 
+        "object_repr": "VCS", 
+        "object_id": "7", 
+        "change_message": "Changed content for slide \"157. VCS-286 ()\". Changed content for slide \"158. VCS-289 ()\". Changed content for slide \"159. VCS-292 ()\".", 
         "user": [
             "elena"
         ], 
