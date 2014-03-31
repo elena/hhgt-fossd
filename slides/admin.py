@@ -38,11 +38,14 @@ class SlideInlines(admin.TabularInline):
     can_delete = True
 
 
+def show_slide_count(self):
+    return self.slide_set.count()
+
 class SectionAdmin(admin.ModelAdmin):
 
     fieldsets = [(None, {'fields': (('title', 'order', 'colour_scheme'),)})]
     inlines = [SlideInlines]
-    list_display = ['title', 'order', 'talk']
+    list_display = ['title', 'order', 'talk', show_slide_count]
     list_editable = ['order']# , 'talk']
 
 
