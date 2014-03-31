@@ -15,7 +15,7 @@
 .slide p {margin: 0px 0px 20px;}
 /*.slide > div {padding-top: 80px;}*/
 .slide a {border-bottom: 0; color: inherit;}
-
+.slide:after {display:none;}
 
 /* ELEMENTS
    modular reusable elements */
@@ -89,7 +89,7 @@ section.red {
     color: #ffaaaa;
 }
 section.yellow {
-    background: url('../../../slides/bg-0.png') #FFBB54 no-repeat top left;
+    background: url('../../../slides/bg-0.png') #ff9d32 no-repeat top left; /*FFBB54*/
 }
 /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 /* background: url('../../../slides/bg_red.jpg') no-repeat top left;} */
@@ -155,7 +155,7 @@ blockquote      {font-size: 39px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
 .big            {font-size: 105px;}
-.slide h1       {font-size: 105px; line-height: 115px;}
+.slide h1       {font-size: 95px; line-height: 105px;}
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px; line-height: 90px;}

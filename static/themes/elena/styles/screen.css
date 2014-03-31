@@ -173,6 +173,7 @@ a {
     counter-increment: slide;
     content: counter(slide);
     text-align: center;
+    display: none;
     font-size: 20px; }
   .slide > div {
     position: absolute;
