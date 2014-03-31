@@ -30,6 +30,7 @@
 .slide .upper  {text-transform: uppercase;}
 .slide .white  {color: white}
 .slide .grey   {color: grey}
+.slide .lgrey  {color: #ddd}
 .slide .black  {color: black}
 .slide .green  {color: green}
 .slide .orange {color: rgba(219, 124, 0, 1);/*rgba(179, 120, 31, 1); */}
@@ -154,7 +155,7 @@ blockquote      {font-size: 39px;}
 .slide h3       {font-size: 65px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.big            {font-size: 105px;}
+.slide .big            {font-size: 105px;}
 .slide h1       {font-size: 95px; line-height: 105px;}
 
 /* UNIQUE font-sizes */
@@ -204,7 +205,7 @@ blockquote       {padding: 5px 20px;}
 
 #libre h2     {margin-top: 340px;}
 #comp8440 h2  {margin-top: 90px;}
-#flossd h2    {margin-top: -75px; margin-left: 160px;}
+#flossd h2    {margin-top: -75px; margin-left: 240px;}
 #fri .overlay {
     width: 890px;
     margin-top: 90px;

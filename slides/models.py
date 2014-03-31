@@ -102,7 +102,7 @@ class Slide(models.Model):
         ordering = ['section__order', 'order']
 
     def __str__(self):
-        return '%s-%2d (%s)' % (self.section, self.order, self.slide_id)
+        return '%s. %s-%2d (%s)' % (self.pk, self.section, self.order, self.slide_id)
 
     def save(self, *args, **kwargs):
         super(Slide, self).save(*args, **kwargs)

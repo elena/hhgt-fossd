@@ -4,6 +4,7 @@ from .models import Slide, Section
 
 TALK_SECONDS = 1620.0
 
+
 class ListView(generic.ListView):
 
     model = Slide
@@ -15,6 +16,9 @@ class ListView(generic.ListView):
         context['time_per_slide'] = self.get_queryset().count()/TALK_SECONDS
         return context
 
+    def get_queryset(self):
+        queryset = super(ListView, self).get_queryset()
+        return queryset.filter(is_enabled=True)
 
 class SectionDetailView(generic.DetailView):
 
@@ -25,7 +29,7 @@ class SectionDetailView(generic.DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(SectionDetailView, self).get_context_data(**kwargs)
-        slides = Slide.objects.all()
+        slides = Slide.objects.filter(is_enabled=True)
         context['slides'] = slides.filter(section=self.get_object())
         len_sections = Section.objects.count()
         context['time_per_slide'] = TALK_SECONDS/slides.count()
