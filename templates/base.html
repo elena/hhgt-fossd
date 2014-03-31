@@ -21,25 +21,22 @@
     </p>
   </header>
 
-<table>
-  <tr><td>GPLv2/LGPLv2 and GPLv3/LGPLv3</td>
-    <td><div class="code right"><strong>54%</strong></td><tr>
-  <tr><td>Apache License 2.0</td>
-    <td><div class="code right">13%</div>/td></tr>
-  <tr><td>MIT License</td>
-    <td><div class="code right">11%</div>/td></tr>
-  <tr><td>BSD License 2.0 License</td>
-    <td><div class="code right">7%</div>/td></tr>
-  <tr class="grey"><td>rest</td>
-    <td><div class="code right"><15%</div>/td></tr>
-</table>
+<p class="center"><strong>Changing your License</strong><br />
+(&quot;Contributor Agreements&quot;)</p>
+
+<p class="center top2"><strong>Re-licensing</strong><br>(issuing a license specifically)</p>
+
+<p class="center"><strong>Multi</strong>-licensing</p>
 
 
 {% for slide in slides %}
 
 <section class="slide {% if slide.style %}{{slide.style}}{% endif %} {% if slide.colour_scheme %}{{slide.colour_scheme}}{% endif %}" id="{{slide.slide_id}}">
   <div {%if slide.bg_img%}style="background:url({{STATIC_URL}}slides/{{slide.bg_img}}) no-repeat top left;" class="bg"{%endif%}>
-    {% if slide.header %}<h2 class="title">{{slide.header|safe}}</h2>{% endif %}
+
+    <div style="position: absolute; margin-top: 360px; left: 0; color: #0000ff;">{{slide.pk}}</div>
+
+      {% if slide.header %}<h2 class="title">{{slide.header|safe}}</h2>{% endif %}
     {% if slide.content %}
       {% if slide.header %}<div class="body">{% endif %}
       {{slide.content|safe}}
