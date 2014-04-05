@@ -1,4 +1,6 @@
 from django.contrib import admin
+from django.utils.text import Truncator
+from django.utils.html import strip_tags, linebreaks
 from .models import Talk, Section, Slide
 
 
@@ -55,44 +57,56 @@ admin.site.register(Section, SectionAdmin)
 class SlideAdmin(admin.ModelAdmin):
     save_on_top = True
     list_display = [
+        'pk',
+        'order_abs',
         'order',
-        'content',
+        'show_content',
+        #'content',
         'helper',
         'header',
         'section',
-        'percent_complete',
-        'style',
         'colour_scheme',
-        'slide_id',
-        # 'versionA',
-        # 'versionB',
-        # 'versionC',
-        #'is_enabled',
-        'bg_img',
-        'talk',
+        'percent_complete',
+        #'style',
+        #'bg_img',
+        #'slide_id',
+        'versionA',
+        'versionB',
+        'versionC',
+        'is_enabled',
+        #'talk',
         'notes',
 
     ]
     list_editable = [
-        'percent_complete',
-        'content',
-        'section',
-        'helper',
-        'style',
-        # 'colour_scheme',
-        # 'versionA',
-        # 'versionB',
-        # 'versionC',
-        'slide_id',
-        'header',
+        #'bg_img',
+        #'content',
+        #'header',
+        #'helper',
+        #'notes',
+        #'slide_id',
+        #'style',
+        'colour_scheme',
+        'is_enabled',
         'order',
-        'bg_img',
-        # 'is_enabled',
-        'notes',
+        'percent_complete',
+        'section',
+        'versionA',
+        'versionB',
+        'versionC',
     ]
+    list_filter = ['is_enabled', 'section', 'colour_scheme']
     list_display_links = [
-        'talk',
+        'pk',
     ]
+
+    def show_content(self, obj):
+        return u"<div style='white-space:nowrap'>{0}</div>".format(linebreaks(strip_tags(Truncator(obj.content).words(20, html=True, truncate=' ...'))))
+    show_content.allow_tags = True
+
+    def show_notes(self, obj):
+        return u"<div style='white-space:nowrap'>{0}</div>".format(linebreaks(strip_tags(Truncator(obj.content).words(20, html=True, truncate=' ...'))))
+    show_notes.allow_tags = True
 
 
 admin.site.register(Slide, SlideAdmin)

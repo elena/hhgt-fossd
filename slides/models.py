@@ -82,6 +82,7 @@ class Slide(models.Model):
                                      blank=True)
 
     order = models.IntegerField(blank=True, null=True)
+    order_abs = models.IntegerField(blank=True, null=True)
 
     # duration approximately
     # can't decided if time, seconds or float.
@@ -99,10 +100,19 @@ class Slide(models.Model):
     is_enabled = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ['section__order', 'order']
+        ordering = ['section__order', '-is_enabled', 'order']
 
     def __str__(self):
         return '%s. %s-%2d (%s)' % (self.pk, self.section, self.order, self.slide_id)
+
+    def set_abs_order(self):
+        Slide.objects.filter(is_enabled=False).update(order_abs=None)
+        all_slides = Slide.objects.filter(is_enabled=True).order_by('section__order', 'order')
+        order = 1
+        for x in all_slides:
+            x.order_abs = order
+            x.save()
+            order = order+1
 
     def save(self, *args, **kwargs):
         super(Slide, self).save(*args, **kwargs)

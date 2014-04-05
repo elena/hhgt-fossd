@@ -84,7 +84,7 @@ section.blue {
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 section.green {
     background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;
-    color: #000000;
+    color: #aaffb1; /*#0C6112;*/
 }
     /* background: url('../../../slides/bg_green.jpg') no-repeat top left;} */
 section.red {
