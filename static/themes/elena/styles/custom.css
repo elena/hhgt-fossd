@@ -31,6 +31,7 @@
 .slide .white  {color: white}
 .slide .grey   {color: grey}
 .slide .lgrey  {color: #ddd}
+.slide .dgrey  {color: #333}
 .slide .black  {color: black}
 .slide .green  {color: green}
 .slide .orange {color: rgba(219, 124, 0, 1);/*rgba(179, 120, 31, 1); */}
@@ -51,6 +52,7 @@
 .slide .top8   {margin-top: 80px;}
 .slide .top12   {margin-top: 120px;}
 .slide .top15   {margin-top: 150px;}
+.slide .top18   {margin-top: 180px;}
 .slide .top20   {margin-top: 200px;}
 .slide .btm2   {margin-bottom: 20px;}
 .slide .btm3   {margin-bottom: 30px;}
@@ -77,14 +79,14 @@
 .slide blockquote:after {content:"”"; position:absolute; margin: 13px 0 0;}
 
 section.slide {
-    background: url('../../../slides/bg-1b.png') #bbb no-repeat top left;}
-    /* background: url('../../../slides/bg-0.png') #555 no-repeat top left;} */
+    background: url('../../../slides/bg-1b.png') #999 no-repeat top left;}
+    /* background: url('../../../slides/bg-1b.png') #555 no-repeat top left;} */
 
 section.blue {
     background: url('../../../slides/bg-1.png') #52a2df no-repeat top left;}
     /* background: url('../../../slides/bg_blue.jpg') no-repeat top left;} */
 section.green {
-    background: url('../../../slides/bg-0.png') #38B638 no-repeat top left;
+    background: url('../../../slides/bg-1.png') #38B638 no-repeat top left;
     color: #aaffb1; /*#0C6112;*/
 }
     /* background: url('../../../slides/bg_green.jpg') no-repeat top left;} */
@@ -142,7 +144,8 @@ blockquote
   {font-family: "Droid Serif", serif;}
 
 /* colors */
-.slide blockquote:before, .slide blockquote:after, h2, #vcswf p
+.slide blockquote:before, .slide blockquote:after,
+h2, #vcswf p
   {color: #333;}
 
 .slide h2.title /* dampen main title text to allow 'white' strong */
@@ -160,7 +163,8 @@ blockquote      {font-size: 39px;}
 .slide h2.title {font-size: 85px;}
 .slide .big     {font-size: 105px; line-height: 115px;}
 .slide h1       {font-size: 95px; line-height: 105px;}
-.slide .panel   {font-size: 125px; line-height: 150px; }
+.slide .panel, .slide .huge
+                {font-size: 125px; line-height: 150px; }
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px; line-height: 90px;}

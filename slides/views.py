@@ -32,24 +32,28 @@ class VersionListView(generic.ListView):
     #     kwargs[]
 
     def get_context_data(self, **kwargs):
-        context = super(ListView, self).get_context_data(**kwargs)
-        context['time_per_slide'] = self.get_queryset().count()/TALK_SECONDS
+        context = super(VersionListView, self).get_context_data(**kwargs)
+        context['time_per_slide'] = TALK_SECONDS/self.get_queryset().count()
         context['A'] = self.get_queryset().filter(versionA=True).count()
-        context['A_time'] = self.get_queryset().filter(versionA=True).count()/TALK_SECONDS
+        context['A_time'] = TALK_SECONDS/self.get_queryset().filter(versionA=True).count()
         context['B'] = self.get_queryset().filter(versionB=True).count()
-        context['B_time'] = self.get_queryset().filter(versionB=True).count()/TALK_SECONDS
+        context['B_time'] = TALK_SECONDS/self.get_queryset().filter(versionB=True).count()
         context['C'] = self.get_queryset().filter(versionC=True).count()
-        context['C_time'] = self.get_queryset().filter(versionC=True).count()/TALK_SECONDS
+        context['C_time'] = TALK_SECONDS/self.get_queryset().filter(versionC=True).count()
+
+        if self.kwargs['version'] == 'A': context['this_is'] = 'A'
+        if self.kwargs['version'] == 'B': context['this_is'] = 'B'
+        if self.kwargs['version'] == 'C': context['this_is'] = 'C'
         return context
 
     def get_queryset(self):
-        queryset = super(VersionListView, self).get_queryset()
+        queryset = super(VersionListView, self).get_queryset().filter(is_enabled=True)
         if self.kwargs['version'] == 'A':
-            queryset = queryset.filter(is_enabled=True).exclude(versionB=False,versionC=False)
+            queryset = queryset.filter(versionA=True)
         if self.kwargs['version'] == 'B':
-            queryset = queryset.filter(is_enabled=True).exclude(versionA=False,versionC=False)
+            queryset = queryset.filter(versionB=True)
         if self.kwargs['version'] == 'C':
-            queryset = queryset.filter(is_enabled=True).exclude(versionA=False,versionB=False)
+            queryset = queryset.filter(versionC=True)
         return queryset
 
 

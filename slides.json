@@ -462,9 +462,9 @@
         "bg_img": "", 
         "order_abs": 1, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "hello", 
         "percent_complete": "75", 
         "order": 1, 
@@ -477,18 +477,18 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<p>PyCon Financial Aid program and its donors:<br />\r\nthe PSF, PyLadies and PyCon Australia</p>\r\n\r\n<h2 style=\"text-align:center\">\r\nPython Software Foundation<br />\r\nPyCon Australia<br />\r\nLinux Australia<br />\r\nPyLadies</h2>\r\n", 
+        "content": "<p class=\"top-2\">PyCon Financial Aid program and its donors:<br />\r\n</p>\r\n\r\n<h2 style=\"text-align:center\">\r\nThe <strong class=\"dgrey\">PSF</strong><br />\r\nPyCon Australia<br />\r\nLinux Australia<br />\r\nPyLadies</h2>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "<p>Thank you so much to the people who helped to get me here.</p>\r\n", 
         "section": 12, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 140, 
-        "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "order_abs": 137, 
+        "header": "All the thanks", 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "50", 
         "order": 2, 
@@ -510,9 +510,9 @@
         "bg_img": "", 
         "order_abs": 2, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "75", 
         "order": 3, 
@@ -534,9 +534,9 @@
         "bg_img": "COMP8440.jpg", 
         "order_abs": 4, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "comp8440", 
         "percent_complete": "100", 
         "order": 5, 
@@ -558,9 +558,9 @@
         "bg_img": "", 
         "order_abs": 5, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "hands", 
         "percent_complete": "0", 
         "order": 6, 
@@ -573,7 +573,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<p>Three Talks</p>\r\n", 
+        "content": "<h1 class=\"center top3  nowrap opac7\" style=\"font-size: 350px;\">\r\n<a href=\"\">\u2660\ufe0e</a> \r\n<a href=\"\">\u2663\ufe0e</a> \r\n<a href=\"\">\u2666\ufe0e</a>\r\n</h1>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
@@ -582,14 +582,14 @@
         "bg_img": "", 
         "order_abs": 6, 
         "header": "Three Talks", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 7, 
         "talk": 1, 
-        "colour_scheme": "yellow"
+        "colour_scheme": "blue"
     }
 },
 {
@@ -606,9 +606,9 @@
         "bg_img": "1960_ritchie-kernigen.png", 
         "order_abs": 17, 
         "header": "Beginning of <strong>Software</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 7, 
@@ -630,9 +630,9 @@
         "bg_img": "libre-gratuit.jpg", 
         "order_abs": 8, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "libre", 
         "percent_complete": "100", 
         "order": 9, 
@@ -678,9 +678,9 @@
         "bg_img": "rms.png", 
         "order_abs": 19, 
         "header": "Richard Stallman", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "stallman", 
         "percent_complete": "50", 
         "order": 13, 
@@ -726,9 +726,9 @@
         "bg_img": "gates.jpg", 
         "order_abs": 24, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "gates", 
         "percent_complete": "0", 
         "order": 20, 
@@ -750,9 +750,9 @@
         "bg_img": "", 
         "order_abs": 11, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "flossd", 
         "percent_complete": "100", 
         "order": 13, 
@@ -765,7 +765,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h1 class=\"center lgrey top-4\">What is<br />\r\n&quot;<strong class=\"white\">Open Source</strong>&quot;,<br />\r\nAnyway?</h1>\r\n", 
+        "content": "<h1 class=\"center dgrey top-4\">What is<br />\r\n&quot;<strong class=\"white\">Open Source</strong>&quot;,<br />\r\nAnyway?</h1>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "<p>This talk should always start with beer.</p>\r\n\r\n<p>Really quickly want to clear up the terms</p>\r\n", 
@@ -774,9 +774,9 @@
         "bg_img": "free-beer.jpg", 
         "order_abs": 7, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "100", 
         "order": 8, 
@@ -789,7 +789,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"overlay\">\r\n<p><div class=\"big center\">fri\u02d0/</div><br></p>\r\n<blockquote>\r\nAble to act or be done as one wishes; not under the control of another.\r\n</blockquote>\r\n<br>\r\n</div>\r\n", 
+        "content": "<div class=\"overlay\">\r\n<p><div class=\"big center\">fri\u02d0/</div><br></p>\r\n<blockquote class=\"center\">\r\nAble to act or be done as one wishes; <br>not under the control of another\r\n</blockquote>\r\n<br>\r\n</div>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "<p style=\"text-align:center\">&quot;Free (to-use-change-and-redistribute) Software&quot;</p>\r\n\r\n<p style=\"text-align:center\">FOSS, FLOSS, FOSSD</p>\r\n\r\n<p style=\"text-align:center\">Free Libre Open Source Development</p>\r\n\r\n<p>When I say open source I mean &quot;Free&quot; as in free to skip and jump, free to learn from and redistribute as you will.</p>\r\n\r\n<p>---</p>\r\n\r\n<p>Some people really care about the difference between terms. It&#39;s not important here.</p>\r\n", 
@@ -798,9 +798,9 @@
         "bg_img": "free-speech-area.jpg", 
         "order_abs": 9, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "fri", 
         "percent_complete": "100", 
         "order": 10, 
@@ -846,9 +846,9 @@
         "bg_img": "MIT.png", 
         "order_abs": 20, 
         "header": "Beginning of Free Software", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "dec10", 
         "percent_complete": "0", 
         "order": 15, 
@@ -868,16 +868,16 @@
         "section": 5, 
         "time": null, 
         "bg_img": "cow.png", 
-        "order_abs": 12, 
+        "order_abs": 13, 
         "header": "\"To Every <strong>Cow</strong> its <strong>Calf</strong><br> to Every <strong>Book</strong> its <strong>Copy</strong>\"", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 30, 
+        "order": 25, 
         "talk": 1, 
-        "colour_scheme": "red"
+        "colour_scheme": "white"
     }
 },
 {
@@ -885,23 +885,23 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"overlay center\">\r\n\r\n<div><strong>Copy</strong> or Transmit</div>\r\n<div><strong>Sell</strong></div>\r\n<div><strong>Display</strong> or Perform</div> \r\n<div><strong>CHANGE</strong>!<br />\r\n<span class=\"grey\">(Remix/make Derivative works)</span>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n", 
+        "content": "<div class=\"overlay center\">\r\n\r\n<div><strong>Copy</strong> or Transmit</div>\r\n<div><strong>Display</strong> or Perform</div> \r\n<div><strong>Sell</strong></div>\r\n<div><strong>Change</strong>!<br />\r\n<span class=\"grey\">(Remix/make Derivative works)</span>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n", 
         "style": "", 
         "helper": "Assumed to apply <strong>automatically</strong>.", 
         "notes": "<p># automotically # fixed/creative</p>\r\n\r\n", 
         "section": 5, 
         "time": null, 
         "bg_img": "copy-right.png", 
-        "order_abs": 13, 
+        "order_abs": 12, 
         "header": "Copy \"<strong>Rights</strong>\"", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 31, 
+        "order": 20, 
         "talk": 1, 
-        "colour_scheme": "red"
+        "colour_scheme": "white"
     }
 },
 {
@@ -918,14 +918,14 @@
         "bg_img": "", 
         "order_abs": 14, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 32, 
+        "order": 30, 
         "talk": 1, 
-        "colour_scheme": "yellow"
+        "colour_scheme": "white"
     }
 },
 {
@@ -942,9 +942,9 @@
         "bg_img": "fashion.jpg", 
         "order_abs": 15, 
         "header": "Copyright <strong>Exceptions</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 33, 
@@ -966,9 +966,9 @@
         "bg_img": "exc.jpg", 
         "order_abs": 16, 
         "header": "Copyright <strong>Exceptions</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 34, 
@@ -990,14 +990,14 @@
         "bg_img": "code_doge.jpg", 
         "order_abs": 18, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 8, 
         "talk": 1, 
-        "colour_scheme": ""
+        "colour_scheme": "red"
     }
 },
 {
@@ -1014,9 +1014,9 @@
         "bg_img": "tridge.jpg", 
         "order_abs": 3, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 4, 
@@ -1038,9 +1038,9 @@
         "bg_img": "", 
         "order_abs": 10, 
         "header": "\"<strong>Open Source</strong>\"", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "100", 
         "order": 12, 
@@ -1062,9 +1062,9 @@
         "bg_img": "osi.png", 
         "order_abs": 22, 
         "header": "<strong>Open Software Initiative</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "osi", 
         "percent_complete": "0", 
         "order": 18, 
@@ -1086,9 +1086,9 @@
         "bg_img": "copy-left.png", 
         "order_abs": 21, 
         "header": "\"promise\" <strong>not to sue</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "issue", 
         "percent_complete": "0", 
         "order": 17, 
@@ -1110,9 +1110,9 @@
         "bg_img": "", 
         "order_abs": 23, 
         "header": "<strong>free</strong> software <br>v.<br> <strong>open source</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 19, 
@@ -1134,9 +1134,9 @@
         "bg_img": "", 
         "order_abs": 25, 
         "header": "<strong>Derived</strong> Works", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 21, 
@@ -1158,9 +1158,9 @@
         "bg_img": "poison-gh.png", 
         "order_abs": 26, 
         "header": "<strong>Github Projects</strong><br> with <strong>Licenses</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 36, 
@@ -1278,8 +1278,8 @@
         "bg_img": "", 
         "order_abs": 27, 
         "header": "This was <br>meant to be <strong>fun</strong> ...", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -1398,8 +1398,8 @@
         "bg_img": "", 
         "order_abs": 30, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -1492,14 +1492,14 @@
         "section": 13, 
         "time": null, 
         "bg_img": "autonomy.jpg", 
-        "order_abs": 38, 
+        "order_abs": 36, 
         "header": "What we <strong>really want</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 60, 
+        "order": 58, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1516,14 +1516,14 @@
         "section": 13, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 36, 
+        "order_abs": 37, 
         "header": "Best <strong>CV</strong>, Best <strong>School</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "100", 
-        "order": 54, 
+        "order": 61, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -1542,9 +1542,9 @@
         "bg_img": "aaron.jpg", 
         "order_abs": 40, 
         "header": "<strong>Ethics</strong> and <strong>Altruism</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 72, 
@@ -1564,14 +1564,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 54, 
+        "order_abs": 55, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 59, 
+        "order": 1, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -1590,9 +1590,9 @@
         "bg_img": "connection.jpg", 
         "order_abs": 39, 
         "header": "To feel a sense of <br><strong>Connection</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 68, 
@@ -1612,11 +1612,11 @@
         "section": 8, 
         "time": null, 
         "bg_img": "topo.jpg", 
-        "order_abs": 56, 
+        "order_abs": 58, 
         "header": "<strong>Domain Knowledge</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 62, 
@@ -1636,11 +1636,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 42, 
+        "order_abs": 43, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 80, 
@@ -1660,11 +1660,11 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 57, 
+        "order_abs": 59, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 63, 
@@ -1708,14 +1708,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 55, 
+        "order_abs": 57, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 61, 
+        "order": 20, 
         "talk": 1, 
         "colour_scheme": "white"
     }
@@ -1732,11 +1732,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 44, 
+        "order_abs": 45, 
         "header": "Kinds of projects", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 82, 
@@ -1756,11 +1756,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 45, 
+        "order_abs": 46, 
         "header": "Kinds of projects", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 83, 
@@ -1773,21 +1773,21 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12\">\r\n<strong>Cathedral v. Bazaar</strong>\r\n  <p class=\"top2\">Recent research:<br>\r\n  ~ Foundation<br>\r\n  ~ Community driven<br>\r\n  ~ Monarchy</p>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top15\">\r\n<strong>Cathedral v. Bazaar</strong>\r\n  <p class=\"top2\">Recent research:<br>\r\n  ~ Foundation<br>\r\n  ~ Community driven<br>\r\n  ~ Monarchy</p>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "\r\n*Devanbu, Prem; Filkov, Vladimir et al (CS, UC Davies)", 
         "section": 6, 
         "time": null, 
         "bg_img": "cathedral-bazaar.png", 
-        "order_abs": 46, 
+        "order_abs": 49, 
         "header": "Kinds of Projects", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "cathedral-bazaar", 
         "percent_complete": "0", 
-        "order": 84, 
+        "order": 87, 
         "talk": 1, 
         "colour_scheme": "white"
     }
@@ -1804,11 +1804,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "ass-hat.png", 
-        "order_abs": 49, 
+        "order_abs": 50, 
         "header": "Some Projects are Funny", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 88, 
@@ -1828,11 +1828,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 53, 
+        "order_abs": 54, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 115, 
@@ -1845,18 +1845,18 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"black\">\r\n<h3 class=\"center\">For the Purpose of Contribution</h3>\r\n<p class=\"opac7 center \"></p>\r\n<h2 class=\"center black\"><strong class=\"\">2 types</strong><br>of project</h2>\r\n</div>", 
+        "content": "<div class=\"\">\r\n<h3 class=\"center dgrey\">For the Purpose of Contribution</h3>\r\n<p class=\"opac7 center \"></p>\r\n<h2 class=\"center \"><strong class=\"\">2 types</strong><br>of project</h2>\r\n</div>", 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 50, 
+        "order_abs": 51, 
         "header": "We are <strong>Python</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "%pep8 ##We are python <div class=\"halfR\">", 
         "percent_complete": "0", 
         "order": 98, 
@@ -1876,11 +1876,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "median.png", 
-        "order_abs": 52, 
+        "order_abs": 53, 
         "header": "Median: <strong>1</strong> contributor", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 110, 
@@ -1900,11 +1900,11 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 51, 
+        "order_abs": 52, 
         "header": "<strong>Very Big</strong> and <strong>Very Small</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 99, 
@@ -1924,11 +1924,11 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 58, 
+        "order_abs": 60, 
         "header": "Learn to Look", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 70, 
@@ -1941,21 +1941,21 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h3 class=\"top3 center black\">\r\n<div class=\"center top0 black\"><strong>Learn to Look</strong><br>for ways you can help.</div>\r\n</h3>\r\n<blockquote class=\"center top3 black\">\r\n\"If you have the right attitude interesting problems will find you.\"<br>Lesson #4 The Cathedral and the Bazaar\r\n</blockquote>", 
+        "content": "<h3 class=\"top3 center black\">\r\n<div class=\"center top0 black\"><strong>Learn to Look</strong><br>for ways you can help.</div>\r\n</h3>\r\n<blockquote class=\"center top3 black\">\r\nIf you have the right attitude interesting problems will find you.<br>\r\n<span class=\"opac5\">Lesson #4 The Cathedral and the Bazaar</span>\r\n</blockquote>", 
         "style": "", 
         "helper": "Go beyond being a Passive User", 
         "notes": "<!-- # Change your brain: learn to look for ways you can help -->\r\n<!-- - open your brain -->\r\n<!-- - use your brains, thinking is hard -->\r\nProjects will naturally capture your interest.\r\n\r\n\r\n<h3 class=\"overlay top-2 center\">Rather than being a Passive User</h3>", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 59, 
+        "order_abs": 61, 
         "header": "Think like a Contributor", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 73, 
+        "order": 75, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -1974,14 +1974,14 @@
         "bg_img": "expedition.jpg", 
         "order_abs": 47, 
         "header": "", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 85, 
         "talk": 1, 
-        "colour_scheme": "yellow"
+        "colour_scheme": "white"
     }
 },
 {
@@ -1998,14 +1998,14 @@
         "bg_img": "core.png", 
         "order_abs": 48, 
         "header": "Concept of \"<strong>core</strong>\"", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 86, 
         "talk": 1, 
-        "colour_scheme": "yellow"
+        "colour_scheme": "white"
     }
 },
 {
@@ -2020,14 +2020,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 60, 
+        "order_abs": 62, 
         "header": "Think like a Contributor", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 75, 
+        "order": 80, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2037,21 +2037,21 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h1 class=\"center\">Start <strong>Small</strong></h1>\r\n<p class=\"top12\">This is not the last time I'm going to say this.</p>\r\n", 
+        "content": "<h1 class=\"center\">Start <strong>Small</strong></h1>\r\n<p class=\"top12 center\">This is not the last time I'm going to say this.</p>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 61, 
+        "order_abs": 64, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 81, 
+        "order": 90, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -2061,21 +2061,21 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h2 class=\"center\">Find out how to (who)<br><strong>communicate</strong></h2>\r\n<h2 class=\"center\">Find out how to <br><strong>commit</strong></h2>\r\n", 
+        "content": "<h2 class=\"center black\">Find out how to (who)<br><strong>communicate</strong></h2>\r\n<h2 class=\"center black\">Find out how to <br><strong>commit</strong></h2>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 62, 
+        "order_abs": 65, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 82, 
+        "order": 95, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2092,14 +2092,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 63, 
+        "order_abs": 66, 
         "header": "Project <strong>Style</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 90, 
+        "order": 98, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2116,14 +2116,14 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 64, 
+        "order_abs": 63, 
         "header": "My First Contribution", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "imbalanced-fight", 
         "percent_complete": "0", 
-        "order": 95, 
+        "order": 85, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2137,17 +2137,17 @@
         "style": "", 
         "helper": "Some of the best FOSS projects in history.", 
         "notes": "Gotta procrastinate? Want to alleviate some guilt?\r\n>> Some of the best projects are the fruit of procrastinating Uni/PhD students.\r\n", 
-        "section": 8, 
+        "section": 13, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 66, 
+        "order_abs": 42, 
         "header": "Constructive Procrastination", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 99, 
+        "order": 53, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -2166,9 +2166,9 @@
         "bg_img": "", 
         "order_abs": 79, 
         "header": "How FOSS is different", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 270, 
@@ -2183,19 +2183,19 @@
         "is_enabled": true, 
         "content": "<div class=\"halfL\">\r\n  <p class=\"overlay top12 center\">My patch is amazing<br>accept it now.<br><span class=\"red big\">\u2717</span></p>\r\n  <p class=\"overlay center top3\"><span class=\"red\">Who is this guy?</span></p>\r\n</div>\r\n\r\n<div class=\"halfR\">\r\n  <p class=\"overlay top12 center\">Do you think this <br>patch is OK?<br><span class=\"green big\">\u2713</span></p>\r\n  <p class=\"overlay center top3\"><span class=\"green\">OMG, God wrote this patch.</span></p>\r\n</div>", 
         "style": "", 
-        "helper": "A strong cultural feature of FOSS", 
-        "notes": "With the occasional notable exception, \r\n\r\n \r\n  <p class=\"overlay center top3\"><span class=\"red\">?!</span></p>\r\n", 
+        "helper": "\"completely and self-deprecatingly truthful\"", 
+        "notes": "With the occasional notable exception, \r\n\r\n \r\n  <p class=\"overlay center top3\"><span class=\"red\">?!</span></p>\r\n\r\n\r\nA strong cultural feature of FOSS", 
         "section": 10, 
         "time": null, 
         "bg_img": "kitera.jpg", 
-        "order_abs": 78, 
+        "order_abs": 77, 
         "header": "Be <strong>Overly Modest</strong>", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 265, 
+        "order": 251, 
         "talk": 1, 
         "colour_scheme": "white"
     }
@@ -2212,14 +2212,14 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 76, 
+        "order_abs": 74, 
         "header": "How FOSS is different", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 257, 
+        "order": 244, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -2236,16 +2236,16 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 77, 
+        "order_abs": 76, 
         "header": "How FOSS is different", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 260, 
+        "order": 248, 
         "talk": 1, 
-        "colour_scheme": "red"
+        "colour_scheme": "green"
     }
 },
 {
@@ -2260,11 +2260,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 119, 
+        "order_abs": 116, 
         "header": "Master your Tools", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 104, 
@@ -2284,11 +2284,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 120, 
+        "order_abs": 117, 
         "header": "Master your Tools", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 108, 
@@ -2308,11 +2308,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 121, 
+        "order_abs": 118, 
         "header": "Master your Tools", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 110, 
@@ -2332,11 +2332,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 123, 
+        "order_abs": 120, 
         "header": "Master your Tools", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 112, 
@@ -2356,11 +2356,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 124, 
+        "order_abs": 121, 
         "header": "Master your Tools", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 118, 
@@ -2380,14 +2380,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 127, 
+        "order_abs": 125, 
         "header": "On each other's team", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 125, 
+        "order": 141, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -2404,14 +2404,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 129, 
+        "order_abs": 123, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 130, 
+        "order": 122, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -2428,11 +2428,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "kroto.jpg", 
-        "order_abs": 136, 
+        "order_abs": 133, 
         "header": "&nbsp; &nbsp; &nbsp; SAYING: <strong>I DON\u2019T KNOW</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 150, 
@@ -2452,11 +2452,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 138, 
+        "order_abs": 135, 
         "header": "<strong>ASK</strong>/<strong>LISTEN</strong>", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 153, 
@@ -2476,11 +2476,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 137, 
+        "order_abs": 134, 
         "header": "<strong>ASK</strong>/<strong>LISTEN</strong>", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 152, 
@@ -2500,16 +2500,16 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 133, 
+        "order_abs": 130, 
         "header": "ASK/EXPLAIN: <strong>Be Terse</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 145, 
         "talk": 1, 
-        "colour_scheme": "white"
+        "colour_scheme": "yellow"
     }
 },
 {
@@ -2524,11 +2524,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 130, 
+        "order_abs": 127, 
         "header": "<strong>Turn up</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 135, 
@@ -2548,11 +2548,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 131, 
+        "order_abs": 128, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 138, 
@@ -2572,11 +2572,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 132, 
+        "order_abs": 129, 
         "header": "Communicate! ", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 144, 
@@ -2596,11 +2596,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 135, 
+        "order_abs": 132, 
         "header": "SET <strong>EXPECTATIONS</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 149, 
@@ -2620,16 +2620,16 @@
         "section": 8, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 65, 
+        "order_abs": 56, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 98, 
+        "order": 15, 
         "talk": 1, 
-        "colour_scheme": "green"
+        "colour_scheme": "blue"
     }
 },
 {
@@ -2644,11 +2644,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 139, 
+        "order_abs": 136, 
         "header": "Don\u2019t get <strong>disheartened</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 160, 
@@ -2668,14 +2668,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 128, 
+        "order_abs": 126, 
         "header": "On each other's team", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 128, 
+        "order": 139, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -2692,11 +2692,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 134, 
+        "order_abs": 131, 
         "header": "SET <strong>EXPECTATIONS</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 147, 
@@ -2716,11 +2716,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 122, 
+        "order_abs": 119, 
         "header": "Master your Tools", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 111, 
@@ -2740,11 +2740,11 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 125, 
+        "order_abs": 122, 
         "header": "Master your Tools", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 120, 
@@ -2764,14 +2764,14 @@
         "section": 11, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 126, 
+        "order_abs": 124, 
         "header": "On each other's team", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 123, 
+        "order": 142, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -2788,11 +2788,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 97, 
+        "order_abs": 98, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "75", 
         "order": 172, 
@@ -2812,11 +2812,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "owner.png", 
-        "order_abs": 98, 
+        "order_abs": 99, 
         "header": "Also Ask <strong>these people</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 175, 
@@ -2836,10 +2836,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "cookiecutter.png", 
-        "order_abs": 99, 
+        "order_abs": 101, 
         "header": "First Time?:<br>Use <strong>Cookiecutter</strong>", 
         "versionA": false, 
-        "versionB": false, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -2853,17 +2853,17 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"halfR\">\r\n<p class=\"overlay\" style=\"margin-top: 212px;\">\r\n<strong>\"Advertising\"</strong> helps.<br>\r\n<strong>Caring</strong> helps.<br>\r\n<strong>Maintenance</strong> helps.<br>\r\n<br>\r\nHave a <strong>high quality</strong> project.</p>\r\n</div>\r\n", 
+        "content": "<div class=\"halfR\">\r\n<p class=\"overlay\" style=\"margin-top: 212px;\">\r\n<strong>\"Advertising\"</strong> helps.<br>\r\n<strong>Maintenance</strong> and <strong>care</strong> helps.<br>\r\n\r\n<div class=\"top2\">Have a <strong>high quality</strong> project.</div></p>\r\n\r\npg47 convince ...\r\n\r\n\r\n</div>\r\n", 
         "style": "", 
-        "helper": "", 
+        "helper": " \"plausible promise\" ", 
         "notes": "%no-party/empty-room\r\n\r\nBeing a good project does as well.", 
         "section": 9, 
         "time": null, 
         "bg_img": "empty.png", 
-        "order_abs": 101, 
+        "order_abs": 102, 
         "header": "First Time?:<br><strong>Don't Expect Contributors</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -2877,18 +2877,18 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<p class=\"top20 center\">Phrase your problem in a way that's <br>\r\n<strong>easily accessible</strong> to the <br>\r\n<strong>person with the right skills</strong>.</p>\r\n<h3 class=\"overlay center\">Offer Recognition</h3>", 
+        "content": "<p class=\"top18 center overlay\">Phrase your problem in a way that's <br>\r\n<strong>easily accessible</strong> to the <br>\r\n<strong>person with the right skills</strong>.</p>\r\n<p class=\"center top3\">Offer Recognition</p>", 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 102, 
+        "order_abs": 104, 
         "header": "<strong>Getting other people</strong><br>to help", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 184, 
@@ -2900,7 +2900,7 @@
     "pk": 123, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<h3 class=\"overlay center\">\r\nWrite a list<br>highlight the things you <strong>love</strong>.\r\n</h3>\r\n<p class=\"top5 center white\">Give everything else away!</p>\r\n<p class=\"top3 right\">.. or you will burnout.</p>", 
         "style": "", 
         "helper": "", 
@@ -2908,10 +2908,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 117, 
+        "order_abs": null, 
         "header": "<strong>Let Go</strong>!", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -2932,11 +2932,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 103, 
+        "order_abs": 104, 
         "header": "Give <strong>recognition</strong>!", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 188, 
@@ -2948,7 +2948,7 @@
     "pk": 125, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<h3 class=\"overlay center\">Recognise it <strong>takes work</strong><br>to <strong>get work done</strong>.</h3>\r\n<p class=\"top5 center\">Automate all the things.</p>", 
         "style": "", 
         "helper": "", 
@@ -2956,10 +2956,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 105, 
+        "order_abs": 106, 
         "header": "As a <strong>project owner</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -2972,7 +2972,7 @@
     "pk": 126, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<h3 class=\"overlay center\">\"Pull Request Zero\"</h3>\r\n<p class=\"top5 center\">Have a non-code person <br>who answers pull requests.</p>\r\n", 
         "style": "", 
         "helper": "No feedback makes people think you don't want them.", 
@@ -2980,10 +2980,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 114, 
+        "order_abs": null, 
         "header": "As a <strong>project owner</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3004,11 +3004,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 115, 
+        "order_abs": 112, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 209, 
@@ -3028,14 +3028,14 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 106, 
+        "order_abs": 108, 
         "header": "<strong>Choose</strong> your <strong>culture</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 194, 
+        "order": 195, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -3052,14 +3052,14 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 108, 
+        "order_abs": 110, 
         "header": "As a <strong>project owner</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 196, 
+        "order": 197, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -3069,21 +3069,21 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"halfR\">\r\n<h3 class=\"overlay top12\">\r\n  Starting a project is like getting a <strong>puppy</strong>.\r\n</h3>\r\n<h3 class=\"overlay top5\">\r\n  It's a <strong>responsibility</strong> and \r\n<br>it <strong>gets bigger</strong>.\r\n</h3>\r\n</div>", 
+        "content": "<div class=\"halfR\">\r\n<h3 class=\"top12\">\r\n  Like getting a <strong>puppy</strong>.\r\n</h3>\r\n<h3 class=\"overlay top5\">\r\n  It's a <strong>responsibility</strong> and \r\n<br>it <strong>gets bigger</strong>.\r\n</h3>\r\n</div>", 
         "style": "", 
-        "helper": "", 
+        "helper": "It <strong>takes work</strong> to <strong>get work done</strong>.", 
         "notes": "%xpuppy", 
         "section": 9, 
         "time": null, 
         "bg_img": "puppy.png", 
-        "order_abs": 104, 
+        "order_abs": 105, 
         "header": "As a <strong>project owner</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 192, 
+        "order": 190, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -3102,12 +3102,12 @@
         "bg_img": "", 
         "order_abs": 113, 
         "header": "", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 203, 
+        "order": 215, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -3124,14 +3124,14 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 107, 
+        "order_abs": 109, 
         "header": "Be a good <strong>Leader</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 195, 
+        "order": 196, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -3150,9 +3150,9 @@
         "bg_img": "", 
         "order_abs": 111, 
         "header": "Always <strong>Be Cordial</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 199, 
@@ -3172,14 +3172,14 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 112, 
+        "order_abs": 107, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 201, 
+        "order": 194, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -3196,11 +3196,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 116, 
+        "order_abs": 114, 
         "header": "<strong>Embrace</strong> your <strong>churn</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 223, 
@@ -3220,11 +3220,11 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 118, 
+        "order_abs": 115, 
         "header": "<strong>Burn Out</strong>: Take Breaks", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 226, 
@@ -3247,8 +3247,8 @@
         "order_abs": 68, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "coder", 
         "percent_complete": "0", 
         "order": 229, 
@@ -3271,8 +3271,8 @@
         "order_abs": 72, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 240, 
@@ -3295,7 +3295,7 @@
         "order_abs": 69, 
         "header": "As a <strong>Coder</strong>", 
         "versionA": false, 
-        "versionB": false, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3319,7 +3319,7 @@
         "order_abs": 70, 
         "header": "As a <strong>Coder</strong>", 
         "versionA": false, 
-        "versionB": false, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3340,14 +3340,14 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 73, 
+        "order_abs": 78, 
         "header": "Some Projects are <strong>Flexible</strong>", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 241, 
+        "order": 255, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -3364,14 +3364,14 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 75, 
+        "order_abs": 73, 
         "header": "How FOSS is different", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 255, 
+        "order": 242, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -3412,14 +3412,14 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 74, 
+        "order_abs": 75, 
         "header": "Failure is necessary", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 242, 
+        "order": 246, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -3428,7 +3428,7 @@
     "pk": 145, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<p class=\"center top15\">1957 argument that organizations give disproportionate weight to trivial issues.</p>\r\n<blockquote class=\"center\">\r\n<strong>Time spent</strong> in discussion will be in <strong>inverse proportion</strong> to the <strong>complexity</strong>.\r\n</blockquote>\r\n\r\n", 
         "style": "", 
         "helper": "<strong>Resist the urge</strong> to weigh in, unless asked personally.", 
@@ -3436,10 +3436,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 110, 
+        "order_abs": null, 
         "header": "Parkinson's <br><strong>Law of Triviality</strong>", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3477,7 +3477,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12 center\"><strong>50%/50%</strong></div>\r\n\r\n<div class=\"top3 center black\">FOSS <strong>need</strong> non-Coders.</div>\r\n\r\n<div class=\"top1 center black\">\r\nFOSS needs to \r\n<br><strong>involve </strong> non-Coders \r\n<br />effectively.</div>\r\n</div>\r\n", 
+        "content": "<div class=\"halfR\">\r\n<div class=\"overlay top12 center\"><strong>50%/50%</strong></div>\r\n\r\n<div class=\"top3 center black\">FOSS <strong>needs</strong> non-Coders.</div>\r\n\r\n<div class=\"top1 center black\">\r\nFOSS needs to \r\n<br><strong>involve </strong> non-Coders \r\n<br />effectively.</div>\r\n</div>\r\n", 
         "style": "", 
         "helper": "MSF, EWB, Lawyers", 
         "notes": " style=\"margin-left:-10px;\"\r\n\r\n\r\n style=\"white-space:nowrap\"<div class=\"top12 overlay center\"><strong>\r\n</strong></div>", 
@@ -3486,9 +3486,9 @@
         "bg_img": "msf.png", 
         "order_abs": 81, 
         "header": "<strong>Non-coders</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 359, 
@@ -3510,9 +3510,9 @@
         "bg_img": "", 
         "order_abs": 82, 
         "header": "If you are <strong>not a coder</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 362, 
@@ -3534,9 +3534,9 @@
         "bg_img": "", 
         "order_abs": 83, 
         "header": "If you are <strong>not a coder</strong>", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 365, 
@@ -3556,11 +3556,11 @@
         "section": 10, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 84, 
+        "order_abs": 86, 
         "header": "As a <strong>non-coder</strong>", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 368, 
@@ -3584,10 +3584,10 @@
         "header": "As a <strong>non-coder</strong>", 
         "versionA": false, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 374, 
+        "order": 367, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -3606,8 +3606,8 @@
         "bg_img": "", 
         "order_abs": 71, 
         "header": "Things you can do", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3630,12 +3630,12 @@
         "bg_img": "", 
         "order_abs": 67, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 280, 
+        "order": 200, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -3644,7 +3644,7 @@
     "pk": 155, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<h3 class=\"overlay center\">Bike-shedding</h3>\r\n<p class=\"center top20\">How much domain experience/knowledge required?</p>\r\n", 
         "style": "", 
         "helper": "\"Putting your thumb print on it.\"", 
@@ -3652,10 +3652,10 @@
         "section": 9, 
         "time": null, 
         "bg_img": "bikeshedding.jpg", 
-        "order_abs": 109, 
+        "order_abs": null, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -3669,18 +3669,18 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h1 class=\"center top-4\" style=\"white-space:nowrap; margin-left: -28px;\">LEARN to use <strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 \">What is git?<p>", 
+        "content": "<h1 class=\"center top-4 huge\" style=\"white-space:nowrap; margin-left: -28px; \">LEARN to use <br><strong class=\"white\">GITHUB</strong></h1>\r\n<p class=\"center top-2 \">What is git?<p>", 
         "style": "", 
         "helper": "", 
         "notes": "", 
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 86, 
+        "order_abs": 87, 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 283, 
@@ -3700,11 +3700,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 87, 
+        "order_abs": 88, 
         "header": "VERSION CONTROL SYSTEMS", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 286, 
@@ -3724,11 +3724,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "diff.png", 
-        "order_abs": 88, 
+        "order_abs": 89, 
         "header": "VCS History", 
         "versionA": false, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 289, 
@@ -3748,11 +3748,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "one-server.png", 
-        "order_abs": 89, 
+        "order_abs": 90, 
         "header": "Centralized", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 292, 
@@ -3772,14 +3772,14 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 90, 
+        "order_abs": 93, 
         "header": "Distributed", 
         "versionA": false, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 295, 
+        "order": 300, 
         "talk": 1, 
         "colour_scheme": ""
     }
@@ -3789,7 +3789,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "\r\n<h3 class=\"center overlay \">Should you <strong>Fork</strong>?</h3>\r\n\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralized: &quot;Forking&quot; is <strong>BAD</strong><br />\r\n<span class=\"grey\">discouraged (can be an act of aggression).</span></p>\r\n</div>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Distributed: &quot;Forking&quot; is the <strong>first thing you do</strong>.</p>\r\n</div>\r\n", 
+        "content": "\r\n<h3 class=\"center overlay \">Should you <strong>Fork</strong>?</h3>\r\n\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralized: &quot;Forking&quot; is <strong>BAD</strong><br />\r\n<span class=\"lgrey opac5 top0\">Discouraged (can be an act of aggression).</span></p>\r\n</div>\r\n\r\n<div class=\"center top5\">\r\n<p class=\"center\">Distributed: &quot;Forking&quot; is the <strong>first thing you do</strong>.</p>\r\n</div>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
@@ -3798,9 +3798,9 @@
         "bg_img": "", 
         "order_abs": 92, 
         "header": "Difference: Forking", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 298, 
@@ -3844,11 +3844,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 93, 
+        "order_abs": 94, 
         "header": "<strong>VCS may change</strong> again", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 304, 
@@ -3868,11 +3868,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 94, 
+        "order_abs": 95, 
         "header": "", 
         "versionA": false, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 307, 
@@ -3892,11 +3892,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 95, 
+        "order_abs": 96, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "vcswf", 
         "percent_complete": "0", 
         "order": 310, 
@@ -3916,11 +3916,11 @@
         "section": 7, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 96, 
+        "order_abs": 97, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 313, 
@@ -3942,12 +3942,12 @@
         "bg_img": "", 
         "order_abs": 100, 
         "header": "<strong>Installation</strong> and <strong>Dependencies</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 180, 
+        "order": 176, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -3957,18 +3957,18 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<div class=\"center black\">\r\n<h3 class=\"top2 white opac7\"><span><strong>LIMITATION OF LIABILITY</strong><br />\r\nDisclaim Warranty</span></h3>\r\n\r\n<div class=\"top3\">If you have a stupid license:<br />\r\n<strong>Good lawyers</strong> will simply <strong>reject</strong>.<br />\r\n<strong>Evil lawyers</strong> will hunt you down <em>forever</em>.</div>\r\n\r\n<div>&nbsp;</div>\r\n</div>\r\n", 
+        "content": "<p class=\"white center\">Would you remember to consider everything?</p>\r\n<h3 class=\"top5 overlay center\"><span><strong>Limitation of <br>Liability</strong></h3>\r\n<div class=\"top5 center\">\r\nDisclaim Warranty\r\n</div>\r\n", 
         "style": "", 
         "helper": "", 
-        "notes": "", 
+        "notes": "\r\n<div class=\"top3\">If you have a stupid license:<br />\r\n<strong>Good lawyers</strong> will simply <strong>reject</strong>.<br />\r\n<strong>Evil lawyers</strong> will hunt you down <em>forever</em>.</div>", 
         "section": 2, 
         "time": null, 
         "bg_img": "", 
         "order_abs": 29, 
         "header": "Use an <strong>OSI License</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 48, 
@@ -4014,9 +4014,9 @@
         "bg_img": "chart.png", 
         "order_abs": 31, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 55, 
@@ -4038,7 +4038,7 @@
         "bg_img": "", 
         "order_abs": 32, 
         "header": "\"Social waste<br>transaction cost\"", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
         "versionC": false, 
         "slide_id": "", 
@@ -4110,9 +4110,9 @@
         "bg_img": "", 
         "order_abs": 33, 
         "header": "Modern <strong>Heroes</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 70, 
@@ -4158,9 +4158,9 @@
         "bg_img": "", 
         "order_abs": 34, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 51, 
@@ -4180,14 +4180,14 @@
         "section": 13, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 37, 
+        "order_abs": 38, 
         "header": "Best <strong>CV</strong>, Best <strong>School</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 55, 
+        "order": 65, 
         "talk": 1, 
         "colour_scheme": "blue"
     }
@@ -4206,9 +4206,9 @@
         "bg_img": "fun.png", 
         "order_abs": 41, 
         "header": "<strong>Fun</strong>", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 73, 
@@ -4231,8 +4231,8 @@
         "order_abs": 80, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "noncoder", 
         "percent_complete": "0", 
         "order": 320, 
@@ -4269,7 +4269,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h3 class=\"center overlay nowrap\">Where is the <strong>&quot;Master&quot; Repository</strong> kept?</h3>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralised: <strong>One cardinal version</strong><br />\r\n<span class=\"grey\">Need to connect to make changes (can be slow).</span></p>\r\n</div>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Distributed: <strong>Every one has own version</strong><br />\r\n<span class=\"grey\">Changes are distributed.</span></p>\r\n</div>\r\n", 
+        "content": "<h3 class=\"center overlay nowrap\">Where is the <strong>&quot;Master&quot; Repository</strong> kept?</h3>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Centralised: <strong>One cardinal version</strong><br />\r\n<span class=\"lgrey opac5\">Need to connect to make changes (can be slow).</span></p>\r\n</div>\r\n\r\n<div class=\"center\">\r\n<p class=\"center\">Distributed: <strong>Every one has own version</strong><br />\r\n<span class=\"lgrey opac5\">Changes are distributed.</span></p>\r\n</div>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
@@ -4278,9 +4278,9 @@
         "bg_img": "", 
         "order_abs": 91, 
         "header": "Difference: Master", 
-        "versionA": false, 
+        "versionA": true, 
         "versionB": false, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 297, 
@@ -4293,7 +4293,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<blockquote class=\"top-4\">Copyright (C) Andrew Tridgell 1992.<br />\r\nPermission to use, copy and distribute this software is given to anyone who wants to, for NON-PROFIT only. You may not charge for this software or any derivatives of it without first contacting the Author.</blockquote>\r\n", 
+        "content": "<blockquote class=\"top-4 white opac7\">Copyright (C) Andrew Tridgell 1992.<br />\r\nPermission to use, copy and distribute this software is given to anyone who wants to, for NON-PROFIT only. You may not charge for this software or any derivatives of it without first contacting the Author.</blockquote>\r\n", 
         "style": "", 
         "helper": "Don't write your own:<br>\"COMP8440: Licensing\" (3min) <em>18 years later<em>.", 
         "notes": "", 
@@ -4302,8 +4302,8 @@
         "bg_img": "", 
         "order_abs": 28, 
         "header": "", 
-        "versionA": false, 
-        "versionB": false, 
+        "versionA": true, 
+        "versionB": true, 
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
@@ -4317,7 +4317,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<h1 class=\"big center\"><strong>You!</strong></h1>\r\n", 
+        "content": "<h1 class=\"big center\" style=\"font-size:200px;\"><strong>You!</strong></h1>\r\n", 
         "style": "", 
         "helper": "", 
         "notes": "", 
@@ -4327,11 +4327,11 @@
         "order_abs": 35, 
         "header": "", 
         "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 52, 
+        "order": 56, 
         "talk": 1, 
         "colour_scheme": "green"
     }
@@ -4348,16 +4348,64 @@
         "section": 6, 
         "time": null, 
         "bg_img": "", 
-        "order_abs": 43, 
+        "order_abs": 44, 
         "header": "Kinds of Projects", 
-        "versionA": false, 
-        "versionB": false, 
-        "versionC": false, 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 81, 
         "talk": 1, 
         "colour_scheme": "white"
+    }
+},
+{
+    "pk": 185, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "content": "<p class=\"center top12\">\r\n<img style=\"height: 220px;\" class=\"center\" alt=\"\" src=\"/static/slides/git.png\" />\r\n</p>\r\n<div style=\"clear: both\">\r\n<img class=\"right\" src=\"/static/slides/gitg.png\" />\r\n<img style=\"height: 128px; margin-right: 20px;\" class=\"right\" src=\"/static/slides/gitst.png\" />\r\n</div>", 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 10, 
+        "time": null, 
+        "bg_img": "", 
+        "order_abs": 84, 
+        "header": "Use a <strong>git GUI</strong>", 
+        "versionA": false, 
+        "versionB": false, 
+        "versionC": true, 
+        "slide_id": "", 
+        "percent_complete": "0", 
+        "order": 366, 
+        "talk": 1, 
+        "colour_scheme": "yellow"
+    }
+},
+{
+    "pk": 186, 
+    "model": "slides.slide", 
+    "fields": {
+        "is_enabled": true, 
+        "content": "<div class=\"center\">Someone new <br><strong>come up now!</strong></div>", 
+        "style": "", 
+        "helper": "", 
+        "notes": "", 
+        "section": 11, 
+        "time": null, 
+        "bg_img": "", 
+        "order_abs": null, 
+        "header": "", 
+        "versionA": true, 
+        "versionB": true, 
+        "versionC": true, 
+        "slide_id": "question", 
+        "percent_complete": "0", 
+        "order": 121, 
+        "talk": 1, 
+        "colour_scheme": "blue"
     }
 },
 {
@@ -40359,5 +40407,1664 @@
             "slide"
         ]
     }
-}
-]
+},
+{
+    "pk": 1978, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.480Z", 
+        "object_repr": "31. Copyright-30 ()", 
+        "object_id": "31", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1979, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.490Z", 
+        "object_repr": "42. Early/History-21 ()", 
+        "object_id": "42", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1980, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.496Z", 
+        "object_repr": "51. Early/History-37 ()", 
+        "object_id": "51", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1981, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.502Z", 
+        "object_repr": "182. Early/History-42 ()", 
+        "object_id": "182", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1982, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.506Z", 
+        "object_repr": "56. Early/History-50 ()", 
+        "object_id": "56", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1983, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.510Z", 
+        "object_repr": "171. Early/History-64 ()", 
+        "object_id": "171", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1984, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.520Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1985, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.524Z", 
+        "object_repr": "140. Being Involved (do)-238 ()", 
+        "object_id": "140", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1986, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.529Z", 
+        "object_repr": "152. Being Involved (do)-239 ()", 
+        "object_id": "152", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1987, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.537Z", 
+        "object_repr": "120. Being a Project Owner-178 ()", 
+        "object_id": "120", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1988, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.541Z", 
+        "object_repr": "121. Being a Project Owner-181 ()", 
+        "object_id": "121", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1989, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.548Z", 
+        "object_repr": "125. Being a Project Owner-193 ()", 
+        "object_id": "125", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1990, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.554Z", 
+        "object_repr": "128. Being a Project Owner-194 ()", 
+        "object_id": "128", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1991, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.558Z", 
+        "object_repr": "132. Being a Project Owner-195 ()", 
+        "object_id": "132", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1992, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.562Z", 
+        "object_repr": "129. Being a Project Owner-196 ()", 
+        "object_id": "129", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1993, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.566Z", 
+        "object_repr": "155. Being a Project Owner-197 ()", 
+        "object_id": "155", 
+        "change_message": "Changed is_enabled and versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1994, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.570Z", 
+        "object_repr": "145. Being a Project Owner-198 ()", 
+        "object_id": "145", 
+        "change_message": "Changed is_enabled and versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1995, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.575Z", 
+        "object_repr": "131. Being a Project Owner-203 ()", 
+        "object_id": "131", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1996, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.579Z", 
+        "object_repr": "126. Being a Project Owner-205 ()", 
+        "object_id": "126", 
+        "change_message": "Changed is_enabled and versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1997, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:37:30.584Z", 
+        "object_repr": "123. Being a Project Owner-225 ()", 
+        "object_id": "123", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1998, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T06:43:08.034Z", 
+        "object_repr": "130. Being a Project Owner-176 ()", 
+        "object_id": "130", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 1999, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:11:55.554Z", 
+        "object_repr": "32. Copyright-31 ()", 
+        "object_id": "32", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2000, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:13:08.432Z", 
+        "object_repr": "36. Early/History- 8 ()", 
+        "object_id": "36", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2001, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:16:44.761Z", 
+        "object_repr": "60. Why Contribute-53 ()", 
+        "object_id": "60", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2002, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:20:18.731Z", 
+        "object_repr": "183. Why Contribute-52 ()", 
+        "object_id": "183", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2003, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:22:09.490Z", 
+        "object_repr": "73. Projects-87 (cathedral-bazaar)", 
+        "object_id": "73", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2004, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:25:49.522Z", 
+        "object_repr": "99. Tools-122 ()", 
+        "object_id": "99", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2005, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:30:29.202Z", 
+        "object_repr": "141. Being Involved (do)-255 ()", 
+        "object_id": "141", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2006, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:30:29.207Z", 
+        "object_repr": "144. Being Involved (do)-246 ()", 
+        "object_id": "144", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2007, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:30:29.213Z", 
+        "object_repr": "142. Being Involved (do)-242 ()", 
+        "object_id": "142", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2008, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:30:29.217Z", 
+        "object_repr": "91. Being Involved (do)-244 ()", 
+        "object_id": "91", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2009, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:30:29.221Z", 
+        "object_repr": "92. Being Involved (do)-250 ()", 
+        "object_id": "92", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2010, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:32:08.474Z", 
+        "object_repr": "90. Being Involved (do)-248 ()", 
+        "object_id": "90", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2011, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:32:58.933Z", 
+        "object_repr": "144. Being Involved (do)-248 ()", 
+        "object_id": "144", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2012, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:32:58.938Z", 
+        "object_repr": "90. Being Involved (do)-246 ()", 
+        "object_id": "90", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2013, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:33:53.090Z", 
+        "object_repr": "90. Being Involved (do)-251 ()", 
+        "object_id": "90", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2014, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:33:53.095Z", 
+        "object_repr": "144. Being Involved (do)-246 ()", 
+        "object_id": "144", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2015, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:33:53.101Z", 
+        "object_repr": "92. Being Involved (do)-248 ()", 
+        "object_id": "92", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2016, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:36:18.810Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2017, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:36:44.885Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2018, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:38:13.336Z", 
+        "object_repr": "160. VCS-300 ()", 
+        "object_id": "160", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2019, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:40:19.130Z", 
+        "object_repr": "2. Fin- 2 ()", 
+        "object_id": "2", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2020, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:40:44.113Z", 
+        "object_repr": "2. Fin- 2 ()", 
+        "object_id": "2", 
+        "change_message": "Changed header and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2021, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:51:31.502Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2022, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:52:19.836Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2023, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:52:43.544Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2024, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:53:03.040Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2025, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:53:27.538Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2026, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:53:43.733Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2027, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:54:06.461Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2028, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:56:21.134Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2029, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:57:00.215Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2030, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:57:35.511Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2031, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:58:09.608Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2032, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:58:41.906Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2033, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T09:59:30.375Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2034, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:01:34.448Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2035, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:02:28.134Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2036, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:02:50.827Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2037, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:03:08.727Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2038, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:04:47.409Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2039, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:05:42.552Z", 
+        "object_repr": "31. Copyright-30 ()", 
+        "object_id": "31", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2040, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:12:18.268Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2041, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:13:09.520Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2042, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:13:35.700Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2043, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:14:00.447Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2044, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:17:01.614Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2045, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:17:20.118Z", 
+        "object_repr": "19. Definition-10 (fri)", 
+        "object_id": "19", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2046, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:18:07.129Z", 
+        "object_repr": "31. Copyright-25 ()", 
+        "object_id": "31", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2047, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:18:07.134Z", 
+        "object_repr": "32. Copyright-20 ()", 
+        "object_id": "32", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2048, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:18:07.139Z", 
+        "object_repr": "33. Copyright-30 ()", 
+        "object_id": "33", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2049, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:18:56.995Z", 
+        "object_repr": "6. Introduction- 7 ()", 
+        "object_id": "6", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2050, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:25:51.419Z", 
+        "object_repr": "33. Copyright-30 ()", 
+        "object_id": "33", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2051, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:37:18.220Z", 
+        "object_repr": "32. Copyright-20 ()", 
+        "object_id": "32", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2052, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:44:57.631Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content and notes.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2053, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:46:06.063Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2054, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:46:51.291Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2055, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:47:27.970Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2056, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:48:05.556Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2057, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:48:53.997Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2058, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:50:30.127Z", 
+        "object_repr": "42. Early/History-21 ()", 
+        "object_id": "42", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2059, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:54:45.626Z", 
+        "object_repr": "73. Projects-87 (cathedral-bazaar)", 
+        "object_id": "73", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2060, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:56:18.544Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2061, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:56:39.484Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2062, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:57:06.074Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2063, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:57:46.079Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2064, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:58:50.819Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2065, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:59:07.815Z", 
+        "object_repr": "80. Finding Projects-73 ()", 
+        "object_id": "80", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2066, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T10:59:56.400Z", 
+        "object_repr": "85. Finding Projects-82 ()", 
+        "object_id": "85", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2067, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:00:31.530Z", 
+        "object_repr": "84. Finding Projects-81 ()", 
+        "object_id": "84", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2068, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:03:33.904Z", 
+        "object_repr": "76. Projects-98 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2069, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:04:27.757Z", 
+        "object_repr": "76. Projects-98 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2070, 
+    "model": "admin.logentry", 
+    "f
