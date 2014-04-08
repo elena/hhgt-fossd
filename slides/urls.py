@@ -3,6 +3,10 @@ from django.conf.urls import patterns, url
 from slides import views
 
 urlpatterns = patterns('',
+
+    url(r'^(?P<version>[ABC])/$', views.VersionListView.as_view(),
+        name='section_detail_view'),
+
     url(r'^section/(?P<pk>\d+)/$', views.SectionDetailView.as_view(),
         name='section_detail_view'),
 

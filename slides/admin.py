@@ -75,7 +75,7 @@ class SlideAdmin(admin.ModelAdmin):
         'versionC',
         'is_enabled',
         #'talk',
-        'notes',
+        #'notes',
 
     ]
     list_editable = [
@@ -101,7 +101,8 @@ class SlideAdmin(admin.ModelAdmin):
     ]
 
     def show_content(self, obj):
-        return u"<div style='white-space:nowrap'>{0}</div>".format(linebreaks(strip_tags(Truncator(obj.content).words(20, html=True, truncate=' ...'))))
+        return u"<div style='white-space:nowrap'>{0}</div>".format(strip_tags(Truncator(obj.content).words(20, html=True, truncate=' ...')))
+        #return u"<div style='white-space:nowrap'>{0}</div>".format(linebreaks(strip_tags(Truncator(obj.content).words(20, html=True, truncate=' ...'))))
     show_content.allow_tags = True
 
     def show_notes(self, obj):

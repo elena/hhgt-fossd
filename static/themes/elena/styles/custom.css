@@ -37,6 +37,7 @@
 .slide .red    {color: red}
 .slide .gap    {padding-left: 100px;}
 .slide .opac7  {opacity: 0.7;}
+.slide .opac5  {opacity: 0.5;}
 .slide .nowrap {white-space:nowrap;}
 
 .slide .top-2   {margin-top: -20px;}
@@ -157,8 +158,9 @@ blockquote      {font-size: 39px;}
 .slide h3       {font-size: 65px;}
 .slide h2       {font-size: 75px; line-height: 95px;}
 .slide h2.title {font-size: 85px;}
-.slide .big     {font-size: 105px; line-height: 105px;}
+.slide .big     {font-size: 105px; line-height: 115px;}
 .slide h1       {font-size: 95px; line-height: 105px;}
+.slide .panel   {font-size: 125px; line-height: 150px; }
 
 /* UNIQUE font-sizes */
 #flossd h2      {font-size: 85px; line-height: 90px;}
@@ -205,6 +207,7 @@ blockquote       {padding: 5px 20px;}
 /* UNIQUE positionings
    Special cases where placement needs be particular due to content */
 
+#hello h2 {margin-top: -70px;}
 #libre h2     {margin-top: 340px;}
 #comp8440 h2  {margin-top: 90px;}
 #flossd h2    {margin-top: -75px; margin-left: 240px;}
@@ -217,3 +220,8 @@ blockquote       {padding: 5px 20px;}
 #vcswf p     {margin-left: 150px;}
 #vcswf.vcswf {margin-left: 50px;}
 .slide td div.code {float:none}
+#coder h2, #noncoder h2 {
+font-size: 170px;
+line-height: 200px;
+white-space: nowrap;
+}
