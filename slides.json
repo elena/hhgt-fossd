@@ -42067,4 +42067,2611 @@
 {
     "pk": 2070, 
     "model": "admin.logentry", 
-    "f
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:04:45.834Z", 
+        "object_repr": "76. Projects-98 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2071, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:07:12.969Z", 
+        "object_repr": "76. Projects-98 (%pep8 ##We are python <div class=\"halfR\">)", 
+        "object_id": "76", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2072, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:13:25.424Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2073, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:14:05.538Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2074, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:14:35.603Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2075, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:15:29.027Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2076, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:16:04.959Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2077, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:18:30.171Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2078, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-04-08T11:32:33.244Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2079, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:33:50.357Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2080, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:34:52.865Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2081, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:35:22.133Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2082, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:35:50.150Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2083, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:36:14.691Z", 
+        "object_repr": "185. VCS-97 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2084, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:39:55.802Z", 
+        "object_repr": "151. Being Involved (do)-366 ()", 
+        "object_id": "151", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2085, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:42:25.835Z", 
+        "object_repr": "151. Being Involved (do)-367 ()", 
+        "object_id": "151", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2086, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:46:54.282Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2087, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:47:12.192Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2088, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:47:34.219Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2089, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:49:20.743Z", 
+        "object_repr": "185. VCS-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2090, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:53:11.190Z", 
+        "object_repr": "185. VCS-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2091, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:53:58.042Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2092, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:55:30.868Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2093, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:56:36.829Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2094, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:57:07.781Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2095, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:58:18.510Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2096, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:58:39.769Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2097, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T11:59:22.242Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2098, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:00:15.797Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2099, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:03:41.332Z", 
+        "object_repr": "103. Tools-145 ()", 
+        "object_id": "103", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2100, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:04:37.513Z", 
+        "object_repr": "2. Fin- 2 ()", 
+        "object_id": "2", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2101, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:06:30.327Z", 
+        "object_repr": "18. Definition- 8 ()", 
+        "object_id": "18", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2102, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.001Z", 
+        "object_repr": "60. Why Contribute-58 ()", 
+        "object_id": "60", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2103, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.007Z", 
+        "object_repr": "61. Why Contribute-61 ()", 
+        "object_id": "61", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2104, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.010Z", 
+        "object_repr": "177. Why Contribute-65 ()", 
+        "object_id": "177", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2105, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.016Z", 
+        "object_repr": "63. Finding Projects- 1 ()", 
+        "object_id": "63", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2106, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.020Z", 
+        "object_repr": "69. Finding Projects-20 ()", 
+        "object_id": "69", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2107, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.024Z", 
+        "object_repr": "80. Finding Projects-75 ()", 
+        "object_id": "80", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2108, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.029Z", 
+        "object_repr": "83. Finding Projects-80 ()", 
+        "object_id": "83", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2109, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.033Z", 
+        "object_repr": "84. Finding Projects-90 ()", 
+        "object_id": "84", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2110, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.038Z", 
+        "object_repr": "85. Finding Projects-95 ()", 
+        "object_id": "85", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2111, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.042Z", 
+        "object_repr": "86. Finding Projects-98 ()", 
+        "object_id": "86", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2112, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.046Z", 
+        "object_repr": "87. Finding Projects-85 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2113, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.050Z", 
+        "object_repr": "108. Finding Projects-200 ()", 
+        "object_id": "108", 
+        "change_message": "Changed colour_scheme and order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2114, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.055Z", 
+        "object_repr": "88. Projects-56 ()", 
+        "object_id": "88", 
+        "change_message": "Changed order and section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2115, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:54:04.059Z", 
+        "object_repr": "154. Finding Projects-15 ()", 
+        "object_id": "154", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2116, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:55:20.997Z", 
+        "object_repr": "154. Finding Projects-200 ()", 
+        "object_id": "154", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2117, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:55:21.007Z", 
+        "object_repr": "108. Finding Projects-15 ()", 
+        "object_id": "108", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2118, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:58:26.884Z", 
+        "object_repr": "81. Projects-85 ()", 
+        "object_id": "81", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2119, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T12:58:44.651Z", 
+        "object_repr": "82. Projects-86 ()", 
+        "object_id": "82", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2120, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:17:56.786Z", 
+        "object_repr": "122. Being a Project Owner-184 ()", 
+        "object_id": "122", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2121, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:19:12.105Z", 
+        "object_repr": "122. Being a Project Owner-184 ()", 
+        "object_id": "122", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2122, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:20:21.255Z", 
+        "object_repr": "122. Being a Project Owner-184 ()", 
+        "object_id": "122", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2123, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:22:17.966Z", 
+        "object_repr": "130. Being a Project Owner-176 ()", 
+        "object_id": "130", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2124, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:27:43.664Z", 
+        "object_repr": "130. Being a Project Owner-190 ()", 
+        "object_id": "130", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2125, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:29:31.167Z", 
+        "object_repr": "167. Being a Project Owner-173 ()", 
+        "object_id": "167", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2126, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:32:38.773Z", 
+        "object_repr": "167. Being a Project Owner-176 ()", 
+        "object_id": "167", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2127, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:32:38.789Z", 
+        "object_repr": "128. Being a Project Owner-195 ()", 
+        "object_id": "128", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2128, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:32:38.794Z", 
+        "object_repr": "132. Being a Project Owner-196 ()", 
+        "object_id": "132", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2129, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:32:38.800Z", 
+        "object_repr": "129. Being a Project Owner-197 ()", 
+        "object_id": "129", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2130, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:32:38.806Z", 
+        "object_repr": "134. Being a Project Owner-194 ()", 
+        "object_id": "134", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2131, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:34:59.095Z", 
+        "object_repr": "131. Being a Project Owner-215 ()", 
+        "object_id": "131", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2132, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:36:13.078Z", 
+        "object_repr": "123. Being a Project Owner-225 ()", 
+        "object_id": "123", 
+        "change_message": "Changed is_enabled.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2133, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.037Z", 
+        "object_repr": "72. Projects-83 ()", 
+        "object_id": "72", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2134, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.043Z", 
+        "object_repr": "81. Projects-85 ()", 
+        "object_id": "81", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2135, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.047Z", 
+        "object_repr": "82. Projects-86 ()", 
+        "object_id": "82", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2136, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.054Z", 
+        "object_repr": "75. Projects-115 ()", 
+        "object_id": "75", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2137, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.060Z", 
+        "object_repr": "108. Finding Projects-15 ()", 
+        "object_id": "108", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2138, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.066Z", 
+        "object_repr": "83. Finding Projects-80 ()", 
+        "object_id": "83", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2139, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.072Z", 
+        "object_repr": "87. Finding Projects-85 (imbalanced-fight)", 
+        "object_id": "87", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2140, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.078Z", 
+        "object_repr": "85. Finding Projects-95 ()", 
+        "object_id": "85", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2141, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.085Z", 
+        "object_repr": "137. Being Involved (do)-229 (coder)", 
+        "object_id": "137", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2142, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.091Z", 
+        "object_repr": "139. Being Involved (do)-235 ()", 
+        "object_id": "139", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2143, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.095Z", 
+        "object_repr": "140. Being Involved (do)-238 ()", 
+        "object_id": "140", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2144, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.101Z", 
+        "object_repr": "138. Being Involved (do)-240 ()", 
+        "object_id": "138", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2145, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.107Z", 
+        "object_repr": "142. Being Involved (do)-242 ()", 
+        "object_id": "142", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2146, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.112Z", 
+        "object_repr": "91. Being Involved (do)-244 ()", 
+        "object_id": "91", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2147, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.118Z", 
+        "object_repr": "90. Being Involved (do)-251 ()", 
+        "object_id": "90", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2148, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.124Z", 
+        "object_repr": "141. Being Involved (do)-255 ()", 
+        "object_id": "141", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2149, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.130Z", 
+        "object_repr": "179. Being Involved (do)-320 (noncoder)", 
+        "object_id": "179", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2150, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.135Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2151, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.141Z", 
+        "object_repr": "151. Being Involved (do)-367 ()", 
+        "object_id": "151", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2152, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.146Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2153, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.151Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2154, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.156Z", 
+        "object_repr": "160. VCS-300 ()", 
+        "object_id": "160", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2155, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.160Z", 
+        "object_repr": "164. VCS-307 ()", 
+        "object_id": "164", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2156, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.165Z", 
+        "object_repr": "165. VCS-310 (vcswf)", 
+        "object_id": "165", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2157, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.169Z", 
+        "object_repr": "166. VCS-313 ()", 
+        "object_id": "166", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2158, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:49:37.174Z", 
+        "object_repr": "120. Being a Project Owner-178 ()", 
+        "object_id": "120", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2159, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:56:25.832Z", 
+        "object_repr": "171. Early/History-64 ()", 
+        "object_id": "171", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2160, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:56:25.839Z", 
+        "object_repr": "183. Why Contribute-52 ()", 
+        "object_id": "183", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2161, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:59:21.599Z", 
+        "object_repr": "94. Tools-108 ()", 
+        "object_id": "94", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2162, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:59:21.609Z", 
+        "object_repr": "95. Tools-110 ()", 
+        "object_id": "95", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2163, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:59:21.614Z", 
+        "object_repr": "96. Tools-112 ()", 
+        "object_id": "96", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2164, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:59:21.624Z", 
+        "object_repr": "102. Tools-152 ()", 
+        "object_id": "102", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2165, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T13:59:21.629Z", 
+        "object_repr": "101. Tools-153 ()", 
+        "object_id": "101", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2166, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.857Z", 
+        "object_repr": "149. Being Involved (do)-365 ()", 
+        "object_id": "149", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2167, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.863Z", 
+        "object_repr": "185. Being Involved (do)-366 ()", 
+        "object_id": "185", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2168, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.870Z", 
+        "object_repr": "151. Being Involved (do)-367 ()", 
+        "object_id": "151", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2169, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.875Z", 
+        "object_repr": "150. Being Involved (do)-368 ()", 
+        "object_id": "150", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2170, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.885Z", 
+        "object_repr": "157. VCS-286 ()", 
+        "object_id": "157", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2171, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.894Z", 
+        "object_repr": "158. VCS-289 ()", 
+        "object_id": "158", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2172, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.902Z", 
+        "object_repr": "159. VCS-292 ()", 
+        "object_id": "159", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2173, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.908Z", 
+        "object_repr": "181. VCS-297 ()", 
+        "object_id": "181", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2174, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.914Z", 
+        "object_repr": "161. VCS-298 ()", 
+        "object_id": "161", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2175, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.921Z", 
+        "object_repr": "160. VCS-300 ()", 
+        "object_id": "160", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2176, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:04:04.928Z", 
+        "object_repr": "164. VCS-307 ()", 
+        "object_id": "164", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2177, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:06:11.412Z", 
+        "object_repr": "183. Why Contribute-56 ()", 
+        "object_id": "183", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2178, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:06:11.419Z", 
+        "object_repr": "88. Projects-53 ()", 
+        "object_id": "88", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2179, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:06:37.008Z", 
+        "object_repr": "122. Being a Project Owner-184 ()", 
+        "object_id": "122", 
+        "change_message": "Changed order_abs.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2180, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-04-08T14:08:18.936Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2181, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:09:21.386Z", 
+        "object_repr": "88. Why Contribute-53 ()", 
+        "object_id": "88", 
+        "change_message": "Changed section.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2182, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:18:44.454Z", 
+        "object_repr": "156. VCS-283 ()", 
+        "object_id": "156", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2183, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:20:15.465Z", 
+        "object_repr": "131. Being a Project Owner-215 ()", 
+        "object_id": "131", 
+        "change_message": "Changed versionB.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2184, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:20:44.086Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed versionB and versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2185, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:25:16.315Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2186, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:25:36.497Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2187, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:25:59.903Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed colour_scheme and content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2188, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:26:04.577Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2189, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:26:09.394Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2190, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:26:14.003Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed versionA.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2191, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:26:32.053Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2192, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:40:17.514Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2193, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:43:11.336Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed colour_scheme, versionA, versionB and versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2194, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:43:11.342Z", 
+        "object_repr": "114. Tools-140 ()", 
+        "object_id": "114", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2195, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:43:11.348Z", 
+        "object_repr": "98. Tools-141 ()", 
+        "object_id": "98", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2196, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:43:11.354Z", 
+        "object_repr": "110. Tools-142 ()", 
+        "object_id": "110", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2197, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:43:51.247Z", 
+        "object_repr": "110. Tools-139 ()", 
+        "object_id": "110", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2198, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:44:52.255Z", 
+        "object_repr": "114. Tools-142 ()", 
+        "object_id": "114", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2199, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T14:45:36.912Z", 
+        "object_repr": "186. Tools-121 (question)", 
+        "object_id": "186", 
+        "change_message": "Changed versionA, versionB, versionC and colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2200, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:28:53.837Z", 
+        "object_repr": "182. Early/History-42 ()", 
+        "object_id": "182", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2201, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:29:02.806Z", 
+        "object_repr": "182. Early/History-42 ()", 
+        "object_id": "182", 
+        "change_message": "No fields changed.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2202, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:29:55.781Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2203, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:31:01.006Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2204, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:31:10.690Z", 
+        "object_repr": "168. Early/History-48 ()", 
+        "object_id": "168", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2205, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:40:15.822Z", 
+        "object_repr": "90. Being Involved (do)-251 ()", 
+        "object_id": "90", 
+        "change_message": "Changed notes and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2206, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:40:36.541Z", 
+        "object_repr": "90. Being Involved (do)-251 ()", 
+        "object_id": "90", 
+        "change_message": "Changed helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2207, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:42:29.420Z", 
+        "object_repr": "92. Being Involved (do)-248 ()", 
+        "object_id": "92", 
+        "change_message": "Changed colour_scheme.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2208, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:43:17.482Z", 
+        "object_repr": "147. Being Involved (do)-359 ()", 
+        "object_id": "147", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2209, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:45:30.890Z", 
+        "object_repr": "130. Being a Project Owner-190 ()", 
+        "object_id": "130", 
+        "change_message": "Changed content and helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2210, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:46:07.210Z", 
+        "object_repr": "130. Being a Project Owner-190 ()", 
+        "object_id": "130", 
+        "change_message": "Changed helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2211, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:46:27.617Z", 
+        "object_repr": "125. Being a Project Owner-193 ()", 
+        "object_id": "125", 
+        "change_message": "Changed is_enabled.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2212, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:49:24.477Z", 
+        "object_repr": "121. Being a Project Owner-181 ()", 
+        "object_id": "121", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2213, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:53:53.270Z", 
+        "object_repr": "121. Being a Project Owner-181 ()", 
+        "object_id": "121", 
+        "change_message": "Changed helper.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2214, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-08T21:54:11.009Z", 
+        "object_repr": "121. Being a Project Owner-181 ()", 
+        "object_id": "121", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+}
+]

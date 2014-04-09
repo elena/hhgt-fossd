@@ -17,6 +17,45 @@
 .slide a {border-bottom: 0; color: inherit;}
 .slide:after {display:none;}
 
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Serif'), local('DroidSerif'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v4/0AKsP294HTD-nvJgucYTaLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidserif/v4/QQt14e8dY39u-eYBZmppwRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Yanone Kaffeesatz ExtraLight'), local('YanoneKaffeesatz-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/We_iSDqttE3etzfdfhuPRUDqw7A1uQWuQSM-rfHaMOr3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Yanone Kaffeesatz Light'), local('YanoneKaffeesatz-Light'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/We_iSDqttE3etzfdfhuPRbHVephy08vG3A_n649omsL3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/YDAoLskQQ5MOAgvHUQCcLQa6gm6bS00u2Qn-iPLo1Go.woff) format('woff');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Yanone Kaffeesatz Bold'), local('YanoneKaffeesatz-Bold'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/We_iSDqttE3etzfdfhuPRbJjSLMfVFmTspsxH0yGxjj3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+
 /* ELEMENTS
    modular reusable elements */
 
