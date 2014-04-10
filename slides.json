@@ -739,7 +739,7 @@
         "versionC": true, 
         "slide_id": "gates", 
         "percent_complete": "0", 
-        "order": 20, 
+        "order": 33, 
         "talk": 1, 
         "colour_scheme": "white"
     }
@@ -845,7 +845,7 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "Richard Stallmans", 
+        "content": "Richard Stallman", 
         "style": "", 
         "helper": "Freak genius, MIT AI labs", 
         "notes": "<p>Xerox and Sproull, 1980</p>\r\n\r\n<p>1985, FSF</p>\r\n\r\n<p>1989, GPLv1</p>\r\n", 
@@ -1123,7 +1123,7 @@
         "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 19, 
+        "order": 30, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1132,7 +1132,7 @@
     "pk": 42, 
     "model": "slides.slide", 
     "fields": {
-        "is_enabled": true, 
+        "is_enabled": false, 
         "content": "<h3 class=\"overlay center\">Wait: <strong>Am I</strong> the Copyright Holder?</h3>\r\n<p class=\"top3\">At what point could you <strong>re-license Windows</strong>?</p>\r\n<p>Your own script?: <strong>Yes!</strong></p>\r\n<p>A framework specific plugin?: <strong>.. maybe</strong></p>\r\n", 
         "style": "", 
         "helper": "\"COMP8440: FOSS and the Law\"", 
@@ -1171,7 +1171,7 @@
         "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 36, 
+        "order": 35, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -1291,7 +1291,7 @@
         "versionC": false, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 37, 
+        "order": 40, 
         "talk": 1, 
         "colour_scheme": "yellow"
     }
@@ -1589,10 +1589,10 @@
     "model": "slides.slide", 
     "fields": {
         "is_enabled": true, 
-        "content": "<p class=\"top20 center\">Pretty much anything <br>anyone ever doesis for this.</p>\r\n<h3 class=\"top1 center\"><strong>Recognition</strong></h3>\r\n", 
+        "content": "<p class=\"top20 center\">Pretty much anything <br>anyone ever does is for this,<br>our brains are wired this way.</p>\r\n<h3 class=\"top1 center\"><strong>Recognition</strong></h3>\r\n", 
         "style": "", 
-        "helper": "Our brains are wired this way.", 
-        "notes": "", 
+        "helper": "Meet like-minded people.", 
+        "notes": "Our brains are wired this way.", 
         "section": 13, 
         "time": null, 
         "bg_img": "connection.jpg", 
@@ -1819,7 +1819,7 @@
         "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
-        "order": 114, 
+        "order": 160, 
         "talk": 1, 
         "colour_scheme": "red"
     }
@@ -4312,7 +4312,7 @@
         "header": "", 
         "versionA": true, 
         "versionB": true, 
-        "versionC": false, 
+        "versionC": true, 
         "slide_id": "", 
         "percent_complete": "0", 
         "order": 42, 
@@ -48561,6 +48561,222 @@
         "object_repr": "170. Projects-90 ()", 
         "object_id": "170", 
         "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2427, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:38:02.802Z", 
+        "object_repr": "42. Early/History-21 ()", 
+        "object_id": "42", 
+        "change_message": "Changed is_enabled.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2428, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:39:31.177Z", 
+        "object_repr": "41. Early/History-30 ()", 
+        "object_id": "41", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2429, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:39:31.183Z", 
+        "object_repr": "15. Early/History-33 (gates)", 
+        "object_id": "15", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2430, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:39:31.213Z", 
+        "object_repr": "43. Early/History-35 ()", 
+        "object_id": "43", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2431, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:39:31.220Z", 
+        "object_repr": "51. Early/History-25 ()", 
+        "object_id": "51", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2432, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:40:18.607Z", 
+        "object_repr": "168. Early/History-25 ()", 
+        "object_id": "168", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2433, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:43:50.552Z", 
+        "object_repr": "168. Early/History-41 ()", 
+        "object_id": "168", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2434, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:43:50.559Z", 
+        "object_repr": "51. Early/History-40 ()", 
+        "object_id": "51", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2435, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:43:50.577Z", 
+        "object_repr": "182. Early/History-42 ()", 
+        "object_id": "182", 
+        "change_message": "Changed versionC.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2436, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:49:41.770Z", 
+        "object_repr": "30. Early/History-15 (dec10)", 
+        "object_id": "30", 
+        "change_message": "Changed content.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2437, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T15:57:21.268Z", 
+        "object_repr": "74. Projects-160 ()", 
+        "object_id": "74", 
+        "change_message": "Changed order.", 
+        "user": [
+            "elena"
+        ], 
+        "content_type": [
+            "slides", 
+            "slide"
+        ]
+    }
+},
+{
+    "pk": 2438, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-04-10T18:06:33.432Z", 
+        "object_repr": "64. Why Contribute-60 ()", 
+        "object_id": "64", 
+        "change_message": "Changed content, notes and helper.", 
         "user": [
             "elena"
         ], 
