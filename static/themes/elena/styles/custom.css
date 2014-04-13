@@ -252,6 +252,7 @@ blockquote       {padding: 5px 20px;}
 
 #hello h2 {margin-top: -70px;}
 #libre h2     {margin-top: 340px;}
+#libre h2.title     {margin-top: 0;}
 #comp8440 h2  {margin-top: 90px;}
 #flossd h2    {margin-top: -75px; margin-left: 240px;}
 #fri .overlay {

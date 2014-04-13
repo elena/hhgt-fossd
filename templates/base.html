@@ -30,7 +30,7 @@
 <section class="slide {% if slide.style %}{{slide.style}}{% endif %} {% if slide.colour_scheme %}{{slide.colour_scheme}}{% endif %}" id="{{slide.slide_id}}">
   <div {%if slide.bg_img%}style="background:url({{STATIC_URL}}slides/{{slide.bg_img}}) no-repeat top left;" class="bg"{%endif%}>
 
-    <div style="position: absolute; margin-top: 360px; left: 0; color: #0000ff;">{{slide.pk}}/#{{slide.order_abs}}/#{{slide.order}}</div>
+{#   <div style="position: absolute; margin-top: 360px; left: 0; color: #0000ff;">{{slide.pk}}/#{{slide.order_abs}}/#{{slide.order}}</div>#}
 
 
       {% if slide.header %}<h2 class="title">{{slide.header|safe}}</h2>{% endif %}
